@@ -9,7 +9,7 @@ public class TriggerTrap : MonoBehaviour
         BossHealth health = other.GetComponent<BossHealth>();
         if (health != null)
         {
-            health.RecibirDaño(damage);
+            health.RecibirDaÃ±o(damage);
             Debug.Log($"Trampa activada: -{damage} HP a {other.name}");
         }
     }

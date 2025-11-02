@@ -18,9 +18,9 @@ public class BossHealth : MonoBehaviour
         ActualizarUI();
     }
 
-    public void RecibirDaño(float daño)
+    public void RecibirDaÃ±o(float daÃ±o)
     {
-        currentHealth -= daño;
+        currentHealth -= daÃ±o;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         ActualizarUI();
     }

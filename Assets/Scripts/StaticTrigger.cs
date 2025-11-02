@@ -12,7 +12,7 @@ public class StaticTrigger : MonoBehaviour
         if (inv.ContieneItem(requiredPrepItem))
         {
             isPrimed = true;
-            // opcional: consumir ítem / generar ruido
+            // opcional: consumir ï¿½tem / generar ruido
             Debug.Log($"{name} preparado con {requiredPrepItem}");
         }
         else Debug.Log($"Falta {requiredPrepItem}");
@@ -25,7 +25,7 @@ public class StaticTrigger : MonoBehaviour
         var boss = other.GetComponent<BossHealth>();
         if (boss != null)
         {
-            boss.RecibirDaño(damage);
+            boss.RecibirDaÃ±o(damage);
             isPrimed = false; // o destruir si es de un solo uso
             Debug.Log($"{name} activado sobre el Boss (-{damage} HP)");
         }
