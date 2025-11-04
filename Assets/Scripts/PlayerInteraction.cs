@@ -39,11 +39,5 @@ public class PlayerInteraction : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, interactRange);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (CompareTag("WALLS"))
-        {
-            Debug.Log($"{collision.name}");
-        }
-    }
+
 }
