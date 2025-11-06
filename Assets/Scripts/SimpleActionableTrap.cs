@@ -3,8 +3,8 @@ using UnityEngine;
 public class SimpleActionableTrap : MonoBehaviour
 {
 
-    [Header("Configuración")]
-    public string requiredItem;   // Ejemplo: "Pólvora", "Cuchillo"
+    [Header("ConfiguraciÃ³n")]
+    public string requiredItem;   // Ejemplo: "Pï¿½lvora", "Cuchillo"
     public int damage = 1;
     public BossHealth boss;
     public AudioClip useSound;
@@ -18,7 +18,7 @@ public class SimpleActionableTrap : MonoBehaviour
 
             if (boss != null)
             {
-                boss.RecibirDaño(damage);
+                boss.RecibirDaÃ±o(damage);
                 Debug.Log($"Trampa activada: -{damage} HP al Boss");
             }
         }

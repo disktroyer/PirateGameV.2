@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SimpleTriggerTrap : MonoBehaviour
 {
-    [Header("Configuración")]
+    [Header("ConfiguraciÃ³n")]
     public int damage = 1;
     public AudioClip triggerSound;
 
@@ -11,9 +11,9 @@ public class SimpleTriggerTrap : MonoBehaviour
         var boss = other.GetComponent<BossHealth>();
         if (boss != null)
         {
-            boss.RecibirDaño(damage);
+            boss.RecibirDaÃ±o(damage);
             AudioSource.PlayClipAtPoint(triggerSound, transform.position);
-            Debug.Log($"Trampa automática: -{damage} HP al Boss");
+            Debug.Log($"Trampa automï¿½Ã­tica: -{damage} HP al Boss");
             Destroy(gameObject);
         }
     }

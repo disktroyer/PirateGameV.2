@@ -1,17 +1,20 @@
 using UnityEngine;
 
-public class SimpleStaticTrap : MonoBehaviour
+public class SimpleStaticTrap : Interactable
 {
-    [Header("Configuración")]
-    public string requiredItem;   // Ejemplo: "Veneno", "Anguila", "Fregona"
+    [Header("ConfiguraciÃ³n")]
+    public ItemData requiredItem;   // Ejemplo: "Veneno", "Anguila", "Fregona"
     public int damage = 1;
     public AudioClip prepareSound;
     public AudioClip triggerSound;
     private bool isPrepared = false;
 
-    public void Prepare(InventoryManager inv)
+    public override void Interact(GameObject player)
     {
-        if (inv.ContieneItem(requiredItem))
+
+        InventoryManager inventory = player.GetComponent<InventoryManager>();
+        print($"entro tengo item? {inventory.ContieneItem(requiredItem)}");
+        if (inventory.ContieneItem(requiredItem))
         {
             isPrepared = true;
             AudioSource.PlayClipAtPoint(prepareSound, transform.position);
@@ -30,7 +33,7 @@ public class SimpleStaticTrap : MonoBehaviour
         var boss = other.GetComponent<BossHealth>();
         if (boss != null)
         {
-            boss.RecibirDaño(damage);
+            boss.RecibirDaÃ±o(damage);
             isPrepared = false;
             AudioSource.PlayClipAtPoint(triggerSound, transform.position);
             Debug.Log($"{name} activado: -{damage} HP al Boss");

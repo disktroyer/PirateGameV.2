@@ -1319,9 +1319,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5717269605226085246, guid: 4dd02fef6a8f39a4985ef775df3c597d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 587698703}
-    - targetCorrespondingSourceObject: {fileID: 5717269605226085246, guid: 4dd02fef6a8f39a4985ef775df3c597d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 587698709}
   m_SourcePrefab: {fileID: 100100000, guid: 4dd02fef6a8f39a4985ef775df3c597d, type: 3}
 --- !u!1 &238547051
 GameObject:
@@ -2182,14 +2179,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!81 &587698709
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587698688}
-  m_Enabled: 1
 --- !u!1 &640143304
 GameObject:
   m_ObjectHideFlags: 0
@@ -6706,7 +6695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4007109068863128063, guid: e17bca34c7b4b764fa716585caa3f915, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.87
+      value: 3.72
       objectReference: {fileID: 0}
     - target: {fileID: 4007109068863128063, guid: e17bca34c7b4b764fa716585caa3f915, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6750,8 +6739,8 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: df2a3d263b6a9b9409d38443470ccd22, type: 3}
     - target: {fileID: 6077876198352461310, guid: e17bca34c7b4b764fa716585caa3f915, type: 3}
       propertyPath: requiredItem
-      value: veneno
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 0f2555e65e6cfe34689df45532ff2ab3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
