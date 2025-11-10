@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interactable
   - WALLS
+  - Boss
   layers:
   - Default
   - TransparentFX
