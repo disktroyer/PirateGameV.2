@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: 7765369f981c0b54abd10f88c5f4936e
+guid: 9c6230f9cdcfb2644a44eeb0ead6ab1c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -786471714710532866
-    second: Protagonista-Sheet_idle001_0
+      213: -5297974742482121574
+    second: ProtagonistaSheetCaminarDerecha_0
   - first:
-      213: -2809029297508395532
-    second: Protagonista-Sheet_idle001_1
+      213: -8576416864091841056
+    second: ProtagonistaSheetCaminarDerecha_1
   - first:
-      213: -180388074765618995
-    second: Protagonista-Sheet_idle001_2
+      213: 6292166990676195845
+    second: ProtagonistaSheetCaminarDerecha_2
   - first:
-      213: 5249619642476254439
-    second: Protagonista-Sheet_idle001_3
+      213: -4936075721107934234
+    second: ProtagonistaSheetCaminarDerecha_3
   - first:
-      213: 6167006118419645863
-    second: Protagonista-Sheet_idle001_4
+      213: -3124438626883781747
+    second: ProtagonistaSheetCaminarDerecha_4
   - first:
-      213: 7397769468607816657
-    second: Protagonista-Sheet_idle001_5
+      213: -8492743121565437970
+    second: ProtagonistaSheetCaminarDerecha_5
   - first:
-      213: 8030521141180312022
-    second: Protagonista-Sheet_idle001_6
+      213: -301381989549474479
+    second: ProtagonistaSheetCaminarDerecha_6
   - first:
-      213: -2599554799522422832
-    second: Protagonista-Sheet_idle001_7
+      213: -404737541629286850
+    second: ProtagonistaSheetCaminarDerecha_7
+  - first:
+      213: -5204401886947889786
+    second: ProtagonistaSheetCaminarDerecha_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +96,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -119,7 +122,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -132,7 +135,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WindowsStoreApps
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -147,111 +150,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Protagonista-Sheet_idle001_0
+      name: ProtagonistaSheetCaminarDerecha_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 31
+        y: 15
+        width: 34
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efc49c27424e515f0800000000000000
-      internalID: -786471714710532866
+      spriteID: a9c8c55aa00d976b0800000000000000
+      internalID: -5297974742482121574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protagonista-Sheet_idle001_1
+      name: ProtagonistaSheetCaminarDerecha_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 31
+        x: 34
+        y: 15
+        width: 34
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f5d85e9cb25409d0800000000000000
-      internalID: -2809029297508395532
+      spriteID: 0edd22a4d427af880800000000000000
+      internalID: -8576416864091841056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protagonista-Sheet_idle001_2
+      name: ProtagonistaSheetCaminarDerecha_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 31
+        x: 68
+        y: 15
+        width: 34
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc0f0e170022f7df0800000000000000
-      internalID: -180388074765618995
+      spriteID: 50a71ba6a84425750800000000000000
+      internalID: 6292166990676195845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protagonista-Sheet_idle001_3
+      name: ProtagonistaSheetCaminarDerecha_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 31
+        x: 102
+        y: 15
+        width: 34
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e4d5bb40456ad840800000000000000
-      internalID: 5249619642476254439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protagonista-Sheet_idle001_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a54018f36b959550800000000000000
-      internalID: 6167006118419645863
+      spriteID: 6e37eeab8498f7bb0800000000000000
+      internalID: -4936075721107934234
       vertices: []
       indices: 
       edges: []
@@ -260,7 +241,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d871f733998a5f44db336df61440d153
+    spriteID: 1b96b34fbc0e74143a9bb51467561598
     internalID: 0
     vertices: []
     indices: 
@@ -270,11 +251,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Protagonista-Sheet_idle001_0: -786471714710532866
-      Protagonista-Sheet_idle001_1: -2809029297508395532
-      Protagonista-Sheet_idle001_2: -180388074765618995
-      Protagonista-Sheet_idle001_3: 5249619642476254439
-      Protagonista-Sheet_idle001_4: 6167006118419645863
+      ProtagonistaSheetCaminarDerecha_0: -5297974742482121574
+      ProtagonistaSheetCaminarDerecha_1: -8576416864091841056
+      ProtagonistaSheetCaminarDerecha_2: 6292166990676195845
+      ProtagonistaSheetCaminarDerecha_3: -4936075721107934234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
