@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -150,20 +150,20 @@ TextureImporter:
       name: ProtagonistaSheetIzquierda._0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 16
-        width: 30
-        height: 29
+        x: 0
+        y: 13
+        width: 34
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87f7c02fae3be4644aefc2c63de39e92
-      internalID: -2736566308673102452
+      spriteID: 7e29996f6de4d7746a560dee1fc803a7
+      internalID: -1493920750
       vertices: []
       indices: 
       edges: []
@@ -172,20 +172,20 @@ TextureImporter:
       name: ProtagonistaSheetIzquierda._1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 16
-        width: 32
-        height: 28
+        x: 34
+        y: 13
+        width: 34
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2f59eb8cd43579408a6293d8089288e
-      internalID: 4465902559995489329
+      spriteID: ced64ae45ed81494aaeabfdcfe32ed44
+      internalID: 1761368268
       vertices: []
       indices: 
       edges: []
@@ -194,20 +194,20 @@ TextureImporter:
       name: ProtagonistaSheetIzquierda._2
       rect:
         serializedVersion: 2
-        x: 70
+        x: 68
         y: 13
-        width: 30
-        height: 31
+        width: 34
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45c583972a17c904dbdaa2586b9fcc83
-      internalID: 3940605010422917942
+      spriteID: 8c97fd7f8e18151468fbb92afd135f70
+      internalID: -1597075119
       vertices: []
       indices: 
       edges: []
@@ -216,20 +216,20 @@ TextureImporter:
       name: ProtagonistaSheetIzquierda._3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 16
-        width: 32
-        height: 29
+        x: 102
+        y: 13
+        width: 34
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12ba5f48f68f6b4d937dc2e20548b9d
-      internalID: -7734850955684384271
+      spriteID: 717624a812cf6cf43b633f4cf4cbe3fa
+      internalID: -841008078
       vertices: []
       indices: 
       edges: []
@@ -248,10 +248,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ProtagonistaSheetIzquierda._0: -2736566308673102452
-      ProtagonistaSheetIzquierda._1: 4465902559995489329
-      ProtagonistaSheetIzquierda._2: 3940605010422917942
-      ProtagonistaSheetIzquierda._3: -7734850955684384271
+      ProtagonistaSheetIzquierda._0: -1493920750
+      ProtagonistaSheetIzquierda._1: 1761368268
+      ProtagonistaSheetIzquierda._2: -1597075119
+      ProtagonistaSheetIzquierda._3: -841008078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
