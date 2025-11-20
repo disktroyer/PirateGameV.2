@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 2e3438e36cd8d4e4e9d7de91a9de4011
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2181809570858581380
+    second: Protagonista-Sheet (1)_0
+  - first:
+      213: 1674233249674081943
+    second: Protagonista-Sheet (1)_1
+  - first:
+      213: -3819689645927369051
+    second: Protagonista-Sheet (1)_2
+  - first:
+      213: 130403100718467798
+    second: Protagonista-Sheet (1)_3
+  - first:
+      213: -6927173908139722933
+    second: Protagonista-Sheet (1)_4
+  - first:
+      213: -4499406083029949850
+    second: Protagonista-Sheet (1)_5
+  - first:
+      213: -2033126215391676396
+    second: Protagonista-Sheet (1)_6
+  - first:
+      213: -8375827450286876116
+    second: Protagonista-Sheet (1)_7
+  - first:
+      213: -2876232010954272681
+    second: Protagonista-Sheet (1)_8
+  - first:
+      213: -3196353629160699957
+    second: Protagonista-Sheet (1)_9
+  - first:
+      213: 1051222802019854542
+    second: Protagonista-Sheet (1)_10
+  - first:
+      213: 8114775653821776875
+    second: Protagonista-Sheet (1)_11
+  - first:
+      213: -1451938246358283263
+    second: Protagonista-Sheet (1)_12
+  - first:
+      213: -3750215852680849318
+    second: Protagonista-Sheet (1)_13
+  - first:
+      213: -1961812127719064379
+    second: Protagonista-Sheet (1)_14
+  - first:
+      213: 7271923167798906609
+    second: Protagonista-Sheet (1)_15
+  - first:
+      213: 805644813200768208
+    second: Protagonista-Sheet (1)_16
+  - first:
+      213: 7227176380666434593
+    second: Protagonista-Sheet (1)_17
+  - first:
+      213: -578191570169401131
+    second: Protagonista-Sheet (1)_18
+  - first:
+      213: -4360781824044273722
+    second: Protagonista-Sheet (1)_19
+  - first:
+      213: -4336935343403934580
+    second: Protagonista-Sheet (1)_20
+  - first:
+      213: 1359534330450029118
+    second: Protagonista-Sheet (1)_21
+  - first:
+      213: -7417552278812580161
+    second: Protagonista-Sheet (1)_22
+  - first:
+      213: -5602400344798518672
+    second: Protagonista-Sheet (1)_23
+  - first:
+      213: 4784495480997200705
+    second: Protagonista-Sheet (1)_24
+  - first:
+      213: -2935397919019032370
+    second: Protagonista-Sheet (1)_25
+  - first:
+      213: 1680042482198800470
+    second: Protagonista-Sheet (1)_26
+  - first:
+      213: 5583001648181606120
+    second: Protagonista-Sheet (1)_27
+  - first:
+      213: 597883733149366837
+    second: Protagonista-Sheet (1)_28
+  - first:
+      213: 4864642052123853253
+    second: Protagonista-Sheet (1)_29
+  - first:
+      213: 3661515859314257865
+    second: Protagonista-Sheet (1)_30
+  - first:
+      213: -7605831803220809718
+    second: Protagonista-Sheet (1)_31
+  - first:
+      213: 8969629972870171725
+    second: Protagonista-Sheet (1)_32
+  - first:
+      213: -1030241727957567118
+    second: Protagonista-Sheet (1)_33
+  - first:
+      213: -2068698888574499841
+    second: Protagonista-Sheet (1)_34
+  - first:
+      213: -4878121902321826792
+    second: Protagonista-Sheet (1)_35
+  - first:
+      213: -3732632872372147650
+    second: Protagonista-Sheet (1)_36
+  - first:
+      213: 6737765352339187005
+    second: Protagonista-Sheet (1)_37
+  - first:
+      213: 5557507013839476254
+    second: Protagonista-Sheet (1)_38
+  - first:
+      213: 6245596295290734581
+    second: Protagonista-Sheet (1)_39
+  - first:
+      213: 1480836783965328020
+    second: Protagonista-Sheet (1)_40
+  - first:
+      213: -5152607827220879380
+    second: Protagonista-Sheet (1)_41
+  - first:
+      213: 8062522316562393068
+    second: Protagonista-Sheet (1)_42
+  - first:
+      213: -2704035511400838855
+    second: Protagonista-Sheet (1)_43
+  - first:
+      213: 5498569115108630766
+    second: Protagonista-Sheet (1)_44
+  - first:
+      213: -3441474349318804381
+    second: Protagonista-Sheet (1)_45
+  - first:
+      213: -9082697497534888886
+    second: Protagonista-Sheet (1)_46
+  - first:
+      213: -2514026561070414527
+    second: Protagonista-Sheet (1)_47
+  - first:
+      213: 7255806602385319169
+    second: Protagonista-Sheet (1)_48
+  - first:
+      213: -7977232010878837187
+    second: Protagonista-Sheet (1)_49
+  - first:
+      213: 7168804747693388050
+    second: Protagonista-Sheet (1)_50
+  - first:
+      213: 5322967951646397425
+    second: Protagonista-Sheet (1)_51
+  - first:
+      213: 2728770039516275707
+    second: Protagonista-Sheet (1)_52
+  - first:
+      213: 7540102716573427279
+    second: Protagonista-Sheet (1)_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c724d6941c7a8b1e0800000000000000
+      internalID: -2181809570858581380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796b8f525421c3710800000000000000
+      internalID: 1674233249674081943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6f24e218cbdfac0800000000000000
+      internalID: -3819689645927369051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da0fefdde84fc100800000000000000
+      internalID: 130403100718467798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b473af3480cbddf90800000000000000
+      internalID: -6927173908139722933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662a4c0a106ee81c0800000000000000
+      internalID: -4499406083029949850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4187b04aa72e8c3e0800000000000000
+      internalID: -2033126215391676396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a5fad9f4513cb80800000000000000
+      internalID: -8375827450286876116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750967799329518d0800000000000000
+      internalID: -2876232010954272681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7885d2f4544a3d0800000000000000
+      internalID: -3196353629160699957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec82f2e9191b69e00800000000000000
+      internalID: 1051222802019854542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3090696797d9070800000000000000
+      internalID: 8114775653821776875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cc20e8bdda9dbe0800000000000000
+      internalID: -1451938246358283263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a585bed2d8e84fbc0800000000000000
+      internalID: -3750215852680849318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc7043934e36c4e0800000000000000
+      internalID: -1961812127719064379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe4692c79f0be460800000000000000
+      internalID: 7271923167798906609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcb7f960b93e2b00800000000000000
+      internalID: 805644813200768208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12457b280a61c4460800000000000000
+      internalID: 7227176380666434593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d07def84d9d9f7f0800000000000000
+      internalID: -578191570169401131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf6cd219046b73c0800000000000000
+      internalID: -4360781824044273722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c5292884c10d3c0800000000000000
+      internalID: -4336935343403934580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista-Sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a2c6a35490ed210800000000000000
+      internalID: 1359534330450029118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 15c0f00f30e2a8f4f8688874ed964f0e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Protagonista-Sheet (1)_0: -2181809570858581380
+      Protagonista-Sheet (1)_1: 1674233249674081943
+      Protagonista-Sheet (1)_10: 1051222802019854542
+      Protagonista-Sheet (1)_11: 8114775653821776875
+      Protagonista-Sheet (1)_12: -1451938246358283263
+      Protagonista-Sheet (1)_13: -3750215852680849318
+      Protagonista-Sheet (1)_14: -1961812127719064379
+      Protagonista-Sheet (1)_15: 7271923167798906609
+      Protagonista-Sheet (1)_16: 805644813200768208
+      Protagonista-Sheet (1)_17: 7227176380666434593
+      Protagonista-Sheet (1)_18: -578191570169401131
+      Protagonista-Sheet (1)_19: -4360781824044273722
+      Protagonista-Sheet (1)_2: -3819689645927369051
+      Protagonista-Sheet (1)_20: -4336935343403934580
+      Protagonista-Sheet (1)_21: 1359534330450029118
+      Protagonista-Sheet (1)_3: 130403100718467798
+      Protagonista-Sheet (1)_4: -6927173908139722933
+      Protagonista-Sheet (1)_5: -4499406083029949850
+      Protagonista-Sheet (1)_6: -2033126215391676396
+      Protagonista-Sheet (1)_7: -8375827450286876116
+      Protagonista-Sheet (1)_8: -2876232010954272681
+      Protagonista-Sheet (1)_9: -3196353629160699957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
