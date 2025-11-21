@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: f3b65242ac0d236469892188d8a080c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1630174176088549059
+    second: SpawnSpriteSheet_0
+  - first:
+      213: -3636093060127713704
+    second: SpawnSpriteSheet_1
+  - first:
+      213: -3669285696693351219
+    second: SpawnSpriteSheet_2
+  - first:
+      213: -701758439624623274
+    second: SpawnSpriteSheet_3
+  - first:
+      213: -7757099402411068886
+    second: SpawnSpriteSheet_4
+  - first:
+      213: 4835755332570377830
+    second: SpawnSpriteSheet_5
+  - first:
+      213: -8812628403550416535
+    second: SpawnSpriteSheet_6
+  - first:
+      213: 3797301110015430687
+    second: SpawnSpriteSheet_7
+  - first:
+      213: -4207486289248323520
+    second: SpawnSpriteSheet_8
+  - first:
+      213: 8317291437460374154
+    second: SpawnSpriteSheet_9
+  - first:
+      213: 1036622957354640485
+    second: SpawnSpriteSheet_10
+  - first:
+      213: -558692899650806936
+    second: SpawnSpriteSheet_11
+  - first:
+      213: 5021379813112827797
+    second: SpawnSpriteSheet_12
+  - first:
+      213: -9148188047740251121
+    second: SpawnSpriteSheet_13
+  - first:
+      213: -1462087741396602444
+    second: SpawnSpriteSheet_14
+  - first:
+      213: -6408866892083519144
+    second: SpawnSpriteSheet_15
+  - first:
+      213: -1064357857783899649
+    second: SpawnSpriteSheet_16
+  - first:
+      213: -1719335006413802689
+    second: SpawnSpriteSheet_17
+  - first:
+      213: -8009321290751396492
+    second: SpawnSpriteSheet_18
+  - first:
+      213: -6335990302417865967
+    second: SpawnSpriteSheet_19
+  - first:
+      213: -1717745237489307670
+    second: SpawnSpriteSheet_20
+  - first:
+      213: -6952181703374596982
+    second: SpawnSpriteSheet_21
+  - first:
+      213: 6512649064532662939
+    second: SpawnSpriteSheet_22
+  - first:
+      213: -2821661012340087055
+    second: SpawnSpriteSheet_23
+  - first:
+      213: -6196989349226559436
+    second: SpawnSpriteSheet_24
+  - first:
+      213: 565213471118686851
+    second: SpawnSpriteSheet_25
+  - first:
+      213: -7325143859447868805
+    second: SpawnSpriteSheet_26
+  - first:
+      213: 6271152689772292769
+    second: SpawnSpriteSheet_27
+  - first:
+      213: -3653378615646339441
+    second: SpawnSpriteSheet_28
+  - first:
+      213: 2713924888863778907
+    second: SpawnSpriteSheet_29
+  - first:
+      213: 6313109625924460633
+    second: SpawnSpriteSheet_30
+  - first:
+      213: -3248035443385510645
+    second: SpawnSpriteSheet_31
+  - first:
+      213: 5413902273838901520
+    second: SpawnSpriteSheet_32
+  - first:
+      213: -724626388637727225
+    second: SpawnSpriteSheet_33
+  - first:
+      213: 8227531034253030392
+    second: SpawnSpriteSheet_34
+  - first:
+      213: -6413896985286990700
+    second: SpawnSpriteSheet_35
+  - first:
+      213: 5237134265120940453
+    second: SpawnSpriteSheet_36
+  - first:
+      213: 1263124563010603690
+    second: SpawnSpriteSheet_37
+  - first:
+      213: 5764733563234406902
+    second: SpawnSpriteSheet_38
+  - first:
+      213: 7016960067556870770
+    second: SpawnSpriteSheet_39
+  - first:
+      213: -4757896150654830736
+    second: SpawnSpriteSheet_40
+  - first:
+      213: -9221448918041077510
+    second: SpawnSpriteSheet_41
+  - first:
+      213: -1109393788499979206
+    second: SpawnSpriteSheet_42
+  - first:
+      213: -8906023207827064160
+    second: SpawnSpriteSheet_43
+  - first:
+      213: 5321742495625382605
+    second: SpawnSpriteSheet_44
+  - first:
+      213: -7765363584203776543
+    second: SpawnSpriteSheet_45
+  - first:
+      213: -8430868197909326214
+    second: SpawnSpriteSheet_46
+  - first:
+      213: -1507933031633043590
+    second: SpawnSpriteSheet_47
+  - first:
+      213: 678586254755492339
+    second: SpawnSpriteSheet_48
+  - first:
+      213: 4187540958069963306
+    second: SpawnSpriteSheet_49
+  - first:
+      213: 2548787394272752986
+    second: SpawnSpriteSheet_50
+  - first:
+      213: -877648602562164337
+    second: SpawnSpriteSheet_51
+  - first:
+      213: -8786750475137125433
+    second: SpawnSpriteSheet_52
+  - first:
+      213: 4214425370823878109
+    second: SpawnSpriteSheet_53
+  - first:
+      213: 8173708873498533791
+    second: SpawnSpriteSheet_54
+  - first:
+      213: 1713243268901582506
+    second: SpawnSpriteSheet_55
+  - first:
+      213: 7994162661881257715
+    second: SpawnSpriteSheet_56
+  - first:
+      213: -3480120104795134563
+    second: SpawnSpriteSheet_57
+  - first:
+      213: -7816844269266285625
+    second: SpawnSpriteSheet_58
+  - first:
+      213: 1616399389292045364
+    second: SpawnSpriteSheet_59
+  - first:
+      213: -8603283240729590944
+    second: SpawnSpriteSheet_60
+  - first:
+      213: -5640249947311783810
+    second: SpawnSpriteSheet_61
+  - first:
+      213: -2346403787798910024
+    second: SpawnSpriteSheet_62
+  - first:
+      213: 7013275716956506920
+    second: SpawnSpriteSheet_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d391a3059357069e0800000000000000
+      internalID: -1630174176088549059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85613dc60a00a8dc0800000000000000
+      internalID: -3636093060127713704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcccb2d7914141dc0800000000000000
+      internalID: -3669285696693351219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 4
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bba00da6ad246f0800000000000000
+      internalID: -701758439624623274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22b4ef313f395490800000000000000
+      internalID: -7757099402411068886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 17
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66eee82aadd0c1340800000000000000
+      internalID: 4835755332570377830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9611cd4882143b580800000000000000
+      internalID: -8812628403550416535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f109aa79d39b2b430800000000000000
+      internalID: 3797301110015430687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048f60c13810c95c0800000000000000
+      internalID: -4207486289248323520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a824937de74fc6370800000000000000
+      internalID: 8317291437460374154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56463236613d26e00800000000000000
+      internalID: 1036622957354640485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 0
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bd7c194cf1f38f0800000000000000
+      internalID: -558692899650806936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 0
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f48eae5568fa540800000000000000
+      internalID: 5021379813112827797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 0
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04d7f3907b1b0180800000000000000
+      internalID: -9148188047740251121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 0
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b13a9712fe95bbe0800000000000000
+      internalID: -1462087741396602444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 0
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851a99c64812f07a0800000000000000
+      internalID: -6408866892083519144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff915e4ea24aa31f0800000000000000
+      internalID: -1064357857783899649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 0
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33bfcccbe1b328e0800000000000000
+      internalID: -1719335006413802689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 0
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4753ac4a8bc29d090800000000000000
+      internalID: -8009321290751396492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 0
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1133014b36a0218a0800000000000000
+      internalID: -6335990302417865967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 0
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefa4d8bec75928e0800000000000000
+      internalID: -1717745237489307670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8413643393e48f90800000000000000
+      internalID: -6952181703374596982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9adf3691d3916a50800000000000000
+      internalID: 6512649064532662939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 0
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f666e2524277d8d0800000000000000
+      internalID: -2821661012340087055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 0
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438c87a150fdff9a0800000000000000
+      internalID: -6196989349226559436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 0
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a7b4848aa08d700800000000000000
+      internalID: 565213471118686851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72d9f8587cd75a90800000000000000
+      internalID: -7325143859447868805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaec16352c970750800000000000000
+      internalID: 6271152689772292769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e346861879c4dc0800000000000000
+      internalID: -3653378615646339441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5821d3be4cc9a520800000000000000
+      internalID: 2713924888863778907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950a359a1cbac9750800000000000000
+      internalID: 6313109625924460633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05d02b19f8ace2d0800000000000000
+      internalID: -3248035443385510645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019e8d81f6b022b40800000000000000
+      internalID: 5413902273838901520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 0
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706cf56832c91f5f0800000000000000
+      internalID: -724626388637727225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 18
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3772362ef0e2270800000000000000
+      internalID: 8227531034253030392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49425069ca24df6a0800000000000000
+      internalID: -6413896985286990700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 0
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a16f89ddd90ea840800000000000000
+      internalID: 5237134265120940453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 0
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa41550915878110800000000000000
+      internalID: 1263124563010603690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1db5502a2700050800000000000000
+      internalID: 5764733563234406902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a04d50100416160800000000000000
+      internalID: 7016960067556870770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 0
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077350ec8ae88fdb0800000000000000
+      internalID: -4757896150654830736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 0
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af850cdf015d60080800000000000000
+      internalID: -9221448918041077510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 0
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a341f682a34aa90f0800000000000000
+      internalID: -1109393788499979206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 0
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa35102413776480800000000000000
+      internalID: -8906023207827064160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 0
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca0add9a90aad940800000000000000
+      internalID: 5321742495625382605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed97cb76f2eb3490800000000000000
+      internalID: -7765363584203776543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a761a7bea0a8ffa80800000000000000
+      internalID: -8430868197909326214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f3f68a5eeb21be0800000000000000
+      internalID: -1507933031633043590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1f9287a92da6900800000000000000
+      internalID: 678586254755492339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ab82890522d1a30800000000000000
+      internalID: 4187540958069963306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55fe9b81ac1f5320800000000000000
+      internalID: 2548787394272752986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f890aa6fe37f1d3f0800000000000000
+      internalID: -877648602562164337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3f47f3ff03f0680800000000000000
+      internalID: -8786750475137125433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5e958bb85ac7a30800000000000000
+      internalID: 4214425370823878109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f965e0ae8de6170800000000000000
+      internalID: 8173708873498533791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa635b80da9a6c710800000000000000
+      internalID: 1713243268901582506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe9f1a0698f0fe60800000000000000
+      internalID: 7994162661881257715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95adf1043124bfc0800000000000000
+      internalID: -3480120104795134563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 3649
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbc5d17d8df48390800000000000000
+      internalID: -7816844269266285625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43429e53eaa9e6610800000000000000
+      internalID: 1616399389292045364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 0
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063cd36897ffa9880800000000000000
+      internalID: -8603283240729590944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 0
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70c0166e8ec9b1b0800000000000000
+      internalID: -5640249947311783810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 3907
+        y: 0
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb6d90df26ef6fd0800000000000000
+      internalID: -2346403787798910024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpawnSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 4
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bc01d4b19245160800000000000000
+      internalID: 7013275716956506920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpawnSpriteSheet_0: -1630174176088549059
+      SpawnSpriteSheet_1: -3636093060127713704
+      SpawnSpriteSheet_10: 1036622957354640485
+      SpawnSpriteSheet_11: -558692899650806936
+      SpawnSpriteSheet_12: 5021379813112827797
+      SpawnSpriteSheet_13: -9148188047740251121
+      SpawnSpriteSheet_14: -1462087741396602444
+      SpawnSpriteSheet_15: -6408866892083519144
+      SpawnSpriteSheet_16: -1064357857783899649
+      SpawnSpriteSheet_17: -1719335006413802689
+      SpawnSpriteSheet_18: -8009321290751396492
+      SpawnSpriteSheet_19: -6335990302417865967
+      SpawnSpriteSheet_2: -3669285696693351219
+      SpawnSpriteSheet_20: -1717745237489307670
+      SpawnSpriteSheet_21: -6952181703374596982
+      SpawnSpriteSheet_22: 6512649064532662939
+      SpawnSpriteSheet_23: -2821661012340087055
+      SpawnSpriteSheet_24: -6196989349226559436
+      SpawnSpriteSheet_25: 565213471118686851
+      SpawnSpriteSheet_26: -7325143859447868805
+      SpawnSpriteSheet_27: 6271152689772292769
+      SpawnSpriteSheet_28: -3653378615646339441
+      SpawnSpriteSheet_29: 2713924888863778907
+      SpawnSpriteSheet_3: -701758439624623274
+      SpawnSpriteSheet_30: 6313109625924460633
+      SpawnSpriteSheet_31: -3248035443385510645
+      SpawnSpriteSheet_32: 5413902273838901520
+      SpawnSpriteSheet_33: -724626388637727225
+      SpawnSpriteSheet_34: 8227531034253030392
+      SpawnSpriteSheet_35: -6413896985286990700
+      SpawnSpriteSheet_36: 5237134265120940453
+      SpawnSpriteSheet_37: 1263124563010603690
+      SpawnSpriteSheet_38: 5764733563234406902
+      SpawnSpriteSheet_39: 7016960067556870770
+      SpawnSpriteSheet_4: -7757099402411068886
+      SpawnSpriteSheet_40: -4757896150654830736
+      SpawnSpriteSheet_41: -9221448918041077510
+      SpawnSpriteSheet_42: -1109393788499979206
+      SpawnSpriteSheet_43: -8906023207827064160
+      SpawnSpriteSheet_44: 5321742495625382605
+      SpawnSpriteSheet_45: -7765363584203776543
+      SpawnSpriteSheet_46: -8430868197909326214
+      SpawnSpriteSheet_47: -1507933031633043590
+      SpawnSpriteSheet_48: 678586254755492339
+      SpawnSpriteSheet_49: 4187540958069963306
+      SpawnSpriteSheet_5: 4835755332570377830
+      SpawnSpriteSheet_50: 2548787394272752986
+      SpawnSpriteSheet_51: -877648602562164337
+      SpawnSpriteSheet_52: -8786750475137125433
+      SpawnSpriteSheet_53: 4214425370823878109
+      SpawnSpriteSheet_54: 8173708873498533791
+      SpawnSpriteSheet_55: 1713243268901582506
+      SpawnSpriteSheet_56: 7994162661881257715
+      SpawnSpriteSheet_57: -3480120104795134563
+      SpawnSpriteSheet_58: -7816844269266285625
+      SpawnSpriteSheet_59: 1616399389292045364
+      SpawnSpriteSheet_6: -8812628403550416535
+      SpawnSpriteSheet_60: -8603283240729590944
+      SpawnSpriteSheet_61: -5640249947311783810
+      SpawnSpriteSheet_62: -2346403787798910024
+      SpawnSpriteSheet_63: 7013275716956506920
+      SpawnSpriteSheet_7: 3797301110015430687
+      SpawnSpriteSheet_8: -4207486289248323520
+      SpawnSpriteSheet_9: 8317291437460374154
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,31 +1,37 @@
 fileFormatVersion: 2
-guid: f4deb0e76360da748ba3cdca58950e34
+guid: ff850e63557352d42aafdc1219501326
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5600887564431410456
-    second: "Animaci\xF3n_Caminar_0"
+      213: -1003153521954519546
+    second: "Animaci\xF3n_Idle_Proyecto_0"
   - first:
-      213: -6168089700751211222
-    second: "Animaci\xF3n_Caminar_1"
+      213: -2523513143941035579
+    second: "Animaci\xF3n_Idle_Proyecto_1"
   - first:
-      213: -6314634340437494687
-    second: "Animaci\xF3n_Caminar_2"
+      213: 357061986562927037
+    second: "Animaci\xF3n_Idle_Proyecto_2"
   - first:
-      213: 1643334860451988341
-    second: "Animaci\xF3n_Caminar_3"
+      213: 511110053420861652
+    second: "Animaci\xF3n_Idle_Proyecto_3"
   - first:
-      213: -918051782692944830
-    second: "Animaci\xF3n_Caminar_4"
+      213: -1815983777430066694
+    second: "Animaci\xF3n_Idle_Proyecto_4"
   - first:
-      213: -2114836042101345962
-    second: "Animaci\xF3n_Caminar_5"
+      213: 8377951160038404442
+    second: "Animaci\xF3n_Idle_Proyecto_5"
   - first:
-      213: 4306315933144052869
-    second: "Animaci\xF3n_Caminar_6"
+      213: -3163301115112970616
+    second: "Animaci\xF3n_Idle_Proyecto_6"
   - first:
-      213: -173710321224641359
-    second: "Animaci\xF3n_Caminar_7"
+      213: -350449623029583480
+    second: "Animaci\xF3n_Idle_Proyecto_7"
+  - first:
+      213: 4296947755009621012
+    second: "Animaci\xF3n_Idle_Proyecto_8"
+  - first:
+      213: -8516539081712198913
+    second: "Animaci\xF3n_Idle_Proyecto_9"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,13 +153,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_0"
+      name: "Animaci\xF3n_Idle_Proyecto_0"
       rect:
         serializedVersion: 2
-        x: 8
-        y: 14
-        width: 48
-        height: 65
+        x: 0
+        y: 0
+        width: 47
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,19 +168,85 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8eab9275f66a542b0800000000000000
-      internalID: -5600887564431410456
+      spriteID: 60608bccf251412f0800000000000000
+      internalID: -1003153521954519546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_1"
+      name: "Animaci\xF3n_Idle_Proyecto_1"
       rect:
         serializedVersion: 2
-        x: 69
-        y: 15
-        width: 48
+        x: 48
+        y: 0
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c98d5d6a2eaafcd0800000000000000
+      internalID: -2523513143941035579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3n_Idle_Proyecto_2"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9e0e72cf984f400800000000000000
+      internalID: 357061986562927037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3n_Idle_Proyecto_3"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d80847b2e3d71700800000000000000
+      internalID: 511110053420861652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3n_Idle_Proyecto_4"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 47
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,85 +256,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a258afbd81b866aa0800000000000000
-      internalID: -6168089700751211222
+      spriteID: af9a86c30645cc6e0800000000000000
+      internalID: -1815983777430066694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_2"
+      name: "Animaci\xF3n_Idle_Proyecto_5"
       rect:
         serializedVersion: 2
-        x: 137
-        y: 14
-        width: 46
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1647db31689ed58a0800000000000000
-      internalID: -6314634340437494687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_3"
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 14
-        width: 46
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 573c14c495c4ec610800000000000000
-      internalID: 1643334860451988341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_4"
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 14
-        width: 46
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2444c2784cc6243f0800000000000000
-      internalID: -918051782692944830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_5"
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 14
-        width: 56
+        x: 240
+        y: 0
+        width: 47
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -272,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6513b5813d796a2e0800000000000000
-      internalID: -2114836042101345962
+      spriteID: a5139a71136744470800000000000000
+      internalID: 8377951160038404442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_6"
+      name: "Animaci\xF3n_Idle_Proyecto_6"
       rect:
         serializedVersion: 2
-        x: 393
-        y: 14
-        width: 48
-        height: 65
+        x: 288
+        y: 0
+        width: 47
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 584f7ad768b13cb30800000000000000
-      internalID: 4306315933144052869
+      spriteID: 886281c4562b914d0800000000000000
+      internalID: -3163301115112970616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_7"
+      name: "Animaci\xF3n_Idle_Proyecto_7"
       rect:
         serializedVersion: 2
-        x: 457
-        y: 14
-        width: 45
-        height: 66
+        x: 336
+        y: 0
+        width: 47
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +322,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b41699126bd69df0800000000000000
-      internalID: -173710321224641359
+      spriteID: 881f6a3bce3f22bf0800000000000000
+      internalID: -350449623029583480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3n_Idle_Proyecto_8"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cb2cb8733d1ab30800000000000000
+      internalID: 4296947755009621012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3n_Idle_Proyecto_9"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa10d6e3dc2fc980800000000000000
+      internalID: -8516539081712198913
       vertices: []
       indices: 
       edges: []
@@ -326,7 +376,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 99359b846cf1fa940a1e0950cab7eb58
     internalID: 0
     vertices: []
     indices: 
@@ -336,14 +386,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Animaci\xF3n_Caminar_0": -5600887564431410456
-      "Animaci\xF3n_Caminar_1": -6168089700751211222
-      "Animaci\xF3n_Caminar_2": -6314634340437494687
-      "Animaci\xF3n_Caminar_3": 1643334860451988341
-      "Animaci\xF3n_Caminar_4": -918051782692944830
-      "Animaci\xF3n_Caminar_5": -2114836042101345962
-      "Animaci\xF3n_Caminar_6": 4306315933144052869
-      "Animaci\xF3n_Caminar_7": -173710321224641359
+      "Animaci\xF3n_Idle_Proyecto_0": -1003153521954519546
+      "Animaci\xF3n_Idle_Proyecto_1": -2523513143941035579
+      "Animaci\xF3n_Idle_Proyecto_2": 357061986562927037
+      "Animaci\xF3n_Idle_Proyecto_3": 511110053420861652
+      "Animaci\xF3n_Idle_Proyecto_4": -1815983777430066694
+      "Animaci\xF3n_Idle_Proyecto_5": 8377951160038404442
+      "Animaci\xF3n_Idle_Proyecto_6": -3163301115112970616
+      "Animaci\xF3n_Idle_Proyecto_7": -350449623029583480
+      "Animaci\xF3n_Idle_Proyecto_8": 4296947755009621012
+      "Animaci\xF3n_Idle_Proyecto_9": -8516539081712198913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

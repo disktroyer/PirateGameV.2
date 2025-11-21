@@ -1,31 +1,46 @@
 fileFormatVersion: 2
-guid: f4deb0e76360da748ba3cdca58950e34
+guid: 34c888430f4b1dc4b9817e35a3461336
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5600887564431410456
-    second: "Animaci\xF3n_Caminar_0"
+      213: -5682821501601422428
+    second: CofreSpriteSheet_0
   - first:
-      213: -6168089700751211222
-    second: "Animaci\xF3n_Caminar_1"
+      213: 4067429203632763682
+    second: CofreSpriteSheet_1
   - first:
-      213: -6314634340437494687
-    second: "Animaci\xF3n_Caminar_2"
+      213: 8249159943786511229
+    second: CofreSpriteSheet_2
   - first:
-      213: 1643334860451988341
-    second: "Animaci\xF3n_Caminar_3"
+      213: 316227615748830545
+    second: CofreSpriteSheet_3
   - first:
-      213: -918051782692944830
-    second: "Animaci\xF3n_Caminar_4"
+      213: 1126390872921806635
+    second: CofreSpriteSheet_4
   - first:
-      213: -2114836042101345962
-    second: "Animaci\xF3n_Caminar_5"
+      213: 7539754896966565985
+    second: CofreSpriteSheet_5
   - first:
-      213: 4306315933144052869
-    second: "Animaci\xF3n_Caminar_6"
+      213: 8478087728377223257
+    second: CofreSpriteSheet_6
   - first:
-      213: -173710321224641359
-    second: "Animaci\xF3n_Caminar_7"
+      213: -5172196779781347253
+    second: CofreSpriteSheet_7
+  - first:
+      213: 4355439395540146258
+    second: CofreSpriteSheet_8
+  - first:
+      213: 7222885524440364867
+    second: CofreSpriteSheet_9
+  - first:
+      213: 7717896225663436015
+    second: CofreSpriteSheet_10
+  - first:
+      213: -1959110013627050632
+    second: CofreSpriteSheet_11
+  - first:
+      213: -6039148693018174710
+    second: CofreSpriteSheet_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,13 +162,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_0"
+      name: CofreSpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 14
-        width: 48
-        height: 65
+        x: 13
+        y: 0
+        width: 38
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8eab9275f66a542b0800000000000000
-      internalID: -5600887564431410456
+      spriteID: 4a3681304ff8221b0800000000000000
+      internalID: -5682821501601422428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_1"
+      name: CofreSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 15
-        width: 48
-        height: 63
+        x: 66
+        y: 0
+        width: 38
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a258afbd81b866aa0800000000000000
-      internalID: -6168089700751211222
+      spriteID: 223b49f7f49627830800000000000000
+      internalID: 4067429203632763682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_2"
+      name: CofreSpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 14
-        width: 46
-        height: 65
+        x: 118
+        y: 0
+        width: 38
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1647db31689ed58a0800000000000000
-      internalID: -6314634340437494687
+      spriteID: d7bb6c05347ea7270800000000000000
+      internalID: 8249159943786511229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_3"
+      name: CofreSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 14
-        width: 46
-        height: 66
+        x: 170
+        y: 4
+        width: 38
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 573c14c495c4ec610800000000000000
-      internalID: 1643334860451988341
+      spriteID: 155b0e05757736400800000000000000
+      internalID: 316227615748830545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_4"
+      name: CofreSpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 14
-        width: 46
-        height: 66
+        x: 222
+        y: 5
+        width: 38
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2444c2784cc6243f0800000000000000
-      internalID: -918051782692944830
+      spriteID: b271fb2f78eb1af00800000000000000
+      internalID: 1126390872921806635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_5"
+      name: CofreSpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 329
-        y: 14
-        width: 56
-        height: 63
+        x: 274
+        y: 17
+        width: 38
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6513b5813d796a2e0800000000000000
-      internalID: -2114836042101345962
+      spriteID: 1604437a12792a860800000000000000
+      internalID: 7539754896966565985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_6"
+      name: CofreSpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 393
-        y: 14
-        width: 48
-        height: 65
+        x: 326
+        y: 5
+        width: 38
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 584f7ad768b13cb30800000000000000
-      internalID: 4306315933144052869
+      spriteID: 958d580ced738a570800000000000000
+      internalID: 8478087728377223257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Animaci\xF3n_Caminar_7"
+      name: CofreSpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 457
-        y: 14
-        width: 45
-        height: 66
+        x: 377
+        y: 0
+        width: 38
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +331,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b41699126bd69df0800000000000000
-      internalID: -173710321224641359
+      spriteID: b48a6b8ae6aa838b0800000000000000
+      internalID: -5172196779781347253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CofreSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25899ebdd01a17c30800000000000000
+      internalID: 4355439395540146258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CofreSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3473491bd18dc3460800000000000000
+      internalID: 7222885524440364867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CofreSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe44fffd9b97b1b60800000000000000
+      internalID: 7717896225663436015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CofreSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87559d982d7dfc4e0800000000000000
+      internalID: -1959110013627050632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CofreSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b13eea242a03ca0800000000000000
+      internalID: -6039148693018174710
       vertices: []
       indices: 
       edges: []
@@ -336,14 +461,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Animaci\xF3n_Caminar_0": -5600887564431410456
-      "Animaci\xF3n_Caminar_1": -6168089700751211222
-      "Animaci\xF3n_Caminar_2": -6314634340437494687
-      "Animaci\xF3n_Caminar_3": 1643334860451988341
-      "Animaci\xF3n_Caminar_4": -918051782692944830
-      "Animaci\xF3n_Caminar_5": -2114836042101345962
-      "Animaci\xF3n_Caminar_6": 4306315933144052869
-      "Animaci\xF3n_Caminar_7": -173710321224641359
+      CofreSpriteSheet_0: -5682821501601422428
+      CofreSpriteSheet_1: 4067429203632763682
+      CofreSpriteSheet_10: 7717896225663436015
+      CofreSpriteSheet_11: -1959110013627050632
+      CofreSpriteSheet_12: -6039148693018174710
+      CofreSpriteSheet_2: 8249159943786511229
+      CofreSpriteSheet_3: 316227615748830545
+      CofreSpriteSheet_4: 1126390872921806635
+      CofreSpriteSheet_5: 7539754896966565985
+      CofreSpriteSheet_6: 8478087728377223257
+      CofreSpriteSheet_7: -5172196779781347253
+      CofreSpriteSheet_8: 4355439395540146258
+      CofreSpriteSheet_9: 7222885524440364867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
