@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossDetection : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class BossDetection : MonoBehaviour
                 return;
 
             // De lo contrario → InstaKill
-            Debug.Log("🔥 El Boss atrapó al jugador. GAME OVER");
+            Debug.Log(" El Boss atrapó al jugador. GAME OVER");
 
             PlayerDeath(other.gameObject);
         }
@@ -27,6 +28,8 @@ public class BossDetection : MonoBehaviour
         // - desactivar control del jugador
 
         player.SetActive(false);
-        // SceneManager.LoadScene("GameOver");   // OPCIONAL
+       
+        SceneManager.LoadScene("GameOver");
+
     }
 }

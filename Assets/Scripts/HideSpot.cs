@@ -2,28 +2,27 @@ using UnityEngine;
 
 public class HideSpot : Interactable
 {
-    private bool isHiding = false;
-
-    [Header("Punto donde el jugador se coloca al esconderse")]
-    public Transform hidePoint;
+    private bool isHidden = false;
+    public Transform hidePoint; // posición dentro del armario
 
     public override void Interact(GameObject player)
     {
-        PlayerHideController hideCtrl = player.GetComponent<PlayerHideController>();
-
-        if (hideCtrl == null) return;
-
-        if (!isHiding)
+        PlayerHideController hideController = player.GetComponent<PlayerHideController>();
+        if (hideController == null)
         {
-            // Entrar al escondite
-            hideCtrl.EnterHideSpot(hidePoint);
-            isHiding = true;
+            Debug.LogWarning("El jugador no tiene PlayerHideController.");
+            return;
+        }
+
+        if (!isHidden)
+        {
+            hideController.Hide(hidePoint);
+            isHidden = true;
         }
         else
         {
-            // Salir del escondite
-            hideCtrl.ExitHideSpot();
-            isHiding = false;
+            hideController.Unhide();
+            isHidden = false;
         }
     }
 }

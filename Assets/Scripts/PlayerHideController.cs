@@ -3,42 +3,67 @@ using UnityEngine;
 
 public class PlayerHideController : MonoBehaviour
 {
-    private bool isHidden = false;
-    private Vector3 lastPositionBeforeHide;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rb;
+    private Collider2D playerCollider;
+    private TopDownCharacterController movementScript;
 
+    // 🔥 ESTA ES LA VARIABLE REAL QUE USAMOS
+    private bool isHidden = false;
+
+    // 🔥 ESTA ES LA PROPIEDAD QUE USA EL BOSS
     public bool IsHidden => isHidden;
 
-    private TopDownCharacterController movement;
-    private SpriteRenderer sprite;
+    private Transform currentHidePoint;
 
     void Start()
     {
-        movement = GetComponent<TopDownCharacterController>();
-        sprite = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
+        movementScript = GetComponent<TopDownCharacterController>();
     }
 
-    public void EnterHideSpot(Transform hidePoint)
+    public void Hide(Transform hidePoint)
     {
         isHidden = true;
+        currentHidePoint = hidePoint;
 
-        lastPositionBeforeHide = transform.position;
+        // Animación
+        animator.SetTrigger("Hide");
+
+        // Colocar al jugador dentro del armario
         transform.position = hidePoint.position;
 
-        // Opciones:
-        movement.enabled = false;  // Jugador no se mueve
-        sprite.enabled = false;    // El jugador se oculta visualmente
+        // Invisibilidad
+        spriteRenderer.enabled = false;
+
+        // No moverse
+        movementScript.enabled = false;
+        rb.linearVelocity = Vector2.zero;
+
+        // No colisiones
+        playerCollider.enabled = false;
 
         Debug.Log("Jugador escondido");
     }
 
-    public void ExitHideSpot()
+    public void Unhide()
     {
         isHidden = false;
-        transform.position = lastPositionBeforeHide;
 
-        movement.enabled = true;
-        sprite.enabled = true;
+        // Animación salida
+        animator.SetTrigger("Unhide");
 
-        Debug.Log("Jugador sali� del escondite");
+        // Volver visible
+        spriteRenderer.enabled = true;
+
+        // Rehabilitar movimiento y colisiones
+        movementScript.enabled = true;
+        playerCollider.enabled = true;
+
+        Debug.Log("Jugador salió del escondite");
     }
 }
