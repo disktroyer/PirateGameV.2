@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3242677459107105563}
   - component: {fileID: -980823234268467715}
   - component: {fileID: -4295832887068065969}
+  - component: {fileID: -4099316217717980239}
   m_Layer: 0
   m_Name: ron_
   m_TagString: Untagged
@@ -104,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41001bb4f1e45e1469328ec8becced6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredItem: {fileID: 0}
+  requiredItem: {fileID: 11400000, guid: 07bbe0116ce2de144bb7f7c46566072b, type: 2}
   damage: 1
   prepareSound: {fileID: 8300000, guid: df2a3d263b6a9b9409d38443470ccd22, type: 3}
   triggerSound: {fileID: 0}
@@ -168,3 +169,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   staticTrap: {fileID: 0}
+--- !u!114 &-4099316217717980239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2253570730651579913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ea5d614af3c5340b21782f3675502e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: 07bbe0116ce2de144bb7f7c46566072b, type: 2}

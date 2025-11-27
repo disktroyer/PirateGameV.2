@@ -1,10 +1,17 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerSpawner : MonoBehaviour
 {
     public Transform spawnPoint;
     public GameObject playerPrefab;
     public string spawnAnimationName = "Spawn";
+
+    [Header("Player UI Slots")]
+    public Image slot1Image;
+    public Image slot2Image;
+    public TextMeshProUGUI mensajeTMP;
 
     private GameObject playerInstance;
 
@@ -37,6 +44,11 @@ public class PlayerSpawner : MonoBehaviour
 
         if (anim != null)
             anim.Play(spawnAnimationName);
+
+        InventoryManager inventory = playerInstance.GetComponent<InventoryManager>();
+        inventory.slot1Image = slot1Image;
+        inventory.slot2Image = slot2Image;
+        inventory.mensajeTMP = mensajeTMP;
 
         StartCoroutine(EnableMovementAfterSpawn(anim, movement));
     }

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ public class InventoryManager : MonoBehaviour
     public Image slot2Image;
     public TextMeshProUGUI mensajeTMP;
 
-    [Header("Configuraci�n")]
+    [Header("Configuración")]
     public float mensajeDuracion = 2f;
     public int maxItems = 2;
 
@@ -25,7 +25,7 @@ public class InventoryManager : MonoBehaviour
         ActualizarInventario();
     }
 
-    // Agregar �tem al inventario
+    // Agregar ítem al inventario
     public bool AddItem(ItemData newItem)
     {
         for (int i = 0; i < items.Length; i++)
@@ -42,8 +42,35 @@ public class InventoryManager : MonoBehaviour
         MostrarMensaje("Inventario lleno");
         return false;
     }
+    public void DropWithQ()
+    {
+        // Si no hay nada en slot 0 → no hacemos nada
+        if (items[0] == null)
+            return;
 
-    // Soltar �tem
+        // Soltar el item del slot 0 en el mundo
+        if (items[0].item.prefab != null)
+        {
+            Instantiate(
+                items[0].item.prefab,
+                transform.position,         // Justo en el jugador
+                Quaternion.identity
+            );
+        }
+
+        MostrarMensaje($"Soltaste {items[0].item.itemName}");
+
+        // Si el slot 1 tiene algo → pásalo al slot 0
+        items[0] = items[1];
+
+        // Vacía slot 1
+        items[1] = null;
+
+        // Actualizar UI
+        ActualizarInventario();
+    }
+
+    // Soltar ítem
     public void RemoveItem(int index, int amount = 1)
     {
         if (index >= 0 && index < items.Length && items[index] != null)
@@ -65,7 +92,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    // Actualizar im�genes de los slots
+    // Actualizar imágenes de los slots
     void ActualizarInventario()
     {
         slot1Image.sprite = items[0] != null ? items[0].item.icon : null;
@@ -99,6 +126,12 @@ public class InventoryManager : MonoBehaviour
             RemoveItem(0);
         if (Input.GetKeyDown(KeyCode.Alpha2))
             RemoveItem(1);
+        
+        if (Input.GetKeyDown(KeyCode.Q))
+            {
+                DropWithQ();
+            }
+        
 
     }
 
