@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f34cf656cef32d14d96101f08f2b9ba5
+guid: 84b8379d9884ca345b328e7d8dfcb3f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6482346157127834526
-    second: cuchillo_0
+      213: 2126924303476189038
+    second: 1248fa0b12dba563c33b8a245f11667d_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cuchillo_0
+      name: 1248fa0b12dba563c33b8a245f11667d_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 32
-        height: 9
+        y: 0
+        width: 1200
+        height: 1200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 264e649d3841a06a0800000000000000
-      internalID: -6482346157127834526
+      spriteID: e67e7d4926a548d10800000000000000
+      internalID: 2126924303476189038
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cuchillo_0: -6482346157127834526
+      1248fa0b12dba563c33b8a245f11667d_0: 2126924303476189038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

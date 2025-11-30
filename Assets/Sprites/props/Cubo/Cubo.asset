@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c1c5d627fb7af43bf53d2d95597555, type: 3}
+  m_Name: Cubo
+  m_EditorClassIdentifier: 
+  itemName: Cubo
+  icon: {fileID: 4322947629249632340, guid: 04c7d21d412d34546b202fb4118b9622, type: 3}
+  prefab: {fileID: 1572817560430700411, guid: 3de705e876325c84c858ef7f82838767, type: 3}
+  useAmount: 1
