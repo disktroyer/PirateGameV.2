@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5045b9740945e7439e95fe817f38e14, type: 3}
   m_Name: Botella envenenada
   m_EditorClassIdentifier: 
-  recipeName: 
-  ingredientes: []
-  resultado: {fileID: 0}
+  recipeName: botella envenenada
+  ingredientes:
+  - itemName: botella
+  - itemName: veneno
+  resultado: {fileID: 11400000, guid: d022007af36969841bde5a2f587e68f1, type: 2}
   craftingTime: 2

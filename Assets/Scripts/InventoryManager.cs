@@ -106,19 +106,24 @@ public class InventoryManager : MonoBehaviour
         if (items[0] == null)
         {
             MostrarMensaje("Nada que soltar");
+            Debug.Log("[Drop] No hay item en el slot 0");
             return;
         }
 
         ItemData item = items[0];
 
-        // Instanciar el prefab en dropPoint
-        Vector3 pos = dropPoint != null ?
-                      dropPoint.position :
-                      Vector3.zero;
+        // ⬇⬇⬇ AQUI CAMBIAMOS: soltar donde está el jugador ⬇⬇⬇
+        Vector3 dropPos = transform.position;     // ← posición del objeto con InventoryManager
+        dropPos.z = 0f;                            // opcional para evitar z raro
 
         if (item.prefab != null)
         {
-            Instantiate(item.prefab, pos + Vector3.right * dropOffset, Quaternion.identity);
+            Instantiate(item.prefab, dropPos, Quaternion.identity);
+            Debug.Log($"[Drop] Soltado {item.itemName} en {dropPos}");
+        }
+        else
+        {
+            Debug.LogWarning($"[Drop] El item {item.itemName} no tiene prefab");
         }
 
         // Mover slot 1 → slot 0
@@ -126,8 +131,9 @@ public class InventoryManager : MonoBehaviour
         items[1] = null;
 
         ActualizarUI();
-        MostrarMensaje("Soltaste " + item.itemName);
+        MostrarMensaje($"Soltaste {item.itemName}");
     }
+
 
     // ================================================================
     // ------------------------ CRAFTEO --------------------------------
