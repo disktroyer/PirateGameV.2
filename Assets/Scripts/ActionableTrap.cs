@@ -2,8 +2,8 @@
 
 //public class ActionableTrap : Interactable
 //{
-//    public ItemData requiredItem;   // "Pólvora" o "Cuchillo"
-//    //public Transform effectZone;  // dónde verificar si el Boss está (para cañón)
+//    public ItemData requiredItem;   // "Polvora" o "Cuchillo"
+//    //public Transform effectZone;  // donde verificar si el Boss est0 (para caÃ±on)
 //    //public float effectRadius = 5f;
 
 //    public GameObject spawnTrap;
@@ -21,31 +21,31 @@
 //        Instantiate(spawnTrap, spawnPoint.position, Quaternion.identity);
 
 //        //esto es logica trampa
-//        // Ejemplo cañón: daño si Boss está en zona
+//        // Ejemplo caÃ±on: daÃ±o si Boss esto en zona
 //        //var boss = FindObjectOfType<BossHealth>();
 //        //if (boss != null)
 //        //{
 //        //    bool bossEnZona = Vector3.Distance(boss.transform.position, effectZone.position) <= effectRadius;
 //        //    if (bossEnZona)
 //        //    {
-//        //        boss.RecibirDaño(damage);
-//        //        Debug.Log($"Cañón impacta: -{damage} HP");
+//        //        boss.RecibirDaÃ±o(damage);
+//        //        Debug.Log($"CaÃ±on impacta: -{damage} HP");
 //        //    }
 //        //    else
 //        //    {
-//        //        Debug.Log("Cañón dispara, pero no hay Boss en zona");
+//        //        Debug.Log("CaÃ±on dispara, pero no hay Boss en zona");
 //        //    }
 //        //}
 
 //        // Ejemplo farolillo: marcar fuego 2h (puedes simular con un timer del juego)
-//        // StartCoroutine(FuegoTemporal(2f*60f)); // según tu escala de tiempo
+//        // StartCoroutine(FuegoTemporal(2f*60f)); // segun tu escala de tiempo
 //    }
 //}
 using UnityEngine;
 
 public class ActionableTrap : Interactable
 {
-    public string requiredItem;   // "Pólvora", "Cuchillo"
+    public string requiredItem;   // "Polvora", "Cuchillo"
     public int damage = 1;
 
     public override void Interact(GameObject actor)
@@ -57,11 +57,11 @@ public class ActionableTrap : Interactable
             return;
         }
 
-        // Acción inmediata
+        // Accion inmediata
         var boss = FindObjectOfType<BossHealth>();
         if (boss != null)
         {
-            boss.RecibirDaño(damage);
+            boss.RecibirDaÃ±o(damage);
             Debug.Log($"Trampa accionada por jugador (-{damage} HP)");
         }
     }
