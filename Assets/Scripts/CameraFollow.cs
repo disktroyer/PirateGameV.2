@@ -34,4 +34,16 @@ public class CameraFollow : MonoBehaviour
 
         transform.position = smoothedPosition;
     }
+
+    public void SetSpeedMultiplier(float multiplier)
+{
+    currentSpeed = baseSpeed * multiplier;
+}
+
+public void ResetSpeed()
+{
+    currentSpeed = baseSpeed;
+}
+
+    
 }
