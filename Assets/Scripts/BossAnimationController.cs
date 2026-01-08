@@ -1,24 +1,26 @@
-using System;
 using UnityEngine;
 
 public class BossAnimationController : MonoBehaviour
 {
-    [SerializeField] private Animator bossAnimator;
-    [SerializeField] private SpriteRenderer bossSpriteRenderer;
-    [SerializeField] private EnemyPathController EnemypathController;
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private EnemyPathController pathController;
 
-    private void Start()
+    void Update()
     {
-        EnemypathController.onPointReach += UpdateDirection;
-    }
+        if (pathController == null) return;
 
-    private void UpdateDirection()
-    {
-        //bossSpriteRenderer.flipX = pathController.Direction.x < 0;
-        bossSpriteRenderer.transform.localScale = new Vector3(
-           EnemypathController.Direction.x < 0 ? -1 : 1,
-            bossSpriteRenderer.transform.localScale.y,
-            bossSpriteRenderer.transform.localScale.z
-        );
+        Vector2 dir = pathController.Direction;
+
+        // Flip horizontal
+        if (Mathf.Abs(dir.x) > 0.01f)
+        {
+            spriteRenderer.flipX = dir.x < 0;
+        }
+
+        // Animaciones básicas
+        animator.SetFloat("MoveX", dir.x);
+        animator.SetFloat("MoveY", dir.y);
+        animator.SetBool("IsMoving", dir.magnitude > 0.1f);
     }
 }

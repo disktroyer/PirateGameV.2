@@ -4,6 +4,10 @@ using UnityEngine;
 
 namespace Cainos.PixelArtTopDown_Basic
 {
+   
+   
+   
+   
     public class TopDownCharacterController : MonoBehaviour
     {
         public float speed = 3f;
@@ -16,6 +20,16 @@ namespace Cainos.PixelArtTopDown_Basic
             animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
         }
+
+        //  public void SetSpeedMultiplier(float multiplier)
+        // {
+        //     currentSpeed = baseSpeed * multiplier;
+        // }
+
+        // public void ResetSpeed()
+        // {
+        //     currentSpeed = baseSpeed;
+        // }
 
         private void Update()
         {
@@ -47,12 +61,16 @@ namespace Cainos.PixelArtTopDown_Basic
                 animator.SetInteger("Direction", 0);
             }
 
-            // --- Activar animación ---
+            // --- Activar animaciï¿½n ---
             dir.Normalize();
             animator.SetBool("IsMoving", dir.magnitude > 0);
 
             // --- Movimiento real ---
             rb.linearVelocity = speed * dir;
         }
+
+        
+
+        
     }
 }
