@@ -192,8 +192,9 @@ MonoBehaviour:
   mensajeDuracion: 10
   recetas:
   - {fileID: 11400000, guid: cd6483b03e2884e6f8cd00e1fdd9f853, type: 2}
-  - {fileID: 11400000, guid: caa928740034e1b419ba7e6ef0843c96, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 727834cac3e4f414096199cb3f0c922a, type: 2}
+  - {fileID: 11400000, guid: 2262b5a7037434777afb8da0f3d3fcab, type: 2}
+  - {fileID: 11400000, guid: 00eba78f15a924833b6c18a08836b957, type: 2}
   craftingUI: {fileID: 0}
   dropPoint: {fileID: 0}
   dropOffset: 0.5
