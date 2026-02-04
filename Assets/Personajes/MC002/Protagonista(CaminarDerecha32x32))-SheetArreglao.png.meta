@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 3e68394359c3f47229c009b009088c29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4592090621909532767
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_0
+  - first:
+      213: 7045468857394985201
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_1
+  - first:
+      213: 199571718054260807
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_2
+  - first:
+      213: -965498935132427600
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_3
+  - first:
+      213: -9131845065184985499
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_4
+  - first:
+      213: -8715145959176804000
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_5
+  - first:
+      213: -6672063057627490681
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_6
+  - first:
+      213: -87325919418022322
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_7
+  - first:
+      213: 2395716628256410472
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_8
+  - first:
+      213: -1734743076795752667
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_9
+  - first:
+      213: -9671326146278858
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_10
+  - first:
+      213: 1869292172999791325
+    second: Protagonista(CaminarDerecha32x32))-SheetArreglao_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protagonista(CaminarDerecha32x32))-SheetArreglao_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50025737126abf30800000000000000
+      internalID: 4592090621909532767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista(CaminarDerecha32x32))-SheetArreglao_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8fa19e89886c160800000000000000
+      internalID: 7045468857394985201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista(CaminarDerecha32x32))-SheetArreglao_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740b6d19b6505c200800000000000000
+      internalID: 199571718054260807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista(CaminarDerecha32x32))-SheetArreglao_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bae96c75dbd992f0800000000000000
+      internalID: -965498935132427600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista(CaminarDerecha32x32))-SheetArreglao_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ebeb9bb4b254180800000000000000
+      internalID: -9131845065184985499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonista(CaminarDerecha32x32))-SheetArreglao_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069e599cce49d0780800000000000000
+      internalID: -8715145959176804000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 97829fdb9329b40b18f231b8da75b9c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Protagonista(CaminarDerecha32x32))-SheetArreglao_0: 4592090621909532767
+      Protagonista(CaminarDerecha32x32))-SheetArreglao_1: 7045468857394985201
+      Protagonista(CaminarDerecha32x32))-SheetArreglao_2: 199571718054260807
+      Protagonista(CaminarDerecha32x32))-SheetArreglao_3: -965498935132427600
+      Protagonista(CaminarDerecha32x32))-SheetArreglao_4: -9131845065184985499
+      Protagonista(CaminarDerecha32x32))-SheetArreglao_5: -8715145959176804000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

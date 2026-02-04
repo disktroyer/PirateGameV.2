@@ -6,9 +6,10 @@ public class CollectableItem : Interactable
     [Header("Datos del Objeto")]
     public ItemData itemData;
 
-    // El jugador interactúa con el objeto (presiona E)
+    // El jugador interactï¿½a con el objeto (presiona E)
     public override void Interact(GameObject player)
     {
+        print("hello?");
         if (itemData == null)
         {
             Debug.LogWarning("Este objeto no tiene un ItemData asignado.");
@@ -19,6 +20,7 @@ public class CollectableItem : Interactable
 
         if (inventory != null)
         {
+            print("INTENTO COGER");
             bool added = inventory.AddItem(itemData);
 
             if (added)

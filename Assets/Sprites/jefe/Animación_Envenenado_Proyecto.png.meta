@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 74880f92a1c19461581651ad7f451ad0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7561497086283644895
+    second: "Animacio\u0301n_Envenenado_Proyecto_0"
+  - first:
+      213: 5996582854821011943
+    second: "Animacio\u0301n_Envenenado_Proyecto_1"
+  - first:
+      213: 1610346334514657452
+    second: "Animacio\u0301n_Envenenado_Proyecto_2"
+  - first:
+      213: 5982775338216273629
+    second: "Animacio\u0301n_Envenenado_Proyecto_3"
+  - first:
+      213: 7772712717849403597
+    second: "Animacio\u0301n_Envenenado_Proyecto_4"
+  - first:
+      213: -4511303563066516677
+    second: "Animacio\u0301n_Envenenado_Proyecto_5"
+  - first:
+      213: -1955627965857383860
+    second: "Animacio\u0301n_Envenenado_Proyecto_6"
+  - first:
+      213: -6343676763576152878
+    second: "Animacio\u0301n_Envenenado_Proyecto_7"
+  - first:
+      213: 4700184223702837908
+    second: "Animacio\u0301n_Envenenado_Proyecto_8"
+  - first:
+      213: -1115783302063814512
+    second: "Animacio\u0301n_Envenenado_Proyecto_9"
+  - first:
+      213: -7457109096396129860
+    second: "Animacio\u0301n_Envenenado_Proyecto_10"
+  - first:
+      213: -2512174868970125389
+    second: "Animacio\u0301n_Envenenado_Proyecto_11"
+  - first:
+      213: 1184541535006289742
+    second: "Animacio\u0301n_Envenenado_Proyecto_12"
+  - first:
+      213: -7753481099829248491
+    second: "Animacio\u0301n_Envenenado_Proyecto_13"
+  - first:
+      213: 8004996895118643697
+    second: "Animacio\u0301n_Envenenado_Proyecto_14"
+  - first:
+      213: -6867072151114598240
+    second: "Animacio\u0301n_Envenenado_Proyecto_15"
+  - first:
+      213: 7069161677966420670
+    second: "Animacio\u0301n_Envenenado_Proyecto_16"
+  - first:
+      213: 1904364737186863020
+    second: "Animacio\u0301n_Envenenado_Proyecto_17"
+  - first:
+      213: 3569005400509825683
+    second: "Animacio\u0301n_Envenenado_Proyecto_18"
+  - first:
+      213: -5153752898411840096
+    second: "Animacio\u0301n_Envenenado_Proyecto_19"
+  - first:
+      213: -8252725818950584211
+    second: "Animacio\u0301n_Envenenado_Proyecto_20"
+  - first:
+      213: 4115624034343849116
+    second: "Animacio\u0301n_Envenenado_Proyecto_21"
+  - first:
+      213: -4872019426258030473
+    second: "Animacio\u0301n_Envenenado_Proyecto_22"
+  - first:
+      213: -7902518588940188604
+    second: "Animacio\u0301n_Envenenado_Proyecto_23"
+  - first:
+      213: -4947170644081524105
+    second: "Animacio\u0301n_Envenenado_Proyecto_24"
+  - first:
+      213: -7039654892337013400
+    second: "Animacio\u0301n_Envenenado_Proyecto_25"
+  - first:
+      213: -5645805517269108535
+    second: "Animacio\u0301n_Envenenado_Proyecto_26"
+  - first:
+      213: 3438220869705305127
+    second: "Animacio\u0301n_Envenenado_Proyecto_27"
+  - first:
+      213: -8493653449597770445
+    second: "Animacio\u0301n_Envenenado_Proyecto_28"
+  - first:
+      213: -1096028182942487268
+    second: "Animacio\u0301n_Envenenado_Proyecto_29"
+  - first:
+      213: -3230452435728529682
+    second: "Animacio\u0301n_Envenenado_Proyecto_30"
+  - first:
+      213: -583598736982907637
+    second: "Animacio\u0301n_Envenenado_Proyecto_31"
+  - first:
+      213: -5551955986980547924
+    second: "Animacio\u0301n_Envenenado_Proyecto_32"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_0"
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 5
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12089e9667a201790800000000000000
+      internalID: -7561497086283644895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_1"
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 60
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1edcfc554283350800000000000000
+      internalID: 5996582854821011943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_2"
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 5
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca839129579195610800000000000000
+      internalID: 1610346334514657452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_3"
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 62
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd63955d876170350800000000000000
+      internalID: 5982775338216273629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_4"
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 65
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0239809093edb60800000000000000
+      internalID: 7772712717849403597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_5"
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b5771bf41a461c0800000000000000
+      internalID: -4511303563066516677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_6"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 69
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a3046f9b63cd4e0800000000000000
+      internalID: -1955627965857383860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_7"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcc421089bb6f7a0800000000000000
+      internalID: -6343676763576152878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_8"
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 5
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ae3b816a86a3140800000000000000
+      internalID: 4700184223702837908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_9"
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0988c2a9ff0f380f0800000000000000
+      internalID: -1115783302063814512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_10"
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 5
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb979f949c6038890800000000000000
+      internalID: -7457109096396129860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_11"
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 66
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b74f594446f22dd0800000000000000
+      internalID: -2512174868970125389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_12"
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 5
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4feeb70046507010800000000000000
+      internalID: 1184541535006289742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_13"
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 5
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ef8f7f40a166490800000000000000
+      internalID: -7753481099829248491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_14"
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 5
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1d6a98346771f60800000000000000
+      internalID: 8004996895118643697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_15"
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 5
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a836d9034243b0a0800000000000000
+      internalID: -6867072151114598240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_16"
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 68
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba2ef29715ba1260800000000000000
+      internalID: 7069161677966420670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_17"
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 5
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca79dc283a9ad6a10800000000000000
+      internalID: 1904364737186863020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_18"
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 5
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392c6da9087a78130800000000000000
+      internalID: 3569005400509825683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_19"
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 5
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adb50e6b013a78b0800000000000000
+      internalID: -5153752898411840096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_20"
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 5
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6871cca79d687d80800000000000000
+      internalID: -8252725818950584211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_21"
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 5
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c0024f042ad1930800000000000000
+      internalID: 4115624034343849116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_22"
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 5
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7707617152c136cb0800000000000000
+      internalID: -4872019426258030473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_23"
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 5
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4448c43763d945290800000000000000
+      internalID: -7902518588940188604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_24"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772c74ca28e185bb0800000000000000
+      internalID: -4947170644081524105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_25"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d59e05c2f1e4e90800000000000000
+      internalID: -7039654892337013400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_26"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8fb387bc116a1b0800000000000000
+      internalID: -5645805517269108535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_27"
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c8e1e1aa307bf20800000000000000
+      internalID: 3438220869705305127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_28"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335247b503b702a80800000000000000
+      internalID: -8493653449597770445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_29"
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 5
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d65e3bc202ac0f0800000000000000
+      internalID: -1096028182942487268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_30"
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee60b9810a02b23d0800000000000000
+      internalID: -3230452435728529682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_31"
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0564ce6a04a6e7f0800000000000000
+      internalID: -583598736982907637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Envenenado_Proyecto_32"
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 5
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2db63027d73f2b0800000000000000
+      internalID: -5551955986980547924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Animacio\u0301n_Envenenado_Proyecto_0": -7561497086283644895
+      "Animacio\u0301n_Envenenado_Proyecto_1": 5996582854821011943
+      "Animacio\u0301n_Envenenado_Proyecto_10": -7457109096396129860
+      "Animacio\u0301n_Envenenado_Proyecto_11": -2512174868970125389
+      "Animacio\u0301n_Envenenado_Proyecto_12": 1184541535006289742
+      "Animacio\u0301n_Envenenado_Proyecto_13": -7753481099829248491
+      "Animacio\u0301n_Envenenado_Proyecto_14": 8004996895118643697
+      "Animacio\u0301n_Envenenado_Proyecto_15": -6867072151114598240
+      "Animacio\u0301n_Envenenado_Proyecto_16": 7069161677966420670
+      "Animacio\u0301n_Envenenado_Proyecto_17": 1904364737186863020
+      "Animacio\u0301n_Envenenado_Proyecto_18": 3569005400509825683
+      "Animacio\u0301n_Envenenado_Proyecto_19": -5153752898411840096
+      "Animacio\u0301n_Envenenado_Proyecto_2": 1610346334514657452
+      "Animacio\u0301n_Envenenado_Proyecto_20": -8252725818950584211
+      "Animacio\u0301n_Envenenado_Proyecto_21": 4115624034343849116
+      "Animacio\u0301n_Envenenado_Proyecto_22": -4872019426258030473
+      "Animacio\u0301n_Envenenado_Proyecto_23": -7902518588940188604
+      "Animacio\u0301n_Envenenado_Proyecto_24": -4947170644081524105
+      "Animacio\u0301n_Envenenado_Proyecto_25": -7039654892337013400
+      "Animacio\u0301n_Envenenado_Proyecto_26": -5645805517269108535
+      "Animacio\u0301n_Envenenado_Proyecto_27": 3438220869705305127
+      "Animacio\u0301n_Envenenado_Proyecto_28": -8493653449597770445
+      "Animacio\u0301n_Envenenado_Proyecto_29": -1096028182942487268
+      "Animacio\u0301n_Envenenado_Proyecto_3": 5982775338216273629
+      "Animacio\u0301n_Envenenado_Proyecto_30": -3230452435728529682
+      "Animacio\u0301n_Envenenado_Proyecto_31": -583598736982907637
+      "Animacio\u0301n_Envenenado_Proyecto_32": -5551955986980547924
+      "Animacio\u0301n_Envenenado_Proyecto_4": 7772712717849403597
+      "Animacio\u0301n_Envenenado_Proyecto_5": -4511303563066516677
+      "Animacio\u0301n_Envenenado_Proyecto_6": -1955627965857383860
+      "Animacio\u0301n_Envenenado_Proyecto_7": -6343676763576152878
+      "Animacio\u0301n_Envenenado_Proyecto_8": 4700184223702837908
+      "Animacio\u0301n_Envenenado_Proyecto_9": -1115783302063814512
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

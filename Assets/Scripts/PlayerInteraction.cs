@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    [Header("Interacción")]
+    [Header("Interacciï¿½n")]
     public float interactRange = 2f;
     public KeyCode interactKey = KeyCode.E;
 
@@ -17,11 +17,12 @@ public class PlayerInteraction : MonoBehaviour
 
     void DetectarObjetoInteractuable()
     {
-        // Lanza un círculo pequeño alrededor del jugador
+        // Lanza un cï¿½rculo pequeï¿½o alrededor del jugador
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange);
 
         foreach (Collider2D hit in hits)
         {
+            print(hit.gameObject.name);
             Interactable interactable = hit.GetComponent<Interactable>();
 
             if (interactable != null)
@@ -32,7 +33,7 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
-    // Dibuja el rango de interacción en la escena (solo visible en el editor)
+    // Dibuja el rango de interacciï¿½n en la escena (solo visible en el editor)
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;

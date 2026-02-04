@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 54d25d6a9b39a4328afb8bbc6b15c7eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8148862449008120710
+    second: ProtagonistaCaminarDelante-Sheet_0
+  - first:
+      213: -4782374399198155913
+    second: ProtagonistaCaminarDelante-Sheet_1
+  - first:
+      213: -2869579540996876050
+    second: ProtagonistaCaminarDelante-Sheet_2
+  - first:
+      213: 8573605538495949210
+    second: ProtagonistaCaminarDelante-Sheet_3
+  - first:
+      213: -634133716396479795
+    second: ProtagonistaCaminarDelante-Sheet_4
+  - first:
+      213: -2609497120232629157
+    second: ProtagonistaCaminarDelante-Sheet_5
+  - first:
+      213: 6733756204346058700
+    second: ProtagonistaCaminarDelante-Sheet_6
+  - first:
+      213: 8876591639357810075
+    second: ProtagonistaCaminarDelante-Sheet_7
+  - first:
+      213: 2059479595955124725
+    second: ProtagonistaCaminarDelante-Sheet_8
+  - first:
+      213: -5306769122172401579
+    second: ProtagonistaCaminarDelante-Sheet_9
+  - first:
+      213: -4882815159040074721
+    second: ProtagonistaCaminarDelante-Sheet_10
+  - first:
+      213: 2391500451434049664
+    second: ProtagonistaCaminarDelante-Sheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProtagonistaCaminarDelante-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ce953f6cc69ee80800000000000000
+      internalID: -8148862449008120710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtagonistaCaminarDelante-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b2fd072d791adb0800000000000000
+      internalID: -4782374399198155913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtagonistaCaminarDelante-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee817247c943d28d0800000000000000
+      internalID: -2869579540996876050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtagonistaCaminarDelante-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a996f56ffc09bf670800000000000000
+      internalID: 8573605538495949210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtagonistaCaminarDelante-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcae616aeba1337f0800000000000000
+      internalID: -634133716396479795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtagonistaCaminarDelante-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c1122e13439cbd0800000000000000
+      internalID: -2609497120232629157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 08955b8c910bc4d24bbf7624b229a58d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ProtagonistaCaminarDelante-Sheet_0: -8148862449008120710
+      ProtagonistaCaminarDelante-Sheet_1: -4782374399198155913
+      ProtagonistaCaminarDelante-Sheet_2: -2869579540996876050
+      ProtagonistaCaminarDelante-Sheet_3: 8573605538495949210
+      ProtagonistaCaminarDelante-Sheet_4: -634133716396479795
+      ProtagonistaCaminarDelante-Sheet_5: -2609497120232629157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
