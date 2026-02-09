@@ -134,7 +134,7 @@ public class BossController : MonoBehaviour
 
         if (animator != null)
         {
-            animator.SetBool("IsMoving", moving);
+            animator.SetBool("IsMoving 0", moving);
             animator.SetFloat("MoveX", Direction.x);
             animator.SetFloat("MoveY", Direction.y);
         }
