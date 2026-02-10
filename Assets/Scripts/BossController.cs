@@ -47,7 +47,9 @@ public class BossController : MonoBehaviour
     void Awake()
     {
         if (rb == null) rb = GetComponent<Rigidbody2D>();
-        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.gravityScale = 0f;   
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         if (animator == null)
             animator = GetComponentInChildren<Animator>();
@@ -65,6 +67,11 @@ public class BossController : MonoBehaviour
         }
     }
 
+
+    private void FixedUpdate()
+    {
+            
+    }
     void Update()
     {
         if (isPaused) return;
@@ -123,9 +130,13 @@ public class BossController : MonoBehaviour
 
     void MoveTowards(Vector3 target)
     {
-        Vector2 dir = (target - transform.position).normalized;
+        Vector2 dir = target - transform.position;
+
+        dir.Normalize();
+
         Direction = dir;
-        rb.MovePosition(rb.position + dir * speed * Time.deltaTime);
+
+        rb.linearVelocity = dir * speed;
     }
 
     void UpdateAnimator()
@@ -225,4 +236,19 @@ public class BossController : MonoBehaviour
         if (healthText != null)
             healthText.text = $"Boss: {currentHealth:0}/{maxHealth}";
     }
+
+#if UNITY_EDITOR
+    private void OnDrawGizmosSelected()
+    {
+        Color color = Color.red;
+        color.a = 0.5f;
+        Gizmos.color = color;
+
+        Gizmos.DrawWireSphere(transform.position, chaseRange);
+        color = Color.yellow;
+        color.a = 0.5f;
+        Gizmos.color = color;
+        Gizmos.DrawWireSphere(transform.position, loseRange);
+    }
+#endif
 }

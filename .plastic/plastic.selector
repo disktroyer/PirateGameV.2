@@ -1,4 +1,0 @@
-repository "PirateGameV.2/PirateGameV.2@1375470580601@cloud"
-  path "/"
-    br "/main"
-    co "/main"
