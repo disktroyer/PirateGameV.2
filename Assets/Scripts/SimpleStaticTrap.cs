@@ -11,6 +11,8 @@ public class SimpleStaticTrap : Interactable
 
     public override void Interact(GameObject player)
     {
+
+        Debug.Log($"PREPARACION TRAMPAA");
         InventoryManager inventory = player.GetComponent<InventoryManager>();
 
         if (inventory == null)
@@ -28,6 +30,7 @@ public class SimpleStaticTrap : Interactable
 
             Debug.Log($"{name} preparado con {requiredItem.itemName}");
         }
+
         else
         {
             Debug.Log($"Falta {requiredItem.itemName}");
@@ -36,6 +39,8 @@ public class SimpleStaticTrap : Interactable
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
+        
         if (!isPrepared) return;
 
         var boss = other.GetComponent<BossHealth>();
