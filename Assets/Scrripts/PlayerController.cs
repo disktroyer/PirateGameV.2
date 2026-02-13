@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Normalize();
 
+        bool IsCrafting = GetComponent<PlayerInteraction>(); 
+
         bool isMoving = movement.magnitude > 0.01f;
         animator.SetBool("IsMoving", isMoving);
         animator.SetFloat("MoveX", movement.x);
@@ -28,6 +30,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("MoveX", movement.x);
             animator.SetFloat("MoveY", movement.y);
+        }
+
+        if (IsCrafting)
+        {
+            animator.SetBool("IsCrafting", true);
         }
 
         // Movimiento existente...
