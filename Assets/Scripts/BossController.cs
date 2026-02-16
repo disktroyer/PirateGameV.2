@@ -42,13 +42,22 @@ public class BossController : MonoBehaviour
     private bool isPaused = false;
     private float currentHealth;
 
+    private Vector2 currentTargetPosition;
+    private Vector2 lastPosition;
+    private float stuckTimer = 0f;
+
     public Vector2 Direction { get; private set; }
+
+    // -------------------------------------------------
+    // INITIALIZATION
+    // -------------------------------------------------
 
     void Awake()
     {
         if (rb == null) rb = GetComponent<Rigidbody2D>();
+
         rb.bodyType = RigidbodyType2D.Dynamic;
-        rb.gravityScale = 0f;   
+        rb.gravityScale = 0f;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         if (animator == null)
@@ -60,18 +69,14 @@ public class BossController : MonoBehaviour
         currentHealth = maxHealth;
         UpdateHealthUI();
 
-        if (player == null)
-        {
-            GameObject p = GameObject.FindGameObjectWithTag("Player");
-            if (p != null) player = p.transform;
-        }
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+        if (p != null) player = p.transform;
     }
 
+    // -------------------------------------------------
+    // UPDATE (LOGIC)
+    // -------------------------------------------------
 
-    private void FixedUpdate()
-    {
-            
-    }
     void Update()
     {
         if (isPaused) return;
@@ -82,6 +87,7 @@ public class BossController : MonoBehaviour
                 Patrol();
                 DetectPlayer();
                 break;
+
             case BossState.Chase:
                 Chase();
                 CheckLosePlayer();
@@ -91,100 +97,137 @@ public class BossController : MonoBehaviour
         UpdateAnimator();
     }
 
-    // ----------------------------------------
-    // Waypoints / Patrol
-    // ----------------------------------------
+    // -------------------------------------------------
+    // FIXED UPDATE (PHYSICS)
+    // -------------------------------------------------
+
+    void FixedUpdate()
+    {
+        if (isPaused)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
+        Vector2 dir = currentTargetPosition - (Vector2)transform.position;
+
+        if (dir.magnitude > 0.01f)
+            dir.Normalize();
+
+        Direction = dir;
+        rb.linearVelocity = dir * speed;
+
+        DetectStuck();
+    }
+
+    // -------------------------------------------------
+    // PATROL
+    // -------------------------------------------------
 
     void Patrol()
     {
         if (waypoints == null || waypoints.Count == 0)
         {
-            Direction = Vector2.zero;
+            currentTargetPosition = transform.position;
             return;
         }
 
         Transform target = waypoints[currentWaypoint];
-        MoveTowards(target.position);
+        currentTargetPosition = target.position;
 
         if (Vector2.Distance(transform.position, target.position) < waypointStopDistance)
         {
             currentWaypoint++;
+
             if (currentWaypoint >= waypoints.Count)
                 currentWaypoint = 0;
         }
     }
 
-    // ----------------------------------------
-    // Chase
-    // ----------------------------------------
+    // -------------------------------------------------
+    // CHASE
+    // -------------------------------------------------
 
     void Chase()
     {
         if (player == null) return;
-        MoveTowards(player.position);
+
+        currentTargetPosition = player.position;
     }
 
-    // ----------------------------------------
-    // Movement Core
-    // ----------------------------------------
-
-    void MoveTowards(Vector3 target)
-    {
-        Vector2 dir = target - transform.position;
-
-        dir.Normalize();
-
-        Direction = dir;
-
-        rb.linearVelocity = dir * speed;
-    }
-
-    void UpdateAnimator()
-    {
-        bool moving = Direction.magnitude > 0.01f;
-
-        if (animator != null)
-        {
-            animator.SetBool("IsMoving 0", moving);
-            animator.SetFloat("MoveX", Direction.x);
-            animator.SetFloat("MoveY", Direction.y);
-        }
-    }
-
-    // ----------------------------------------
-    // Player Detection
-    // ----------------------------------------
+    // -------------------------------------------------
+    // PLAYER DETECTION
+    // -------------------------------------------------
 
     void DetectPlayer()
     {
         if (player == null) return;
+
         float dist = Vector2.Distance(transform.position, player.position);
 
         if (dist <= chaseRange)
-        {
             state = BossState.Chase;
-        }
     }
 
     void CheckLosePlayer()
     {
         if (player == null) return;
+
         float dist = Vector2.Distance(transform.position, player.position);
 
         if (dist > loseRange)
         {
+            currentWaypoint = GetClosestWaypoint();
             state = BossState.Patrol;
         }
     }
 
-    // ----------------------------------------
-    // Interaction / API
-    // ----------------------------------------
-
-    public void SetPlayer(Transform p)
+    int GetClosestWaypoint()
     {
-        player = p;
+        int closestIndex = 0;
+        float minDist = Mathf.Infinity;
+
+        for (int i = 0; i < waypoints.Count; i++)
+        {
+            float dist = Vector2.Distance(transform.position, waypoints[i].position);
+
+            if (dist < minDist)
+            {
+                minDist = dist;
+                closestIndex = i;
+            }
+        }
+
+        return closestIndex;
     }
+
+    // -------------------------------------------------
+    // STUCK DETECTION
+    // -------------------------------------------------
+
+    void DetectStuck()
+    {
+        if (Vector2.Distance(transform.position, lastPosition) < 0.01f)
+        {
+            stuckTimer += Time.fixedDeltaTime;
+
+            if (stuckTimer > 0.8f)
+            {
+                currentWaypoint = GetClosestWaypoint();
+                stuckTimer = 0f;
+            }
+        }
+        else
+        {
+            stuckTimer = 0f;
+        }
+
+        lastPosition = transform.position;
+    }
+
+    // -------------------------------------------------
+    // TRAPS / DAMAGE
+    // -------------------------------------------------
 
     public void RecibirDaño(float amount)
     {
@@ -224,9 +267,25 @@ public class BossController : MonoBehaviour
         state = prev == BossState.Chase ? BossState.Chase : BossState.Patrol;
     }
 
-    // ----------------------------------------
-    // UI Health
-    // ----------------------------------------
+    // -------------------------------------------------
+    // ANIMATOR
+    // -------------------------------------------------
+
+    void UpdateAnimator()
+    {
+        bool moving = Direction.magnitude > 0.01f;
+
+        if (animator != null)
+        {
+            animator.SetBool("IsMoving 0", moving);
+            animator.SetFloat("MoveX", Direction.x);
+            animator.SetFloat("MoveY", Direction.y);
+        }
+    }
+
+    // -------------------------------------------------
+    // UI HEALTH
+    // -------------------------------------------------
 
     void UpdateHealthUI()
     {
@@ -243,8 +302,8 @@ public class BossController : MonoBehaviour
         Color color = Color.red;
         color.a = 0.5f;
         Gizmos.color = color;
-
         Gizmos.DrawWireSphere(transform.position, chaseRange);
+
         color = Color.yellow;
         color.a = 0.5f;
         Gizmos.color = color;

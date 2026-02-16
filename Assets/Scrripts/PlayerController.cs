@@ -3,9 +3,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 6f;
+
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 movement;
+
+    private bool canMove = true;
 
     void Start()
     {
@@ -15,16 +18,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        // 🔒 Si está atrapado, no leer input
+        if (!canMove)
+        {
+            movement = Vector2.zero;
+            animator.SetBool("IsMoving", false);
+            return;
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Normalize();
 
-        bool IsCrafting = GetComponent<PlayerInteraction>(); 
-
         bool isMoving = movement.magnitude > 0.01f;
+
         animator.SetBool("IsMoving", isMoving);
-        animator.SetFloat("MoveX", movement.x);
-        animator.SetFloat("MoveY", movement.y);
 
         if (isMoving)
         {
@@ -32,32 +40,37 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("MoveY", movement.y);
         }
 
-        if (IsCrafting)
-        {
-            animator.SetBool("IsCrafting", true);
-        }
-
-        // Movimiento existente...
-
+        // Inputs secundarios
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            // GetComponent<InventoryManager>().DropFirstItem();
+            // Drop item
         }
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            // // Ejemplo: si tienes “Botella vacía” y “Veneno”
-            // var inv = GetComponent<InventoryManager>();
-            // if (inv.HasItem("Botella Vacia") && inv.HasItem("Veneno"))
-            // {
-            //     Debug.Log("Crafteado: Veneno listo!");
-            //     // Aquí harías AddItem de un item nuevo
-            // }
+            // Craft
         }
     }
 
     void FixedUpdate()
     {
+        if (!canMove) return;
+
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+    }
+
+    // -------------------------------------------------
+    // API PARA TRAMPAS / QTE
+    // -------------------------------------------------
+
+    public void SetMovement(bool value)
+    {
+        canMove = value;
+
+        if (!canMove)
+        {
+            movement = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 }
