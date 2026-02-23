@@ -1,43 +1,35 @@
-using System;
-using UnityEngine;
+// using UnityEngine;
 
-public class TentacleTrap : MonoBehaviour
-{
-    public float slowMultiplier = 0.2f;
+// public class TentacleTrap : MonoBehaviour
+// {
+//     private bool activated = false;
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!other.CompareTag("Player")) return;
+//     private void OnTriggerEnter2D(Collider2D other)
+//     {
+//         if (activated) return;
 
-        PlayerQTEController qte = other.GetComponent<PlayerQTEController>();
-        PlayerMovement movement = other.GetComponent<PlayerMovement>();
+//         if (other.CompareTag("Player"))
+//         {
+//             activated = true;
 
-        if (movement != null)
-            movement.SetSpeedMultiplier(slowMultiplier);
+//             PlayerController player = other.GetComponent<PlayerController>();
+//             PlayerQTEController qte = other.GetComponent<PlayerQTEController>();
 
-        if (qte != null)
-            qte.StartQTE(this);
-    }
+//             if (player != null && qte != null)
+//             {
+//                 player.SetMovement(false);
+//                 qte.StartQTE(this);
+//             }
+//         }
+//     }
 
-    public void ReleasePlayer(GameObject player)
-    {
-        PlayerMovement movement = player.GetComponent<PlayerMovement>();
-        if (movement != null)
-            movement.ResetSpeed();
+//     public void ReleasePlayer(GameObject playerObj)
+//     {
+//         PlayerController player = playerObj.GetComponent<PlayerController>();
 
-        Destroy(gameObject);
-    }
-}
+//         if (player != null)
+//             player.SetMovement(true);
 
-internal class PlayerMovement
-{
-    internal void ResetSpeed()
-    {
-        throw new NotImplementedException();
-    }
-
-    internal void SetSpeedMultiplier(float slowMultiplier)
-    {
-        throw new NotImplementedException();
-    }
-}
+//         Destroy(gameObject);
+//     }
+// }
