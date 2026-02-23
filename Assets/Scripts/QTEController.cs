@@ -9,7 +9,7 @@ public class QTEController : MonoBehaviour
 
     [Header("Config")]
     public float rotationSpeed = 200f;
-    public float successTolerance = 1f;
+    public float successTolerance = 25f;
     public KeyCode inputKey = KeyCode.E;
 
     [Header("Optional Critical Zone")]

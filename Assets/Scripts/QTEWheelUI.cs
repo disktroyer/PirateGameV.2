@@ -2,18 +2,10 @@ using UnityEngine;
 
 public class QTEWheelUI : MonoBehaviour
 {
-    [Header("References")]
     public RectTransform needle;
-    public RectTransform successZone;
-
-    [Header("Settings")]
     public float rotationSpeed = 200f;
-    public float tolerance = 25f;
-
-    [Header("Audio")]
-    public AudioSource audioSource;
-    public AudioClip failSound;
-    public AudioClip successSound;
+    public float successMin = -20f;
+    public float successMax = 20f;
 
     private PlayerQTEController controller;
     private bool active;
@@ -22,18 +14,15 @@ public class QTEWheelUI : MonoBehaviour
     {
         if (!active) return;
 
-        needle.Rotate(0, 0, -rotationSpeed * Time.deltaTime);
+        needle.Rotate(0, 0, rotationSpeed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.E))
-        {
             CheckSuccess();
-        }
     }
 
     public void Show(PlayerQTEController ctrl)
     {
         controller = ctrl;
-        needle.localRotation = Quaternion.identity;
         active = true;
         gameObject.SetActive(true);
     }
@@ -46,26 +35,12 @@ public class QTEWheelUI : MonoBehaviour
 
     void CheckSuccess()
     {
-        float difference = Mathf.Abs(
-            Mathf.DeltaAngle(
-                needle.eulerAngles.z,
-                successZone.eulerAngles.z
-            )
-        );
+        float angle = needle.localEulerAngles.z;
+        angle = angle > 180 ? angle - 360 : angle;
 
-        if (difference < tolerance)
-        {
-            if (successSound != null)
-                audioSource.PlayOneShot(successSound);
-
+        if (angle >= successMin && angle <= successMax)
             controller.OnSuccess();
-        }
         else
-        {
-            if (failSound != null)
-                audioSource.PlayOneShot(failSound);
-
-            controller.OnFail(); // NO cerramos la rueda
-        }
+            controller.OnFail();
     }
 }

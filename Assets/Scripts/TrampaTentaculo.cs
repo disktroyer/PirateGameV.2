@@ -2,44 +2,57 @@ using UnityEngine;
 
 public class TrampaTentaculo : MonoBehaviour
 {
-    private bool activated = false;
+    public QTEController qteController;
+    public float trapDuration = 6f;
+
+    private PlayerController trappedPlayer;
+    private bool isActive = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (activated) return;
+        if (isActive) return;
 
         if (other.CompareTag("Player"))
         {
-            activated = true;
+            isActive = true;
 
-            PlayerController player = other.GetComponent<PlayerController>();
-            PlayerQTEController qte = other.GetComponent<PlayerQTEController>();
+            trappedPlayer = other.GetComponent<PlayerController>();
 
-            if (player != null)
+            if (trappedPlayer != null)
             {
-                player.SetMovement(false);
-            }
+                trappedPlayer.SetMovement(false);
 
-            if (qte != null)
-            {
-                // Arranca el QTE y pasa esta trampa como referencia
-                qte.StartQTE(this);
-            }
-            else
-            {
-                Debug.LogError("No existe PlayerQTEController en el Player. Añádelo para que funcione el QTE.");
+                // Configurar eventos dinámicamente
+                qteController.onSuccess.RemoveAllListeners();
+                qteController.onFail.RemoveAllListeners();
+
+                qteController.onSuccess.AddListener(ReleasePlayer);
+                qteController.onFail.AddListener(FailQTE);
+
+                qteController.StartQTE();
             }
         }
     }
 
-    // Lo llama el PlayerQTEController cuando hay SUCCESS
-    public void ReleasePlayer(GameObject playerObj)
+    void ReleasePlayer()
     {
-        PlayerController player = playerObj.GetComponent<PlayerController>();
-
-        if (player != null)
-            player.SetMovement(true);
+        if (trappedPlayer != null)
+        {
+            trappedPlayer.SetMovement(true);
+        }
 
         Destroy(gameObject);
+    }
+
+    void FailQTE()
+    {
+        // Aquí decides qué pasa si falla:
+        // opción 1: volver a intentar automáticamente
+        qteController.StartQTE();
+
+        // opción 2: daño
+        // trappedPlayer.TakeDamage(10);
+
+        // opción 3: tiempo extra atrapado
     }
 }

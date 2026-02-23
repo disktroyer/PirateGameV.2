@@ -103,12 +103,12 @@ TextureImporter:
       name: QuickTime_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 5
+        y: 5
+        width: 22
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b64f0eb1ba9dd43c4b10aee6d285ab3c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
