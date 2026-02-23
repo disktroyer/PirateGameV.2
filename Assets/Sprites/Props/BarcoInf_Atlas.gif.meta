@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 695966f4664f87f40ba2b220569745ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8785017753186156753
+    second: BarcoInf_Atlas_0
+  - first:
+      213: 3437034198605164471
+    second: BarcoInf_Atlas_1
+  - first:
+      213: -2616102649554939880
+    second: BarcoInf_Atlas_2
+  - first:
+      213: -984380457568900239
+    second: BarcoInf_Atlas_3
+  - first:
+      213: -5009574677078902546
+    second: BarcoInf_Atlas_4
+  - first:
+      213: -8089852769536108530
+    second: BarcoInf_Atlas_5
+  - first:
+      213: -5525330852770462323
+    second: BarcoInf_Atlas_6
+  - first:
+      213: 1176857685836819799
+    second: BarcoInf_Atlas_7
+  - first:
+      213: -5085461504221074391
+    second: BarcoInf_Atlas_8
+  - first:
+      213: -5817028766013105416
+    second: BarcoInf_Atlas_9
+  - first:
+      213: -3709376655847863393
+    second: BarcoInf_Atlas_10
+  - first:
+      213: 3158691223122031893
+    second: BarcoInf_Atlas_11
+  - first:
+      213: -8229689962885568891
+    second: BarcoInf_Atlas_12
+  - first:
+      213: -8207105717442276512
+    second: BarcoInf_Atlas_13
+  - first:
+      213: 5286353776203655334
+    second: BarcoInf_Atlas_14
+  - first:
+      213: -5709521050358616511
+    second: BarcoInf_Atlas_15
+  - first:
+      213: -4566283016084527920
+    second: BarcoInf_Atlas_16
+  - first:
+      213: 7324647134394880878
+    second: BarcoInf_Atlas_17
+  - first:
+      213: -7630018357551028659
+    second: BarcoInf_Atlas_18
+  - first:
+      213: -2264777033539214495
+    second: BarcoInf_Atlas_19
+  - first:
+      213: 5185369446261893755
+    second: BarcoInf_Atlas_20
+  - first:
+      213: 7773108112561794278
+    second: BarcoInf_Atlas_21
+  - first:
+      213: -7235123529996852202
+    second: BarcoInf_Atlas_22
+  - first:
+      213: -8627303367258451030
+    second: BarcoInf_Atlas_23
+  - first:
+      213: 654000112957768985
+    second: BarcoInf_Atlas_24
+  - first:
+      213: -9187727538356296667
+    second: BarcoInf_Atlas_25
+  - first:
+      213: -1836420478524013543
+    second: BarcoInf_Atlas_26
+  - first:
+      213: -2727425662436067540
+    second: BarcoInf_Atlas_27
+  - first:
+      213: -5045592410176972405
+    second: BarcoInf_Atlas_28
+  - first:
+      213: 2874144987123416304
+    second: BarcoInf_Atlas_29
+  - first:
+      213: 1133979280285341585
+    second: BarcoInf_Atlas_30
+  - first:
+      213: -8307046202545927734
+    second: BarcoInf_Atlas_31
+  - first:
+      213: -2548442525603613851
+    second: BarcoInf_Atlas_32
+  - first:
+      213: 4959889799664214615
+    second: BarcoInf_Atlas_33
+  - first:
+      213: -5398842720797891834
+    second: BarcoInf_Atlas_34
+  - first:
+      213: -3747629074056588631
+    second: BarcoInf_Atlas_35
+  - first:
+      213: 7348416479182554700
+    second: BarcoInf_Atlas_36
+  - first:
+      213: 8710545649791307439
+    second: BarcoInf_Atlas_37
+  - first:
+      213: -7280304064049306288
+    second: BarcoInf_Atlas_38
+  - first:
+      213: 8480416111521966876
+    second: BarcoInf_Atlas_39
+  - first:
+      213: 4693891853832580268
+    second: BarcoInf_Atlas_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 391
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fb6d306e8551680800000000000000
+      internalID: -8785017753186156753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 391
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfeab8b46cc2bf20800000000000000
+      internalID: 3437034198605164471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 391
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810d15d308cb1bbd0800000000000000
+      internalID: -2616102649554939880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 424
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17be4c67037c652f0800000000000000
+      internalID: -984380457568900239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 399
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee87be08f5a6a7ab0800000000000000
+      internalID: -5009574677078902546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 401
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08179a94c11bbf80800000000000000
+      internalID: -8089852769536108530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 401
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d854c162dd41253b0800000000000000
+      internalID: -5525330852770462323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 367
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ded7b74d9055010800000000000000
+      internalID: 1176857685836819799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 367
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92caaf1b4bfcc69b0800000000000000
+      internalID: -5085461504221074391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 367
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa5f814823c54fa0800000000000000
+      internalID: -5817028766013105416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 400
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bcf0aa595a58cc0800000000000000
+      internalID: -3709376655847863393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 367
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51535559eece5db20800000000000000
+      internalID: 3158691223122031893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 358
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586ab9ed4944acd80800000000000000
+      internalID: -8229689962885568891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 314
+        width: 37
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06396c545d08a1e80800000000000000
+      internalID: -8207105717442276512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 351
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8e9ab40c6ec5940800000000000000
+      internalID: 5286353776203655334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 378
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e62c3ead4b3c0b0800000000000000
+      internalID: -5709521050358616511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 357
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4e1624acd41a0c0800000000000000
+      internalID: -4566283016084527920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 374
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6390b6d2cf56a560800000000000000
+      internalID: 7324647134394880878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 313
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d462678bababc1690800000000000000
+      internalID: -7630018357551028659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 305
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163ae6c8945e190e0800000000000000
+      internalID: -2264777033539214495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 313
+        width: 71
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aaa91c90226f740800000000000000
+      internalID: 5185369446261893755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 276
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ece3f905a0afdb60800000000000000
+      internalID: 7773108112561794278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 255
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614a7789b7da79b90800000000000000
+      internalID: -7235123529996852202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 287
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa357010c49a54880800000000000000
+      internalID: -8627303367258451030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 158
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915c9ef33a9731900800000000000000
+      internalID: 654000112957768985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 186
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524e2378b72ae7080800000000000000
+      internalID: -9187727538356296667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 143
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914c257fd49b386e0800000000000000
+      internalID: -1836420478524013543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 177
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27b63f7fcc362ad0800000000000000
+      internalID: -2727425662436067540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 165
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b899ef58f647af9b0800000000000000
+      internalID: -5045592410176972405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 165
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcf57e43a303e720800000000000000
+      internalID: 2874144987123416304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 178
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1979f08b524bcbf00800000000000000
+      internalID: 1133979280285341585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 161
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac90e7ccd7177bc80800000000000000
+      internalID: -8307046202545927734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 159
+        width: 99
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563b5e2760d12acd0800000000000000
+      internalID: -2548442525603613851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 127
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752a1128e7115d440800000000000000
+      internalID: 4959889799664214615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 85
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60363a456257315b0800000000000000
+      internalID: -5398842720797891834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 85
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a25ee2863fbdfbc0800000000000000
+      internalID: -3747629074056588631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 85
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c468d4faad1daf560800000000000000
+      internalID: 7348416479182554700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 90
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae82a73e1312e870800000000000000
+      internalID: 8710545649791307439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 63
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0552285c60a27fa90800000000000000
+      internalID: -7280304064049306288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 96
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b24c2b58d70b570800000000000000
+      internalID: 8480416111521966876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarcoInf_Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 79
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac6ac195cd042140800000000000000
+      internalID: 4693891853832580268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BarcoInf_Atlas_0: -8785017753186156753
+      BarcoInf_Atlas_1: 3437034198605164471
+      BarcoInf_Atlas_10: -3709376655847863393
+      BarcoInf_Atlas_11: 3158691223122031893
+      BarcoInf_Atlas_12: -8229689962885568891
+      BarcoInf_Atlas_13: -8207105717442276512
+      BarcoInf_Atlas_14: 5286353776203655334
+      BarcoInf_Atlas_15: -5709521050358616511
+      BarcoInf_Atlas_16: -4566283016084527920
+      BarcoInf_Atlas_17: 7324647134394880878
+      BarcoInf_Atlas_18: -7630018357551028659
+      BarcoInf_Atlas_19: -2264777033539214495
+      BarcoInf_Atlas_2: -2616102649554939880
+      BarcoInf_Atlas_20: 5185369446261893755
+      BarcoInf_Atlas_21: 7773108112561794278
+      BarcoInf_Atlas_22: -7235123529996852202
+      BarcoInf_Atlas_23: -8627303367258451030
+      BarcoInf_Atlas_24: 654000112957768985
+      BarcoInf_Atlas_25: -9187727538356296667
+      BarcoInf_Atlas_26: -1836420478524013543
+      BarcoInf_Atlas_27: -2727425662436067540
+      BarcoInf_Atlas_28: -5045592410176972405
+      BarcoInf_Atlas_29: 2874144987123416304
+      BarcoInf_Atlas_3: -984380457568900239
+      BarcoInf_Atlas_30: 1133979280285341585
+      BarcoInf_Atlas_31: -8307046202545927734
+      BarcoInf_Atlas_32: -2548442525603613851
+      BarcoInf_Atlas_33: 4959889799664214615
+      BarcoInf_Atlas_34: -5398842720797891834
+      BarcoInf_Atlas_35: -3747629074056588631
+      BarcoInf_Atlas_36: 7348416479182554700
+      BarcoInf_Atlas_37: 8710545649791307439
+      BarcoInf_Atlas_38: -7280304064049306288
+      BarcoInf_Atlas_39: 8480416111521966876
+      BarcoInf_Atlas_4: -5009574677078902546
+      BarcoInf_Atlas_40: 4693891853832580268
+      BarcoInf_Atlas_5: -8089852769536108530
+      BarcoInf_Atlas_6: -5525330852770462323
+      BarcoInf_Atlas_7: 1176857685836819799
+      BarcoInf_Atlas_8: -5085461504221074391
+      BarcoInf_Atlas_9: -5817028766013105416
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
