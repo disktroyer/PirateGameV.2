@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerQTEController : MonoBehaviour
 {
     public QTEWheelUI qteUI;
-    private TentacleTrap currentTrap;
+    private TrampaTentaculo currentTrap;
 
-    public void StartQTE(TentacleTrap trap)
+    public void StartQTE(TrampaTentaculo trap)
     {
         currentTrap = trap;
         qteUI.Show(this);
@@ -14,13 +14,17 @@ public class PlayerQTEController : MonoBehaviour
     public void OnSuccess()
     {
         qteUI.Hide();
-        currentTrap.ReleasePlayer(gameObject);
-        currentTrap = null;
+
+        if (currentTrap != null)
+        {
+            currentTrap.ReleasePlayer(gameObject);
+            currentTrap = null;
+        }
     }
 
     public void OnFail()
     {
-        // Penalizacion opcional (tiempo extra atrapado)
-        Debug.Log(" Fallo QTE");
+        // sonido / reintento lo maneja la UI
+        Debug.Log("Fallo QTE");
     }
-}
+}       
