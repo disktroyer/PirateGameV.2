@@ -57,6 +57,7 @@ public class QTEWheelUI : MonoBehaviour
         {
             if (successSound != null)
                 audioSource.PlayOneShot(successSound);
+            Debug.Log("te liberaste de la trampa mierdaseca");
 
             controller.OnSuccess();
         }
@@ -64,6 +65,8 @@ public class QTEWheelUI : MonoBehaviour
         {
             if (failSound != null)
                 audioSource.PlayOneShot(failSound);
+            Debug.Log("FALLASTE al liberarte de la trampa mierdaseca");
+
 
             controller.OnFail(); // NO cerramos la rueda
         }
