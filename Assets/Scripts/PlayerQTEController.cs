@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerQTEController : MonoBehaviour
 {
     public QTEWheelUI qteUI;
-    private TrampaTentaculo currentTrap;
+    private TentacleTrap currentTrap;
 
-    public void StartQTE(TrampaTentaculo trap)
+    public void StartQTE(TentacleTrap trap)
     {
         currentTrap = trap;
         qteUI.Show(this);
