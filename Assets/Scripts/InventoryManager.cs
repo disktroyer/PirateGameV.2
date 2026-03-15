@@ -150,7 +150,7 @@ public class InventoryManager : MonoBehaviour
                 MostrarMensaje("No puedes craftear nada");
                 return;
             }
-
+            
             isCrafting = true;
             craftingTimer = 0f;
 
@@ -187,7 +187,7 @@ public class InventoryManager : MonoBehaviour
         return true;
     }
 
-    void CompletarCrafteo()
+    void CompletarCrafteo() 
     {
         MostrarMensaje("Fabricaste " + recetaActual.resultado.itemName);
 

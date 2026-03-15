@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SimpleTriggerTrap : MonoBehaviour
 {
-    [Header("Configuración")]
+    [Header("Configuración")] 
     public int damage = 1;
     public AudioClip triggerSound;
 

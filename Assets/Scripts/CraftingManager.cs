@@ -8,15 +8,22 @@ public class CraftingManager : MonoBehaviour
     [Header("UI")]
     public GameObject craftingBarUI;
     public Slider craftingSlider;
+    private Animator animator;
+
 
     [Header("Config (fallback)")]
     public float craftingTime = 2f; // tiempo por defecto si la receta no define uno
 
     private float craftingTimer = 0f;
-    private bool isCrafting = false;
+    public bool isCrafting = false;
 
     [Header("Recetas (puedes asignar aquí o usar las del InventoryManager)")]
     public CraftingRecipe[] recipes;  // lista de recetas
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -32,13 +39,22 @@ public class CraftingManager : MonoBehaviour
 
     void TryCraft()
     {
+
+
         if (inventory == null) return;
 
         CraftingRecipe recipe = GetValidRecipe();
         if (recipe == null)
+        {
+            Debug.Log("No se encontró receta. ¿Faltan ingredientes?");
+            animator.SetBool("IsCrafting", false);
             return;
+        }
 
         isCrafting = true;
+        animator.SetBool("IsCrafting", true);
+        Debug.Log("animCrafteo");
+
         craftingTimer += Time.deltaTime;
 
         float targetTime = recipe != null ? recipe.craftingTime : craftingTime;
@@ -62,7 +78,9 @@ public class CraftingManager : MonoBehaviour
 
             // Crear resultado
             if (recipe.resultado != null)
+            {
                 inventory.AddItem(recipe.resultado);
+            }
 
             StopCraft();
         }
@@ -74,6 +92,8 @@ public class CraftingManager : MonoBehaviour
         if (craftingSlider != null) craftingSlider.value = 0f;
         if (craftingBarUI != null) craftingBarUI.SetActive(false);
         isCrafting = false;
+
+        animator.SetBool("IsCrafting", false);
     }
 
     void CancelCraft()

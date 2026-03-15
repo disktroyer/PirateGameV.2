@@ -40,6 +40,15 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("MoveY", movement.y);
         }
 
+        //if (Input.GetKey(KeyCode.F))
+        //{
+        //    animator.SetBool("IsCrafting", true);
+        //}
+        //else
+        //{
+        //    animator.SetBool("IsCrafting", false);
+        //}
+
         // Inputs secundarios
         if (Input.GetKeyDown(KeyCode.Q))
         {

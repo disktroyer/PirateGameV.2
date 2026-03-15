@@ -5,12 +5,19 @@ public class PlayerInteraction : MonoBehaviour
     [Header("Interacci�n")]
     public float interactRange = 2f;
     public KeyCode interactKey = KeyCode.E;
+    private Animator animator;
 
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void Update()
     {
         // Detecta objetos interactuables al presionar la tecla E
         if (Input.GetKeyDown(interactKey))
         {
+            //xanimator.SetTrigger("Agarrar");
+
             DetectarObjetoInteractuable();
         }
     }
@@ -27,6 +34,7 @@ public class PlayerInteraction : MonoBehaviour
 
             if (interactable != null)
             {
+                animator.SetTrigger("agarrar");
                 interactable.Interact(gameObject);
                 return;
             }
