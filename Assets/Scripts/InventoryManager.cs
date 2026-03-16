@@ -15,6 +15,8 @@ public class InventoryManager : MonoBehaviour
     [Header("Crafteo")]
     public CraftingRecipe[] recetas;
     public CraftingProgressUI craftingUI;
+    private Animator animator;
+
 
     [Header("Drop Settings")]
     public Transform dropPoint;      // Lugar donde soltar los objetos
@@ -31,6 +33,7 @@ public class InventoryManager : MonoBehaviour
     void Start()
     {
         ActualizarUI();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -39,7 +42,7 @@ public class InventoryManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
             DropSlot0();
 
-        // F → mantener para craftear
+        //F → mantener para craftear
         if (Input.GetKey(KeyCode.F))
             ProcesarCrafteo();
 
@@ -148,10 +151,14 @@ public class InventoryManager : MonoBehaviour
             if (recetaActual == null)
             {
                 MostrarMensaje("No puedes craftear nada");
+                animator.SetBool("IsCrafting", false);
+
                 return;
             }
             
             isCrafting = true;
+            animator.SetBool("IsCrafting", true);
+
             craftingTimer = 0f;
 
             if (craftingUI != null)
@@ -211,6 +218,9 @@ public class InventoryManager : MonoBehaviour
 
         if (craftingUI != null)
             craftingUI.Hide();
+
+        animator.SetBool("IsCrafting", false);
+
     }
 
     public void EliminarItem(string itemName)
