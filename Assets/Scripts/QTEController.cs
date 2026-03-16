@@ -47,7 +47,9 @@ public class QTEController : MonoBehaviour
             )
         );
 
-        bool success = angle < 20f;
+        Debug.Log($"Needle angle: {needle.eulerAngles.z}, Success angle: {successZone.eulerAngles.z}, Delta: {angle}");
+
+        bool success = angle < 45f;  // Aumentado de 20f a 45f para más tolerancia
 
         EndQTE(success);
     }

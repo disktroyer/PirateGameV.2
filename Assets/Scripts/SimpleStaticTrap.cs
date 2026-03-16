@@ -7,6 +7,7 @@ public class SimpleStaticTrap : Interactable
     public int damage = 1;
     public AudioClip prepareSound;
     public AudioClip triggerSound;
+    public GameObject puddlePrefab; // Prefab del charco con sprite y collider
     private bool isPrepared = false;
 
     public override void Interact(GameObject player)
@@ -25,10 +26,16 @@ public class SimpleStaticTrap : Interactable
         {
             isPrepared = true;
 
+            // Instanciar el charco
+            if (puddlePrefab != null)
+            {
+                Instantiate(puddlePrefab, transform.position, Quaternion.identity);
+            }
+
             if (prepareSound != null)
                 AudioSource.PlayClipAtPoint(prepareSound, transform.position);
 
-            Debug.Log($"{name} preparado con {requiredItem.itemName}");
+            Debug.Log($"{name} preparado con {requiredItem.itemName} y charco creado");
         }
 
         else
