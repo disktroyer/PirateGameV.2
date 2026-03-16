@@ -27,14 +27,14 @@ public class CraftingManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.F))
-        {
-            TryCraft();
-        }
-        else if (isCrafting && Input.GetKeyUp(KeyCode.F))
-        {
-            CancelCraft();
-        }
+        //if (Input.GetKey(KeyCode.F))
+        //{
+        //    TryCraft();
+        //}
+        //else if (isCrafting && Input.GetKeyUp(KeyCode.F))
+        //{
+        //    CancelCraft();
+        //}
     }
 
     void TryCraft()
@@ -52,6 +52,7 @@ public class CraftingManager : MonoBehaviour
         }
 
         isCrafting = true;
+
         animator.SetBool("IsCrafting", true);
         Debug.Log("animCrafteo");
 
