@@ -5,11 +5,33 @@ public class TrampaTentaculo : MonoBehaviour
     public QTEController qteController;
     public float trapDuration = 6f;
 
+    [Header("Visuals")]
+    public SpriteRenderer spriteRenderer;
+    public Animator animator;
+
     private PlayerController trappedPlayer;
     private bool isActive = false;
+    private bool isVisible = false;
+
+    void Start()
+    {
+        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+        if (animator == null) animator = GetComponent<Animator>();
+
+        spriteRenderer.enabled = false;
+        animator.enabled = false;
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("Enemy") && !isVisible)
+        {
+            isVisible = true;
+            spriteRenderer.enabled = true;
+            animator.enabled = true;
+            // animator.SetTrigger("Appear");
+        }
+
         if (isActive) return;
 
         if (other.CompareTag("Player"))
@@ -20,7 +42,7 @@ public class TrampaTentaculo : MonoBehaviour
 
             if (trappedPlayer != null)
             {
-                trappedPlayer.SetMovement(false);
+                    trappedPlayer.SetTrapped(true);
 
                 // Configurar eventos dinámicamente
                 qteController.onSuccess.RemoveAllListeners();
@@ -38,7 +60,7 @@ public class TrampaTentaculo : MonoBehaviour
     {
         if (trappedPlayer != null)
         {
-            trappedPlayer.SetMovement(true);
+            trappedPlayer.SetTrapped(false);
         }
 
         Destroy(gameObject);

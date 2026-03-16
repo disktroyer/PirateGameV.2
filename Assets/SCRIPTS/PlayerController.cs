@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 movement;
 
     private bool canMove = true;
+    private bool isTrapped = false;
 
     void Start()
     {
@@ -77,6 +78,19 @@ public class PlayerController : MonoBehaviour
         canMove = value;
 
         if (!canMove)
+        {
+            movement = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
+        }
+    }
+
+    public void SetTrapped(bool trapped)
+    {
+        isTrapped = trapped;
+        canMove = !trapped;
+        animator.SetBool("IsTrapped", trapped);
+
+        if (trapped)
         {
             movement = Vector2.zero;
             rb.linearVelocity = Vector2.zero;

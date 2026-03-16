@@ -45,6 +45,7 @@ public class BossController : MonoBehaviour
     private Vector2 currentTargetPosition;
     private Vector2 lastPosition;
     private float stuckTimer = 0f;
+    private bool facingRight = true;
 
     public Vector2 Direction { get; private set; }
 
@@ -116,6 +117,18 @@ public class BossController : MonoBehaviour
 
         Direction = dir;
         rb.linearVelocity = dir * speed;
+
+        // Flip to face direction
+        if (Direction.x > 0 && !facingRight)
+        {
+            facingRight = true;
+            transform.localScale = Vector3.one;
+        }
+        else if (Direction.x < 0 && facingRight)
+        {
+            facingRight = false;
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
 
         DetectStuck();
     }

@@ -1,26 +1,20 @@
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 using UnityEngine.Events;
 
 public class QTEController : MonoBehaviour
 {
-    [Header("UI")]
-    public RectTransform needle;
-    public RectTransform successZone;
+    [Header("UI References")]
+    [SerializeField] private RectTransform needle;        // Aguja
+    [SerializeField] private RectTransform successZone;   // Zona verde
 
-    [Header("Config")]
-    public float rotationSpeed = 200f;
-    public float successTolerance = 25f;
-    public KeyCode inputKey = KeyCode.E;
+    [Header("QTE Settings")]
+    [SerializeField] private float rotationSpeed = 200f;
+    [SerializeField] private KeyCode inputKey = KeyCode.Space;
 
-    [Header("Optional Critical Zone")]
-    public bool useCriticalZone = false;
-    public RectTransform criticalZone;
-    public float criticalTolerance = 10f;
-
-    [Header("Events")]
-    public UnityEvent onSuccess;
-    public UnityEvent onFail;
-    public UnityEvent onCriticalFail;
+    public UnityEvent onSuccess = new UnityEvent();
+    public UnityEvent onFail = new UnityEvent();
 
     private bool isActive = false;
 
@@ -28,56 +22,43 @@ public class QTEController : MonoBehaviour
     {
         if (!isActive) return;
 
-        needle.Rotate(0, 0, -rotationSpeed * Time.deltaTime);
+        // Rotar aguja
+        needle.Rotate(0, 0, rotationSpeed * Time.deltaTime);
 
+        // Input jugador
         if (Input.GetKeyDown(inputKey))
         {
-            CheckResult();
+            CheckSuccess();
         }
     }
 
     public void StartQTE()
     {
-        needle.localRotation = Quaternion.identity;
-        isActive = true;
         gameObject.SetActive(true);
+        isActive = true;
     }
 
-    public void StopQTE()
+    private void CheckSuccess()
+    {
+        float angle = Mathf.Abs(
+            Mathf.DeltaAngle(
+                needle.eulerAngles.z,
+                successZone.eulerAngles.z
+            )
+        );
+
+        bool success = angle < 20f;
+
+        EndQTE(success);
+    }
+
+    private void EndQTE(bool success)
     {
         isActive = false;
         gameObject.SetActive(false);
-    }
-
-    void CheckResult()
-    {
-        float needleZ = needle.eulerAngles.z;
-        float zoneZ = successZone.eulerAngles.z;
-
-        float difference = Mathf.Abs(Mathf.DeltaAngle(needleZ, zoneZ));
-
-        if (useCriticalZone && criticalZone != null)
-        {
-            float criticalZ = criticalZone.eulerAngles.z;
-            float criticalDiff = Mathf.Abs(Mathf.DeltaAngle(needleZ, criticalZ));
-
-            if (criticalDiff < criticalTolerance)
-            {
-                onCriticalFail?.Invoke();
-                StopQTE();
-                return;
-            }
-        }
-
-        if (difference < successTolerance)
-        {
-            onSuccess?.Invoke();
-        }
+        if (success)
+            onSuccess.Invoke();
         else
-        {
-            onFail?.Invoke();
-        }
-
-        StopQTE();
+            onFail.Invoke();
     }
 }
