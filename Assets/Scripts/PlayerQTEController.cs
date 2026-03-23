@@ -13,6 +13,10 @@ public class PlayerQTEController : MonoBehaviour
     public GameObject qteUI;              // Panel de UI del QTE (opcional)
     public Slider progressBar;            // Barra de progreso (opcional)
 
+    private PlayerController playerController;
+    private PlayerMovement playerMovement;
+    private Rigidbody2D playerRb;
+
     private TentacleTrap currentTrap;
     private bool isInQTE = false;
     private int pressCount = 0;
@@ -23,6 +27,10 @@ public class PlayerQTEController : MonoBehaviour
         // Obtener el Animator del mismo GameObject si no está asignado
         if (playerAnimator == null)
             playerAnimator = GetComponent<Animator>();
+
+        playerController = GetComponent<PlayerController>();
+        playerMovement = GetComponent<PlayerMovement>();
+        playerRb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -68,6 +76,8 @@ public class PlayerQTEController : MonoBehaviour
         pressCount = 0;
         timer = timeLimit;
 
+        SetPlayerLocked(true);
+
         // Activar animación de atado en el jugador
         if (playerAnimator != null)
             playerAnimator.SetTrigger("AtadoTentaculo");
@@ -92,6 +102,8 @@ public class PlayerQTEController : MonoBehaviour
         // Avisar a la trampa para que libere al jugador
         if (currentTrap != null)
             currentTrap.ReleasePlayer(gameObject);
+
+        SetPlayerLocked(false);
 
         currentTrap = null;
     }
@@ -119,5 +131,30 @@ public class PlayerQTEController : MonoBehaviour
         // Optionally play a failure animation or keep the "AtadoTentaculo" state
         if (playerAnimator != null)
             playerAnimator.SetTrigger("AtadoTentaculo");
+
+        SetPlayerLocked(true);
+    }
+
+    private void SetPlayerLocked(bool locked)
+    {
+        if (playerController != null)
+            playerController.SetTrapped(locked);
+
+        if (playerMovement != null)
+        {
+            if (locked)
+            {
+                playerMovement.SetSpeedMultiplier(0f);
+                playerMovement.enabled = false;
+            }
+            else
+            {
+                playerMovement.ResetSpeed();
+                playerMovement.enabled = true;
+            }
+        }
+
+        if (playerRb != null)
+            playerRb.linearVelocity = Vector2.zero;
     }
 }

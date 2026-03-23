@@ -3,9 +3,10 @@ using UnityEngine;
 public class QTEWheelUI : MonoBehaviour
 {
     public RectTransform needle;
+    public RectTransform successZone;
     public float rotationSpeed = 200f;
-    public float successMin = -20f;
-    public float successMax = 20f;
+    public float successHalfAngle = 20f;
+    public KeyCode inputKey = KeyCode.E;
 
     private PlayerQTEController controller;
     private bool active;
@@ -14,9 +15,10 @@ public class QTEWheelUI : MonoBehaviour
     {
         if (!active) return;
 
-        needle.Rotate(0, 0, rotationSpeed * Time.deltaTime);
+        if (needle != null)
+            needle.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(inputKey))
             CheckSuccess();
     }
 
@@ -35,12 +37,29 @@ public class QTEWheelUI : MonoBehaviour
 
     void CheckSuccess()
     {
-        float angle = needle.localEulerAngles.z;
-        angle = angle > 180 ? angle - 360 : angle;
+        if (controller == null || needle == null)
+            return;
 
-        if (angle >= successMin && angle <= successMax)
+        float needleAngle = NormalizeSignedAngle(needle.localEulerAngles.z);
+
+        float zoneAngle = 0f;
+        if (successZone != null)
+            zoneAngle = NormalizeSignedAngle(successZone.localEulerAngles.z);
+
+        float delta = Mathf.Abs(Mathf.DeltaAngle(needleAngle, zoneAngle));
+
+        if (delta <= successHalfAngle)
             controller.OnSuccess();
         else
             controller.OnFail();
+    }
+
+    float NormalizeSignedAngle(float angle)
+    {
+        angle %= 360f;
+        if (angle > 180f)
+            angle -= 360f;
+
+        return angle;
     }
 }

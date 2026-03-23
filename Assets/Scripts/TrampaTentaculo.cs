@@ -4,14 +4,18 @@ public class TrampaTentaculo : MonoBehaviour
 {
     public QTEController qteController;
     public float trapDuration = 6f;
+    public float retryDelay = 0.2f;
 
     [Header("Visuals")]
     public SpriteRenderer spriteRenderer;
     public Animator animator;
 
-    private PlayerController trappedPlayer;
+    private PlayerController trappedPlayerController;
+    private PlayerMovement trappedPlayerMovement;
+    private Rigidbody2D trappedPlayerRb;
     private bool isActive = false;
     private bool isVisible = false;
+    private bool trapResolved = false;
 
     void Start()
     {
@@ -20,6 +24,9 @@ public class TrampaTentaculo : MonoBehaviour
 
         spriteRenderer.enabled = false;
         animator.enabled = false;
+
+        if (qteController != null)
+            qteController.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -38,11 +45,13 @@ public class TrampaTentaculo : MonoBehaviour
         {
             isActive = true;
 
-            trappedPlayer = other.GetComponent<PlayerController>();
+            trappedPlayerController = other.GetComponent<PlayerController>();
+            trappedPlayerMovement = other.GetComponent<PlayerMovement>();
+            trappedPlayerRb = other.attachedRigidbody != null ? other.attachedRigidbody : other.GetComponent<Rigidbody2D>();
 
-            if (trappedPlayer != null)
+            if (trappedPlayerController != null || trappedPlayerMovement != null)
             {
-                    trappedPlayer.SetTrapped(true);
+                LockPlayer(true);
 
                 // Configurar eventos dinámicamente
                 qteController.onSuccess.RemoveAllListeners();
@@ -58,23 +67,51 @@ public class TrampaTentaculo : MonoBehaviour
 
     void ReleasePlayer()
     {
-        if (trappedPlayer != null)
-        {
-            trappedPlayer.SetTrapped(false);
-        }
+        if (trapResolved)
+            return;
+
+        trapResolved = true;
+        LockPlayer(false);
 
         Destroy(gameObject);
     }
 
     void FailQTE()
     {
-        // Aquí decides qué pasa si falla:
-        // opción 1: volver a intentar automáticamente
+        if (trapResolved || qteController == null)
+            return;
+
+        Invoke(nameof(RestartQTE), retryDelay);
+    }
+
+    void RestartQTE()
+    {
+        if (trapResolved || qteController == null)
+            return;
+
         qteController.StartQTE();
+    }
 
-        // opción 2: daño
-        // trappedPlayer.TakeDamage(10);
+    void LockPlayer(bool trapped)
+    {
+        if (trappedPlayerController != null)
+            trappedPlayerController.SetTrapped(trapped);
 
-        // opción 3: tiempo extra atrapado
+        if (trappedPlayerMovement != null)
+        {
+            if (trapped)
+            {
+                trappedPlayerMovement.SetSpeedMultiplier(0f);
+                trappedPlayerMovement.enabled = false;
+            }
+            else
+            {
+                trappedPlayerMovement.ResetSpeed();
+                trappedPlayerMovement.enabled = true;
+            }
+        }
+
+        if (trappedPlayerRb != null)
+            trappedPlayerRb.linearVelocity = Vector2.zero;
     }
 }
