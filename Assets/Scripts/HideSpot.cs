@@ -16,7 +16,7 @@ public class HideSpot : Interactable
 
         if (!isHidden)
         {
-            hideController.Hide(hidePoint);
+            hideController.Hide(hidePoint, this);
             isHidden = true;
         }
         else

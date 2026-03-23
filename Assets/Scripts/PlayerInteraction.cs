@@ -2,52 +2,42 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    [Header("Interacci�n")]
-    public float interactRange = 2f;
+    public float interactRange = 2.5f;
     public KeyCode interactKey = KeyCode.E;
-    private Animator animator;
 
-    private void Start()
+    void Update()
     {
-        animator = GetComponent<Animator>();
-    }
-    private void Update()
-    {
-        // Detecta objetos interactuables al presionar la tecla E
         if (Input.GetKeyDown(interactKey))
-        {
-            //xanimator.SetTrigger("Agarrar");
-
-            DetectarObjetoInteractuable();
-        }
+            TryInteract();
     }
 
-    void DetectarObjetoInteractuable()
+    void TryInteract()
     {
-        // Lanza un c�rculo peque�o alrededor del jugador
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange);
-
-        foreach (Collider2D hit in hits)
+        // Si está escondido, intenta salir del armario actual
+        PlayerHideController hide = GetComponent<PlayerHideController>();
+        if (hide != null && hide.IsHidden && hide.CurrentHideSpot != null)
         {
-            print(hit.gameObject.name);
-            Interactable interactable = hit.GetComponent<Interactable>();
+            hide.CurrentHideSpot.Interact(gameObject);
+            return;
+        }
 
+        // Si no está escondido, busca objetos interactuables
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange);
+        foreach (var hit in hits)
+        {
+            Interactable interactable = hit.GetComponent<Interactable>();
             if (interactable != null)
             {
-                animator.SetTrigger("agarrar");
                 interactable.Interact(gameObject);
                 return;
             }
         }
     }
 
-    // Dibuja el rango de interacci�n en la escena (solo visible en el editor)
-    private void OnDrawGizmosSelected()
+    void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(transform.position, interactRange);
     }
-
-  
-
 }
+

@@ -165,6 +165,14 @@ public class BossController : MonoBehaviour
     {
         if (player == null) return;
 
+        PlayerHideController hide = player.GetComponent<PlayerHideController>();
+        if (hide != null && hide.IsHidden)
+        {
+            currentWaypoint = GetClosestWaypoint();
+            state = BossState.Patrol;
+            return;
+        }
+
         currentTargetPosition = player.position;
     }
 
@@ -175,6 +183,9 @@ public class BossController : MonoBehaviour
     void DetectPlayer()
     {
         if (player == null) return;
+
+        PlayerHideController hide = player.GetComponent<PlayerHideController>();
+        if (hide != null && hide.IsHidden) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
 

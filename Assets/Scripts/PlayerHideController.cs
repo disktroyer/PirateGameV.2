@@ -8,12 +8,15 @@ public class PlayerHideController : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D playerCollider;
     private TopDownCharacterController movementScript;
+    private PlayerController playerController;
+    private PlayerMovement playerMovement;
 
     // 🔥 ESTA ES LA VARIABLE REAL QUE USAMOS
     private bool isHidden = false;
 
     // 🔥 ESTA ES LA PROPIEDAD QUE USA EL BOSS
     public bool IsHidden => isHidden;
+    public HideSpot CurrentHideSpot { get; private set; }
 
     private Transform currentHidePoint;
 
@@ -24,28 +27,33 @@ public class PlayerHideController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<Collider2D>();
         movementScript = GetComponent<TopDownCharacterController>();
+        playerController = GetComponent<PlayerController>();
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
-    public void Hide(Transform hidePoint)
+    public void Hide(Transform hidePoint, HideSpot hideSpot)
     {
         isHidden = true;
+        CurrentHideSpot = hideSpot;
         currentHidePoint = hidePoint;
 
         // Animación
-        animator.SetTrigger("Hide");
+        if (animator != null) animator.SetTrigger("Hide");
 
         // Colocar al jugador dentro del armario
-        transform.position = hidePoint.position;
+        if (hidePoint != null) transform.position = hidePoint.position;
 
         // Invisibilidad
-        spriteRenderer.enabled = false;
+        if (spriteRenderer != null) spriteRenderer.enabled = false;
 
         // No moverse
-        movementScript.enabled = false;
-        rb.linearVelocity = Vector2.zero;
+        if (movementScript != null) movementScript.enabled = false;
+        if (playerController != null) playerController.SetMovement(false);
+        if (playerMovement != null) playerMovement.enabled = false;
+        if (rb != null) rb.linearVelocity = Vector2.zero;
 
         // No colisiones
-        playerCollider.enabled = false;
+        if (playerCollider != null) playerCollider.enabled = false;
 
         Debug.Log("Jugador escondido");
     }
@@ -53,16 +61,19 @@ public class PlayerHideController : MonoBehaviour
     public void Unhide()
     {
         isHidden = false;
+        CurrentHideSpot = null;
 
         // Animación salida
-        animator.SetTrigger("Unhide");
+        if (animator != null) animator.SetTrigger("Unhide");
 
         // Volver visible
-        spriteRenderer.enabled = true;
+        if (spriteRenderer != null) spriteRenderer.enabled = true;
 
         // Rehabilitar movimiento y colisiones
-        movementScript.enabled = true;
-        playerCollider.enabled = true;
+        if (movementScript != null) movementScript.enabled = true;
+        if (playerController != null) playerController.SetMovement(true);
+        if (playerMovement != null) playerMovement.enabled = true;
+        if (playerCollider != null) playerCollider.enabled = true;
 
         Debug.Log("Jugador salió del escondite");
     }
