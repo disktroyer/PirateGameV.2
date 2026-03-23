@@ -16389,6 +16389,10 @@ MonoBehaviour:
   successZone: {fileID: 1307117643}
   rotationSpeed: 200
   inputKey: 32
+  attemptDuration: 2
+  successHalfAngle: 20
+  randomizeSuccessZoneOnStart: 1
+  successZoneAngleRange: {x: -150, y: 150}
   onSuccess:
     m_PersistentCalls:
       m_Calls: []
@@ -28400,11 +28404,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5913675611917356945, guid: 5e8ec010c1f12b144ab6227314b94735, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.96
+      value: 18.94
       objectReference: {fileID: 0}
     - target: {fileID: 5913675611917356945, guid: 5e8ec010c1f12b144ab6227314b94735, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.42
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 5913675611917356945, guid: 5e8ec010c1f12b144ab6227314b94735, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34753,6 +34757,10 @@ MonoBehaviour:
   successZone: {fileID: 0}
   rotationSpeed: 200
   inputKey: 101
+  attemptDuration: 2
+  successHalfAngle: 20
+  randomizeSuccessZoneOnStart: 1
+  successZoneAngleRange: {x: -150, y: 150}
   onSuccess:
     m_PersistentCalls:
       m_Calls: []
@@ -38240,7 +38248,7 @@ Transform:
   m_GameObject: {fileID: 1341887084}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.26, y: -2.65, z: 0}
+  m_LocalPosition: {x: 1.66, y: 4.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39846,7 +39854,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {fileID: 1572348687}
   allowPlayer: 1
+<<<<<<< HEAD
   allowBoss: 0
+=======
+  allowBoss: 1
+>>>>>>> 822ae765b3dc182efecbdae93788045b11bf2704
   cooldown: 0.5
   useAppearDisappear: 1
   useAnimatorTransition: 1
@@ -39965,7 +39977,7 @@ Transform:
   m_GameObject: {fileID: 1420997741}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.58, y: -40.8, z: -0.16624342}
+  m_LocalPosition: {x: 16.3, y: -37.02, z: -0.16624342}
   m_LocalScale: {x: 0.98225164, y: 1.6168752, z: 1.6168752}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40803,6 +40815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   qteController: {fileID: 561984836}
   trapDuration: 6
+  retryDelay: 0.2
   spriteRenderer: {fileID: 3740906875909727917}
   animator: {fileID: 687542304}
 --- !u!61 &1467269834
@@ -40860,7 +40873,7 @@ Transform:
   m_GameObject: {fileID: 1467269832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -216.65, y: -47.88, z: 0.12382295}
+  m_LocalPosition: {x: -209.65, y: -46.7, z: 0.12382295}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47165,6 +47178,10 @@ MonoBehaviour:
   successZone: {fileID: 0}
   rotationSpeed: 200
   inputKey: 101
+  attemptDuration: 2
+  successHalfAngle: 20
+  randomizeSuccessZoneOnStart: 1
+  successZoneAngleRange: {x: -150, y: 150}
   onSuccess:
     m_PersistentCalls:
       m_Calls:
@@ -52483,6 +52500,10 @@ MonoBehaviour:
   successZone: {fileID: 0}
   rotationSpeed: 200
   inputKey: 32
+  attemptDuration: 2
+  successHalfAngle: 20
+  randomizeSuccessZoneOnStart: 1
+  successZoneAngleRange: {x: -150, y: 150}
   onSuccess:
     m_PersistentCalls:
       m_Calls: []
@@ -53434,11 +53455,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6276799593253877098, guid: 08428667a8370aa4888a4f02dfd88769, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -220.13
+      value: -219.18
       objectReference: {fileID: 0}
     - target: {fileID: 6276799593253877098, guid: 08428667a8370aa4888a4f02dfd88769, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -46.3
+      value: -46.22
       objectReference: {fileID: 0}
     - target: {fileID: 6276799593253877098, guid: 08428667a8370aa4888a4f02dfd88769, type: 3}
       propertyPath: m_LocalPosition.z
