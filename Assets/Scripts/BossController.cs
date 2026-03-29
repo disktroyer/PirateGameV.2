@@ -31,6 +31,13 @@ public class BossController : MonoBehaviour
     public Slider healthBar;
     public TextMeshProUGUI healthText;
 
+    [Header("Trap Damage")]
+    [Range(0f, 1f)]
+    public float trapDamageMultiplier = 0.5f;
+
+    [Header("Hearts UI (optional)")]
+    public List<Image> heartIcons;
+
     [Header("Animator Triggers")]
     public string stunTrigger = "Stun";
     public string drinkTrigger = "Drink";
@@ -267,7 +274,8 @@ public class BossController : MonoBehaviour
 
     public void Trap_Drink(float duration, float damage)
     {
-        RecibirDaño(damage);
+        float finalTrapDamage = damage * trapDamageMultiplier;
+        RecibirDaño(finalTrapDamage);
         StartCoroutine(TrapPause(duration, drinkTrigger));
     }
 
@@ -318,6 +326,18 @@ public class BossController : MonoBehaviour
 
         if (healthText != null)
             healthText.text = $"Boss: {currentHealth:0}/{maxHealth}";
+
+        if (heartIcons != null && heartIcons.Count > 0)
+        {
+            float healthRatio = currentHealth / maxHealth;
+            int visibleHearts = Mathf.CeilToInt(healthRatio * heartIcons.Count);
+
+            for (int i = 0; i < heartIcons.Count; i++)
+            {
+                if (heartIcons[i] != null)
+                    heartIcons[i].enabled = i < visibleHearts;
+            }
+        }
     }
 
 #if UNITY_EDITOR
