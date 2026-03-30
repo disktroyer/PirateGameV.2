@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SCENES/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/SCENES/Nivel1.unity
+    path: Assets/Scenes/Nivel1.unity
     guid: 4392e5b9402b59f47b128b60250292bb
   - enabled: 1
-    path: Assets/SCENES/GameOver.unity
+    path: Assets/Scenes/GameOver.unity
     guid: 192708f9df8f1bf44bf067d263d1c55c
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 73935299363ca4d26b99295ca2be7278, type: 2}
