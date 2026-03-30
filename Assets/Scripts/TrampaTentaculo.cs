@@ -1,10 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TrampaTentaculo : MonoBehaviour
 {
     public QTEController qteController;
     public float trapDuration = 6f;
-    public float retryDelay = 0.2f;
 
     [Header("Visuals")]
     public SpriteRenderer spriteRenderer;
@@ -126,15 +126,26 @@ public class TrampaTentaculo : MonoBehaviour
         if (trapResolved || qteController == null)
             return;
 
-        Invoke(nameof(RestartQTE), retryDelay);
-    }
+        trapResolved = true;
 
-    void RestartQTE()
-    {
-        if (trapResolved || qteController == null)
+        if (isBossTrap)
+        {
+            Destroy(gameObject);
             return;
+        }
 
-        qteController.StartQTE();
+        LockPlayer(false);
+
+        GameObject player = null;
+        if (trappedPlayerController != null)
+            player = trappedPlayerController.gameObject;
+        else if (trappedPlayerRb != null)
+            player = trappedPlayerRb.gameObject;
+
+        if (player != null)
+            player.SetActive(false);
+
+        SceneManager.LoadScene("GameOver");
     }
 
     void LockPlayer(bool trapped)
