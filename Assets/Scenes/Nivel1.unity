@@ -25923,7 +25923,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1188, y: -254}
+  m_AnchoredPosition: {x: 1188, y: -202}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &640143306
@@ -26011,7 +26011,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -36.311813, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -30119,7 +30119,7 @@ Transform:
   m_GameObject: {fileID: 961668191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.99, y: -4.06, z: 4.069375}
+  m_LocalPosition: {x: 22.15, y: -7.59, z: 4.069375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53916,16 +53916,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 1619569496}
     m_Modifications:
     - target: {fileID: 966858775825789840, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7075472
+      objectReference: {fileID: 0}
+    - target: {fileID: 966858775825789840, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7075472
+      objectReference: {fileID: 0}
+    - target: {fileID: 966858775825789840, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7075472
+      objectReference: {fileID: 0}
+    - target: {fileID: 966858775825789840, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 966858775825789840, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: de78afbe4fc0d5d4396077435580ae67, type: 2}
     - target: {fileID: 3369545666369293091, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -213.5
+      value: -219.13
       objectReference: {fileID: 0}
     - target: {fileID: 3369545666369293091, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -50.9
+      value: -47.74
       objectReference: {fileID: 0}
     - target: {fileID: 3369545666369293091, guid: e8c38258c8544a94998acae9fc073a09, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54201,6 +54217,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiredItem: trampa osos
   trapPrefab: {fileID: 2313813764672404900, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+  inventorySource: {fileID: 0}
+  placementOrigin: {fileID: 0}
+  placementOffset: {x: 0.8, y: 0}
+  useFacingDirection: 1
+  placeTrapButton: {fileID: 0}
+  refreshButtonState: 1
+  hideButtonWhenUnavailable: 0
 --- !u!1001 &3412104726995993328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54457,7 +54480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3736486948360754323, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6684964936714816182, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_SortingOrder
@@ -54465,23 +54488,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: -0.044619676
       objectReference: {fileID: 0}
     - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: -0.044619676
       objectReference: {fileID: 0}
     - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: -0.044619676
       objectReference: {fileID: 0}
     - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -225.65
+      value: -205.99
       objectReference: {fileID: 0}
     - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -50.31
+      value: -47.07
       objectReference: {fileID: 0}
     - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54514,6 +54537,10 @@ PrefabInstance:
     - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626818510062178931, guid: 0c9e4d40b7dcd9c4faa002086645af50, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -55196,33 +55223,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1619569496}
     m_Modifications:
+    - target: {fileID: -233530339257692090, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
+      propertyPath: m_Size.x
+      value: 8.3870125
+      objectReference: {fileID: 0}
+    - target: {fileID: -233530339257692090, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -233530339257692090, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.8835068
+      objectReference: {fileID: 0}
     - target: {fileID: 657726799456853490, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_Name
       value: Chatarra_0
       objectReference: {fileID: 0}
     - target: {fileID: 657726799456853490, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -232.77
+      value: -205.91
       objectReference: {fileID: 0}
     - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -50.7
+      value: -47.91
       objectReference: {fileID: 0}
     - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55255,6 +55294,10 @@ PrefabInstance:
     - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989594706514601543, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7625883977676507927, guid: d90255cdd321c70418a39ab3e6c593ee, type: 3}
       propertyPath: m_SortingOrder
@@ -55308,7 +55351,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.2430296, y: -0.7290983}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -55318,7 +55361,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.62, y: 4.12}
+  m_Size: {x: 13.369188, y: 12.6261425}
   m_EdgeRadius: 0
 --- !u!1001 &7633896811853249772
 PrefabInstance:
