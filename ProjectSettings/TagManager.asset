@@ -8,6 +8,9 @@ TagManager:
   - WALLS
   - Boss
   - Enemy
+  - Barriles
+  - CuboDucha
+  - BotellaRon
   layers:
   - Default
   - TransparentFX

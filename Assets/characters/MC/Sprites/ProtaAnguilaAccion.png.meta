@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 0b98f857cbf134646b92e1cbf108d391
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6337281621431601981
+    second: ProtaAnguilaAccion_0
+  - first:
+      213: 5024051135415240085
+    second: ProtaAnguilaAccion_1
+  - first:
+      213: 215004564245555500
+    second: ProtaAnguilaAccion_2
+  - first:
+      213: 1580411098999756380
+    second: ProtaAnguilaAccion_3
+  - first:
+      213: 4030156599460737465
+    second: ProtaAnguilaAccion_4
+  - first:
+      213: -6564334367737594106
+    second: ProtaAnguilaAccion_5
+  - first:
+      213: 6956098293248559562
+    second: ProtaAnguilaAccion_6
+  - first:
+      213: 8843286736795235976
+    second: ProtaAnguilaAccion_7
+  - first:
+      213: -7637224960988190142
+    second: ProtaAnguilaAccion_8
+  - first:
+      213: -6646534494014619946
+    second: ProtaAnguilaAccion_9
+  - first:
+      213: 774428110815179765
+    second: ProtaAnguilaAccion_10
+  - first:
+      213: 72339835822055038
+    second: ProtaAnguilaAccion_11
+  - first:
+      213: -3545390412735880665
+    second: ProtaAnguilaAccion_12
+  - first:
+      213: -8872709071929592303
+    second: ProtaAnguilaAccion_13
+  - first:
+      213: 904626550913747386
+    second: ProtaAnguilaAccion_14
+  - first:
+      213: 817355345699211244
+    second: ProtaAnguilaAccion_15
+  - first:
+      213: 3065431379775622618
+    second: ProtaAnguilaAccion_16
+  - first:
+      213: -2294343890767940502
+    second: ProtaAnguilaAccion_17
+  - first:
+      213: 8891866072357189387
+    second: ProtaAnguilaAccion_18
+  - first:
+      213: -4874680874778214483
+    second: ProtaAnguilaAccion_19
+  - first:
+      213: 4587553804157992926
+    second: ProtaAnguilaAccion_20
+  - first:
+      213: -5508013664234578079
+    second: ProtaAnguilaAccion_21
+  - first:
+      213: 432738153273685852
+    second: ProtaAnguilaAccion_22
+  - first:
+      213: -4897410464169991249
+    second: ProtaAnguilaAccion_23
+  - first:
+      213: -5349742800460325426
+    second: ProtaAnguilaAccion_24
+  - first:
+      213: -8368132163614152874
+    second: ProtaAnguilaAccion_25
+  - first:
+      213: 1800328933100406381
+    second: ProtaAnguilaAccion_26
+  - first:
+      213: -7337341515337539792
+    second: ProtaAnguilaAccion_27
+  - first:
+      213: 7364878112505571287
+    second: ProtaAnguilaAccion_28
+  - first:
+      213: 2381499963568743025
+    second: ProtaAnguilaAccion_29
+  - first:
+      213: -6534898585053692824
+    second: ProtaAnguilaAccion_30
+  - first:
+      213: -7855651184845569884
+    second: ProtaAnguilaAccion_31
+  - first:
+      213: 899584384420055810
+    second: ProtaAnguilaAccion_32
+  - first:
+      213: 2214317401231704297
+    second: ProtaAnguilaAccion_33
+  - first:
+      213: -7335072264296228450
+    second: ProtaAnguilaAccion_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bca0fee0c82f750800000000000000
+      internalID: 6337281621431601981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 108
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595c2db93e309b540800000000000000
+      internalID: 5024051135415240085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29a1f41389dbf200800000000000000
+      internalID: 215004564245555500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5617fa658fbee510800000000000000
+      internalID: 1580411098999756380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1bd04131efde730800000000000000
+      internalID: 4030156599460737465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fbc100cacc6e4a0800000000000000
+      internalID: -6564334367737594106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac908cfea86098060800000000000000
+      internalID: 6956098293248559562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8867a91fe6aa9ba70800000000000000
+      internalID: 8843286736795235976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a6d8a9c50230690800000000000000
+      internalID: -7637224960988190142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deb0e0b714c2c3a0800000000000000
+      internalID: -6646534494014619946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3373183425fba00800000000000000
+      internalID: 774428110815179765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e984982b0010100800000000000000
+      internalID: 72339835822055038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7226dc2343e3ccec0800000000000000
+      internalID: -3545390412735880665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1163044db1ecdd480800000000000000
+      internalID: -8872709071929592303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaAnguilaAccion_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9c99d1e01ed8c00800000000000000
+      internalID: 904626550913747386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5421922b4b604134bbdbaf1594c82e38
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ProtaAnguilaAccion_0: 6337281621431601981
+      ProtaAnguilaAccion_1: 5024051135415240085
+      ProtaAnguilaAccion_10: 774428110815179765
+      ProtaAnguilaAccion_11: 72339835822055038
+      ProtaAnguilaAccion_12: -3545390412735880665
+      ProtaAnguilaAccion_13: -8872709071929592303
+      ProtaAnguilaAccion_14: 904626550913747386
+      ProtaAnguilaAccion_2: 215004564245555500
+      ProtaAnguilaAccion_3: 1580411098999756380
+      ProtaAnguilaAccion_4: 4030156599460737465
+      ProtaAnguilaAccion_5: -6564334367737594106
+      ProtaAnguilaAccion_6: 6956098293248559562
+      ProtaAnguilaAccion_7: 8843286736795235976
+      ProtaAnguilaAccion_8: -7637224960988190142
+      ProtaAnguilaAccion_9: -6646534494014619946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

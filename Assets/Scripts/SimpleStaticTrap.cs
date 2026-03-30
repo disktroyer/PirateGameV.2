@@ -22,7 +22,7 @@ public class SimpleStaticTrap : Interactable
             return;
         }
 
-        if (inventory.ContieneItem(requiredItem))
+        if (inventory.ContieneItem("fregona"))
         {
             isPrepared = true;
 

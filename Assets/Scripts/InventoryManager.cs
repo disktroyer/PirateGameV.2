@@ -11,6 +11,11 @@ public class InventoryManager : MonoBehaviour
 
     [Header("Mensajes")]
     public float mensajeDuracion = 2f;
+    private bool cercaDeBarriles = false;
+    private bool cercaDeCubo = false;
+    private bool cercaDeRon = false;
+
+
 
     [Header("Crafteo")]
     public CraftingRecipe[] recetas;
@@ -48,12 +53,99 @@ public class InventoryManager : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.F))
             CancelarCrafteo();
+
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (cercaDeBarriles)
+            {
+                if (ContieneItem("fregona"))
+                {
+                    animator.SetTrigger("FregarTrigger");
+                    MostrarMensaje("Limpiando los barriles...");
+                }
+                else
+                {
+                    MostrarMensaje("Necesitas la fregona para limpiar esto");
+                }
+            }
+
+            if (cercaDeCubo)
+            {
+                if (ContieneItem("anguila electrica"))
+                {
+                    animator.SetTrigger("AnguilaTrigger");
+                    MostrarMensaje("Colocando Anguila...");
+                }
+                else
+                {
+                    MostrarMensaje("Necesitas la Anguila para electrocutar la ducha");
+                }
+            }
+
+            if (cercaDeRon)
+            {
+                if (ContieneItem("veneno"))
+                {
+                    animator.SetTrigger("VenenoTrigger");
+                    MostrarMensaje("Envenenando Botella...");
+                }
+                else
+                {
+                    MostrarMensaje("Necesitas el veneno para colocar la trampa");
+                }
+            }
+        }
     }
 
     // ================================================================
     // ------------------------ INVENTARIO -----------------------------
     // ================================================================
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Esto imprimirá el nombre de CUALQUIER objeto que toques
+        Debug.Log("¡He tocado el objeto: " + collision.gameObject.name + "!");
+
+        if (collision.CompareTag("Barriles"))
+        {
+            cercaDeBarriles = true;
+            MostrarMensaje("Pulsa R para fregar");
+        }
+
+        if (collision.CompareTag("CuboDucha"))
+        {
+            cercaDeCubo = true;
+            MostrarMensaje("Pulsa R para Colocar Anguila");
+        }
+
+        if (collision.CompareTag("BotellaRon"))
+        {
+            cercaDeRon = true;
+            MostrarMensaje("Pulsa R para Enevenenar Botella");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Barriles"))
+        {
+            cercaDeBarriles = false;
+            LimpiarMensaje();
+        }
+
+        if (other.CompareTag("CuboDucha"))
+        {
+            cercaDeCubo = false;
+            LimpiarMensaje();
+        }
+
+        if (other.CompareTag("BotellaRon"))
+        {
+            cercaDeRon = false;
+            LimpiarMensaje();
+        }
+    }
     public bool AddItem(ItemData newItem)
     {
         for (int i = 0; i < items.Length; i++)
@@ -71,15 +163,15 @@ public class InventoryManager : MonoBehaviour
         return false;
     }
 
-    public bool ContieneItem(ItemData item)
-    {
-        foreach (var i in items)
-        {
-            if (i == item)
-                return true;
-        }
-        return false;
-    }
+    //public bool ContieneItem(ItemData item)
+    //{
+    //    foreach (var i in items)
+    //    {
+    //        if (i == item)
+    //            return true;
+    //    }
+    //    return false;
+    //}
 
     public bool ContieneItem(string itemName)
     {
