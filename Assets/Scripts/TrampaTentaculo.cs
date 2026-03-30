@@ -13,33 +13,63 @@ public class TrampaTentaculo : MonoBehaviour
     private PlayerController trappedPlayerController;
     private PlayerMovement trappedPlayerMovement;
     private Rigidbody2D trappedPlayerRb;
+    private BossController trappedBoss;
     private bool isActive = false;
     private bool isVisible = false;
     private bool trapResolved = false;
+    private bool isBossTrap = false;
 
     void Start()
     {
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
         if (animator == null) animator = GetComponent<Animator>();
 
-        spriteRenderer.enabled = false;
-        animator.enabled = false;
+        // Asegurar que está oculto al inicio
+        if (spriteRenderer != null) spriteRenderer.enabled = false;
+        if (animator != null) animator.enabled = false;
 
         if (qteController != null)
             qteController.gameObject.SetActive(false);
+
+        Debug.Log("TrampaTentaculo iniciada (oculta, esperando Enemy)");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy") && !isVisible)
+        if (isActive) return;
+
+        // Mostrar sprite cuando algo pasa por encima
+        if ((other.CompareTag("Enemy") || other.CompareTag("Player")) && !isVisible)
         {
             isVisible = true;
-            spriteRenderer.enabled = true;
-            animator.enabled = true;
-            // animator.SetTrigger("Appear");
+            if (spriteRenderer != null) spriteRenderer.enabled = true;
+            if (animator != null) animator.enabled = true;
+            Debug.Log("TrampaTentaculo: Sprite visible, detectado " + other.tag);
         }
 
-        if (isActive) return;
+        // Enemigo/Boss activando trampa
+        if (other.CompareTag("Enemy"))
+        {
+            isActive = true;
+            isBossTrap = true;
+
+            trappedBoss = other.GetComponent<BossController>();
+
+            if (trappedBoss != null)
+            {
+                Debug.Log("TrampaTentaculo: Boss capturado, iniciando QTE");
+                
+                // Configurar eventos dinámicamente
+                qteController.onSuccess.RemoveAllListeners();
+                qteController.onFail.RemoveAllListeners();
+
+                qteController.onSuccess.AddListener(ReleaseBoss);
+                qteController.onFail.AddListener(FailQTE);
+
+                qteController.StartQTE();
+            }
+            return;
+        }
 
         if (other.CompareTag("Player"))
         {
@@ -51,6 +81,7 @@ public class TrampaTentaculo : MonoBehaviour
 
             if (trappedPlayerController != null || trappedPlayerMovement != null)
             {
+                Debug.Log("TrampaTentaculo: Jugador capturado, iniciando QTE");
                 LockPlayer(true);
 
                 // Configurar eventos dinámicamente
@@ -72,6 +103,20 @@ public class TrampaTentaculo : MonoBehaviour
 
         trapResolved = true;
         LockPlayer(false);
+
+        Destroy(gameObject);
+    }
+
+    void ReleaseBoss()
+    {
+        if (trapResolved)
+            return;
+
+        trapResolved = true;
+
+        // Aplicar daño al jefe al escapar
+        if (trappedBoss != null)
+            trappedBoss.RecibirDaño(10f);
 
         Destroy(gameObject);
     }
