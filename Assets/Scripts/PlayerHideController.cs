@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerHideController : MonoBehaviour
 {
-    private Animator animator;
+    public Animator animator;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
     private Collider2D playerCollider;
