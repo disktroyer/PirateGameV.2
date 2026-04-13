@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: 38aab2a260ec4442d97ed352ef9e3bde
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3348314934544545512
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_0"
+  - first:
+      213: -479365533208114707
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_1"
+  - first:
+      213: 7301583160717253607
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_2"
+  - first:
+      213: 5929052078043328509
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_3"
+  - first:
+      213: -3445349182469590909
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_4"
+  - first:
+      213: 6614203513188117841
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_5"
+  - first:
+      213: 8898819735968149806
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_6"
+  - first:
+      213: 8314216035663121193
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_7"
+  - first:
+      213: -5214039068807132251
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_8"
+  - first:
+      213: 1623803437847236984
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_9"
+  - first:
+      213: -4335053309745423605
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_10"
+  - first:
+      213: 2978568732652458109
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_11"
+  - first:
+      213: -6034788209575142600
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_12"
+  - first:
+      213: -7230445643894998839
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_13"
+  - first:
+      213: -4014812728612961495
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_14"
+  - first:
+      213: 8862455827434243738
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_15"
+  - first:
+      213: -8531356333279943574
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_16"
+  - first:
+      213: -2660104379289401826
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_17"
+  - first:
+      213: 2629315836101466890
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_18"
+  - first:
+      213: -8702830129538264252
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_19"
+  - first:
+      213: -4980601435388475706
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_20"
+  - first:
+      213: 4205025318571415230
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_21"
+  - first:
+      213: -4421497164429281345
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_22"
+  - first:
+      213: -9168904020439919686
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_23"
+  - first:
+      213: -9012653623145769802
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_24"
+  - first:
+      213: -5701330979301531317
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_25"
+  - first:
+      213: -3401510945860942751
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_26"
+  - first:
+      213: 7773254240028956998
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_27"
+  - first:
+      213: 1696341301174863943
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_28"
+  - first:
+      213: -6027548794930082615
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_29"
+  - first:
+      213: -7462292469612686453
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_30"
+  - first:
+      213: -6500018448570613821
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_31"
+  - first:
+      213: 1305867064534432397
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_32"
+  - first:
+      213: -3575133940363160120
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_33"
+  - first:
+      213: 7834916398413414541
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_34"
+  - first:
+      213: 8170743099221052618
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_35"
+  - first:
+      213: 2587131433111590623
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_36"
+  - first:
+      213: -2784992319428424657
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_37"
+  - first:
+      213: -5419346225768890684
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_38"
+  - first:
+      213: -5159262112901417651
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_39"
+  - first:
+      213: -795615519156120918
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_40"
+  - first:
+      213: 4418909709985230449
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_41"
+  - first:
+      213: -2408249097863501022
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_42"
+  - first:
+      213: -4855058827808651982
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_43"
+  - first:
+      213: 2135992147099188352
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_44"
+  - first:
+      213: -6143804232645728706
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_45"
+  - first:
+      213: 6068907689895833665
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_46"
+  - first:
+      213: 7857107620959732324
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_47"
+  - first:
+      213: -5738527016464180975
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_48"
+  - first:
+      213: -8926700097734750051
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_49"
+  - first:
+      213: -1931701225327283225
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_50"
+  - first:
+      213: 7370509518834638597
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_51"
+  - first:
+      213: -1754000303116443618
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_52"
+  - first:
+      213: 8820548818320444100
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_53"
+  - first:
+      213: 7040744607925976560
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_54"
+  - first:
+      213: -7148177305656859457
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_55"
+  - first:
+      213: -1508621554028523045
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_56"
+  - first:
+      213: -5417826599447964552
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_57"
+  - first:
+      213: -4934124207017504052
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_58"
+  - first:
+      213: 1863036329374295271
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_59"
+  - first:
+      213: 3356249737230980948
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_60"
+  - first:
+      213: 4765726903887857651
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_61"
+  - first:
+      213: -4376800090386727746
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_62"
+  - first:
+      213: -6545311380966369921
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_63"
+  - first:
+      213: 6530609616389565709
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_64"
+  - first:
+      213: 2556901627696494190
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_65"
+  - first:
+      213: -6397933144969933805
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_66"
+  - first:
+      213: 619803461218790684
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_67"
+  - first:
+      213: 566067413801331894
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_68"
+  - first:
+      213: 1812054955451851776
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_69"
+  - first:
+      213: 9174496253886800733
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_70"
+  - first:
+      213: -2328703909420865214
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_71"
+  - first:
+      213: 4159003536316006414
+    second: "Animacio\u0301n_Despertarse_Proyecto-2_72"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_0"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6b9ad51ba977e20800000000000000
+      internalID: 3348314934544545512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_1"
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9809b5693f859f0800000000000000
+      internalID: -479365533208114707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_2"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb9680033f645560800000000000000
+      internalID: 7301583160717253607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_3"
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff60969379384250800000000000000
+      internalID: 5929052078043328509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_4"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380b7bb3c29af20d0800000000000000
+      internalID: -3445349182469590909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_5"
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15de7bb3d0f5acb50800000000000000
+      internalID: 6614203513188117841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_6"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21fd92e665fe7b70800000000000000
+      internalID: 8898819735968149806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_7"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b8e8f0f67026370800000000000000
+      internalID: 8314216035663121193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_8"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab0eb2971304a7b0800000000000000
+      internalID: -5214039068807132251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_9"
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87151f99f98e88610800000000000000
+      internalID: 1623803437847236984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_10"
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b1e3e9bfbc6d3c0800000000000000
+      internalID: -4335053309745423605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_11"
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70d5d03b70065920800000000000000
+      internalID: 2978568732652458109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_12"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bde89d810204ca0800000000000000
+      internalID: -6034788209575142600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_13"
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c83ed3defb48ab90800000000000000
+      internalID: -7230445643894998839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_14"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923ce4f38158848c0800000000000000
+      internalID: -4014812728612961495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_15"
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a960fc7ae94cdfa70800000000000000
+      internalID: 8862455827434243738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_16"
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64e19ead988a9980800000000000000
+      internalID: -8531356333279943574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_17"
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e168efe2929651bd0800000000000000
+      internalID: -2660104379289401826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_18"
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b132d72d43d7420800000000000000
+      internalID: 2629315836101466890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_19"
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4431e445b16593780800000000000000
+      internalID: -8702830129538264252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_20"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c68ed3026951eab0800000000000000
+      internalID: -4980601435388475706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_21"
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb619f08f304b5a30800000000000000
+      internalID: 4205025318571415230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_22"
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7bbca41cfa3a2c0800000000000000
+      internalID: -4421497164429281345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_23"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab317025f5281c080800000000000000
+      internalID: -9168904020439919686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_24"
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b452c4e74f9ce280800000000000000
+      internalID: -9012653623145769802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_25"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b416dc76eadc0e0b0800000000000000
+      internalID: -5701330979301531317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_26"
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 19
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1640b5411d76bc0d0800000000000000
+      internalID: -3401510945860942751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_27"
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 0
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64999bdfb8520eb60800000000000000
+      internalID: 7773254240028956998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_28"
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 0
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7480a520d6d9a8710800000000000000
+      internalID: 1696341301174863943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_29"
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cccbdb6e48d95ca0800000000000000
+      internalID: -6027548794930082615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_30"
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 0
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83d9aa298c907890800000000000000
+      internalID: -7462292469612686453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_31"
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf767bd8ab4bc5a0800000000000000
+      internalID: -6500018448570613821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_32"
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8af4792d2f5f1210800000000000000
+      internalID: 1305867064534432397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_33"
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c516348f92926ec0800000000000000
+      internalID: -3575133940363160120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_34"
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80805404f63bbc60800000000000000
+      internalID: 7834916398413414541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_35"
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc8b0cee8f446170800000000000000
+      internalID: 8170743099221052618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_36"
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd61dd9c45657e320800000000000000
+      internalID: 2587131433111590623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_37"
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c0742bd38b959d0800000000000000
+      internalID: -2784992319428424657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_38"
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cef032125d9ac4b0800000000000000
+      internalID: -5419346225768890684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_39"
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d453169717e9668b0800000000000000
+      internalID: -5159262112901417651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_40"
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa259e296e765f4f0800000000000000
+      internalID: -795615519156120918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_41"
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ea13608fe135d30800000000000000
+      internalID: 4418909709985230449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_42"
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22be037743e249ed0800000000000000
+      internalID: -2408249097863501022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_43"
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23547d428bd5f9cb0800000000000000
+      internalID: -4855058827808651982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_44"
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cfed27a8194ad10800000000000000
+      internalID: 2135992147099188352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_45"
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e362c970a92dcbaa0800000000000000
+      internalID: -6143804232645728706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_46"
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140b0e6b367193450800000000000000
+      internalID: 6068907689895833665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_47"
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462c155a0cd0a0d60800000000000000
+      internalID: 7857107620959732324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_48"
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1199ba12518ac50b0800000000000000
+      internalID: -5738527016464180975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_49"
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90531a8e8dfd1480800000000000000
+      internalID: -8926700097734750051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_50"
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e33e2c58f73135e0800000000000000
+      internalID: -1931701225327283225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_51"
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f16c35b5f494660800000000000000
+      internalID: 7370509518834638597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_52"
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1021d4740a88a7e0800000000000000
+      internalID: -1754000303116443618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_53"
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca4bffba62e86a70800000000000000
+      internalID: 8820548818320444100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_54"
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdbcaddaefb5b160800000000000000
+      internalID: 7040744607925976560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_55"
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb460d8fc929ccc90800000000000000
+      internalID: -7148177305656859457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_56"
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1d1ab80bc401be0800000000000000
+      internalID: -1508621554028523045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_57"
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874dd35a96300d4b0800000000000000
+      internalID: -5417826599447964552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_58"
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2d0130d28768bb0800000000000000
+      internalID: -4934124207017504052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_59"
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4a008bba5dad910800000000000000
+      internalID: 1863036329374295271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_60"
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45796259a5bc39e20800000000000000
+      internalID: 3356249737230980948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_61"
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f702c28e53432240800000000000000
+      internalID: 4765726903887857651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_62"
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcf99fc18b7243c0800000000000000
+      internalID: -4376800090386727746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_63"
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f759d214af16a25a0800000000000000
+      internalID: -6545311380966369921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_64"
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d66af68d261aa50800000000000000
+      internalID: 6530609616389565709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_65"
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 20
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66b77cbb70fb7320800000000000000
+      internalID: 2556901627696494190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_66"
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 0
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c8e5dc3b9f537a0800000000000000
+      internalID: -6397933144969933805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_67"
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 0
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1de080d6fbf99800800000000000000
+      internalID: 619803461218790684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_68"
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 0
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc6d8e40531bd700800000000000000
+      internalID: 566067413801331894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_69"
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 0
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004a13d9166b52910800000000000000
+      internalID: 1812054955451851776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_70"
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 0
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53231efbbb525f70800000000000000
+      internalID: 9174496253886800733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_71"
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 0
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249e7e3e128ceafd0800000000000000
+      internalID: -2328703909420865214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Despertarse_Proyecto-2_72"
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 0
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0085b15eafb7b930800000000000000
+      internalID: 4159003536316006414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Animacio\u0301n_Despertarse_Proyecto-2_0": 3348314934544545512
+      "Animacio\u0301n_Despertarse_Proyecto-2_1": -479365533208114707
+      "Animacio\u0301n_Despertarse_Proyecto-2_10": -4335053309745423605
+      "Animacio\u0301n_Despertarse_Proyecto-2_11": 2978568732652458109
+      "Animacio\u0301n_Despertarse_Proyecto-2_12": -6034788209575142600
+      "Animacio\u0301n_Despertarse_Proyecto-2_13": -7230445643894998839
+      "Animacio\u0301n_Despertarse_Proyecto-2_14": -4014812728612961495
+      "Animacio\u0301n_Despertarse_Proyecto-2_15": 8862455827434243738
+      "Animacio\u0301n_Despertarse_Proyecto-2_16": -8531356333279943574
+      "Animacio\u0301n_Despertarse_Proyecto-2_17": -2660104379289401826
+      "Animacio\u0301n_Despertarse_Proyecto-2_18": 2629315836101466890
+      "Animacio\u0301n_Despertarse_Proyecto-2_19": -8702830129538264252
+      "Animacio\u0301n_Despertarse_Proyecto-2_2": 7301583160717253607
+      "Animacio\u0301n_Despertarse_Proyecto-2_20": -4980601435388475706
+      "Animacio\u0301n_Despertarse_Proyecto-2_21": 4205025318571415230
+      "Animacio\u0301n_Despertarse_Proyecto-2_22": -4421497164429281345
+      "Animacio\u0301n_Despertarse_Proyecto-2_23": -9168904020439919686
+      "Animacio\u0301n_Despertarse_Proyecto-2_24": -9012653623145769802
+      "Animacio\u0301n_Despertarse_Proyecto-2_25": -5701330979301531317
+      "Animacio\u0301n_Despertarse_Proyecto-2_26": -3401510945860942751
+      "Animacio\u0301n_Despertarse_Proyecto-2_27": 7773254240028956998
+      "Animacio\u0301n_Despertarse_Proyecto-2_28": 1696341301174863943
+      "Animacio\u0301n_Despertarse_Proyecto-2_29": -6027548794930082615
+      "Animacio\u0301n_Despertarse_Proyecto-2_3": 5929052078043328509
+      "Animacio\u0301n_Despertarse_Proyecto-2_30": -7462292469612686453
+      "Animacio\u0301n_Despertarse_Proyecto-2_31": -6500018448570613821
+      "Animacio\u0301n_Despertarse_Proyecto-2_32": 1305867064534432397
+      "Animacio\u0301n_Despertarse_Proyecto-2_33": -3575133940363160120
+      "Animacio\u0301n_Despertarse_Proyecto-2_34": 7834916398413414541
+      "Animacio\u0301n_Despertarse_Proyecto-2_35": 8170743099221052618
+      "Animacio\u0301n_Despertarse_Proyecto-2_36": 2587131433111590623
+      "Animacio\u0301n_Despertarse_Proyecto-2_37": -2784992319428424657
+      "Animacio\u0301n_Despertarse_Proyecto-2_38": -5419346225768890684
+      "Animacio\u0301n_Despertarse_Proyecto-2_39": -5159262112901417651
+      "Animacio\u0301n_Despertarse_Proyecto-2_4": -3445349182469590909
+      "Animacio\u0301n_Despertarse_Proyecto-2_40": -795615519156120918
+      "Animacio\u0301n_Despertarse_Proyecto-2_41": 4418909709985230449
+      "Animacio\u0301n_Despertarse_Proyecto-2_42": -2408249097863501022
+      "Animacio\u0301n_Despertarse_Proyecto-2_43": -4855058827808651982
+      "Animacio\u0301n_Despertarse_Proyecto-2_44": 2135992147099188352
+      "Animacio\u0301n_Despertarse_Proyecto-2_45": -6143804232645728706
+      "Animacio\u0301n_Despertarse_Proyecto-2_46": 6068907689895833665
+      "Animacio\u0301n_Despertarse_Proyecto-2_47": 7857107620959732324
+      "Animacio\u0301n_Despertarse_Proyecto-2_48": -5738527016464180975
+      "Animacio\u0301n_Despertarse_Proyecto-2_49": -8926700097734750051
+      "Animacio\u0301n_Despertarse_Proyecto-2_5": 6614203513188117841
+      "Animacio\u0301n_Despertarse_Proyecto-2_50": -1931701225327283225
+      "Animacio\u0301n_Despertarse_Proyecto-2_51": 7370509518834638597
+      "Animacio\u0301n_Despertarse_Proyecto-2_52": -1754000303116443618
+      "Animacio\u0301n_Despertarse_Proyecto-2_53": 8820548818320444100
+      "Animacio\u0301n_Despertarse_Proyecto-2_54": 7040744607925976560
+      "Animacio\u0301n_Despertarse_Proyecto-2_55": -7148177305656859457
+      "Animacio\u0301n_Despertarse_Proyecto-2_56": -1508621554028523045
+      "Animacio\u0301n_Despertarse_Proyecto-2_57": -5417826599447964552
+      "Animacio\u0301n_Despertarse_Proyecto-2_58": -4934124207017504052
+      "Animacio\u0301n_Despertarse_Proyecto-2_59": 1863036329374295271
+      "Animacio\u0301n_Despertarse_Proyecto-2_6": 8898819735968149806
+      "Animacio\u0301n_Despertarse_Proyecto-2_60": 3356249737230980948
+      "Animacio\u0301n_Despertarse_Proyecto-2_61": 4765726903887857651
+      "Animacio\u0301n_Despertarse_Proyecto-2_62": -4376800090386727746
+      "Animacio\u0301n_Despertarse_Proyecto-2_63": -6545311380966369921
+      "Animacio\u0301n_Despertarse_Proyecto-2_64": 6530609616389565709
+      "Animacio\u0301n_Despertarse_Proyecto-2_65": 2556901627696494190
+      "Animacio\u0301n_Despertarse_Proyecto-2_66": -6397933144969933805
+      "Animacio\u0301n_Despertarse_Proyecto-2_67": 619803461218790684
+      "Animacio\u0301n_Despertarse_Proyecto-2_68": 566067413801331894
+      "Animacio\u0301n_Despertarse_Proyecto-2_69": 1812054955451851776
+      "Animacio\u0301n_Despertarse_Proyecto-2_7": 8314216035663121193
+      "Animacio\u0301n_Despertarse_Proyecto-2_70": 9174496253886800733
+      "Animacio\u0301n_Despertarse_Proyecto-2_71": -2328703909420865214
+      "Animacio\u0301n_Despertarse_Proyecto-2_72": 4159003536316006414
+      "Animacio\u0301n_Despertarse_Proyecto-2_8": -5214039068807132251
+      "Animacio\u0301n_Despertarse_Proyecto-2_9": 1623803437847236984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

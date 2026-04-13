@@ -1,0 +1,1032 @@
+fileFormatVersion: 2
+guid: 782c636facacf4734b26e395e8cf38c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4840986978543321104
+    second: "Animacio\u0301nBoss_Ardiendo_0"
+  - first:
+      213: -4576034078877165621
+    second: "Animacio\u0301nBoss_Ardiendo_1"
+  - first:
+      213: 15900005967037959
+    second: "Animacio\u0301nBoss_Ardiendo_2"
+  - first:
+      213: -4069066666282984966
+    second: "Animacio\u0301nBoss_Ardiendo_3"
+  - first:
+      213: -8774561032614418779
+    second: "Animacio\u0301nBoss_Ardiendo_4"
+  - first:
+      213: 1197002426706362467
+    second: "Animacio\u0301nBoss_Ardiendo_5"
+  - first:
+      213: -2950183728543361844
+    second: "Animacio\u0301nBoss_Ardiendo_6"
+  - first:
+      213: -3264768043174944508
+    second: "Animacio\u0301nBoss_Ardiendo_7"
+  - first:
+      213: 6178528598097492750
+    second: "Animacio\u0301nBoss_Ardiendo_8"
+  - first:
+      213: -1858302598351455473
+    second: "Animacio\u0301nBoss_Ardiendo_9"
+  - first:
+      213: -1113890499017439536
+    second: "Animacio\u0301nBoss_Ardiendo_10"
+  - first:
+      213: -5119461251848396076
+    second: "Animacio\u0301nBoss_Ardiendo_11"
+  - first:
+      213: -1950046736443691418
+    second: "Animacio\u0301nBoss_Ardiendo_12"
+  - first:
+      213: -32393967192239623
+    second: "Animacio\u0301nBoss_Ardiendo_13"
+  - first:
+      213: 7258467879474506712
+    second: "Animacio\u0301nBoss_Ardiendo_14"
+  - first:
+      213: -2243955733945563544
+    second: "Animacio\u0301nBoss_Ardiendo_15"
+  - first:
+      213: 8663349063744564836
+    second: "Animacio\u0301nBoss_Ardiendo_16"
+  - first:
+      213: 8620749056081607868
+    second: "Animacio\u0301nBoss_Ardiendo_17"
+  - first:
+      213: -6705916280658186214
+    second: "Animacio\u0301nBoss_Ardiendo_18"
+  - first:
+      213: 3803031434003471601
+    second: "Animacio\u0301nBoss_Ardiendo_19"
+  - first:
+      213: 1738119526992006027
+    second: "Animacio\u0301nBoss_Ardiendo_20"
+  - first:
+      213: 4145554479666238013
+    second: "Animacio\u0301nBoss_Ardiendo_21"
+  - first:
+      213: -4035727692321079267
+    second: "Animacio\u0301nBoss_Ardiendo_22"
+  - first:
+      213: -814637164928197937
+    second: "Animacio\u0301nBoss_Ardiendo_23"
+  - first:
+      213: -7505685376301926623
+    second: "Animacio\u0301nBoss_Ardiendo_24"
+  - first:
+      213: 5080894992985062078
+    second: "Animacio\u0301nBoss_Ardiendo_25"
+  - first:
+      213: 6020599135513611089
+    second: "Animacio\u0301nBoss_Ardiendo_26"
+  - first:
+      213: 5524214706516072047
+    second: "Animacio\u0301nBoss_Ardiendo_27"
+  - first:
+      213: -7511708938926080493
+    second: "Animacio\u0301nBoss_Ardiendo_28"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010cd522204ae2340800000000000000
+      internalID: 4840986978543321104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_1"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7d1780049ae70c0800000000000000
+      internalID: -4576034078877165621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_2"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706879f98fc783000800000000000000
+      internalID: 15900005967037959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_3"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9d1d40d65c787c0800000000000000
+      internalID: -4069066666282984966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_4"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6680ffa3f7a3680800000000000000
+      internalID: -8774561032614418779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_5"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3600d177d5b9c9010800000000000000
+      internalID: 1197002426706362467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_6"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc419069787de07d0800000000000000
+      internalID: -2950183728543361844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_7"
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401a28023c631b2d0800000000000000
+      internalID: -3264768043174944508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_8"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b7134560b8eb550800000000000000
+      internalID: 6178528598097492750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_9"
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b731ce1abf536e0800000000000000
+      internalID: -1858302598351455473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_10"
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d602672e7aaa80f0800000000000000
+      internalID: -1113890499017439536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_11"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d223329d1504f8b0800000000000000
+      internalID: -5119461251848396076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_12"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e2dd233da00f4e0800000000000000
+      internalID: -1950046736443691418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_13"
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f114a4cbd9ec8ff0800000000000000
+      internalID: -32393967192239623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_14"
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db29a154124bb460800000000000000
+      internalID: 7258467879474506712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_15"
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8664972262edbd0e0800000000000000
+      internalID: -2243955733945563544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_16"
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e25b5b2166a3870800000000000000
+      internalID: 8663349063744564836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_17"
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 74
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc3781879d03a770800000000000000
+      internalID: 8620749056081607868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_18"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a103cd51caccfe2a0800000000000000
+      internalID: -6705916280658186214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_19"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcdb6d90f417c430800000000000000
+      internalID: 3803031434003471601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_20"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b4787308a0f1810800000000000000
+      internalID: 1738119526992006027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_21"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32198dc5d7f78930800000000000000
+      internalID: 4145554479666238013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_22"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10cef8cb073ef7c0800000000000000
+      internalID: -4035727692321079267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_23"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca9f9b80d3d1b4f0800000000000000
+      internalID: -814637164928197937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_24"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127fda5cae276d790800000000000000
+      internalID: -7505685376301926623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_25"
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba7fed8317f28640800000000000000
+      internalID: 5080894992985062078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_26"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b0057e3077d8350800000000000000
+      internalID: 6020599135513611089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_27"
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6611ecc104f9ac40800000000000000
+      internalID: 5524214706516072047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_28"
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e3f2fc48c01c790800000000000000
+      internalID: -7511708938926080493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_29"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7222806a8f943cda681ca23cca0d91
+      internalID: -2108151734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_30"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e148496474e453c9d02fdef3a0f916
+      internalID: -1145309230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_31"
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f922496761ee4eb6b38545d09fdb95c
+      internalID: 461096903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_32"
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee1412bc179c4bd091c7084f41c2d12
+      internalID: 245230493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_33"
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d192cb350c347405ea113887a61a2db7
+      internalID: 492691621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_34"
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f780cb8e8392f4673b053804afdd56b7
+      internalID: 718222006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301nBoss_Ardiendo_35"
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 0
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6a73080954045559ec686020cf937d
+      internalID: 546999104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21042e422b06645e19e077a70ed832c1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Animacio\u0301nBoss_Ardiendo_0": 4840986978543321104
+      "Animacio\u0301nBoss_Ardiendo_1": -4576034078877165621
+      "Animacio\u0301nBoss_Ardiendo_10": -1113890499017439536
+      "Animacio\u0301nBoss_Ardiendo_11": -5119461251848396076
+      "Animacio\u0301nBoss_Ardiendo_12": -1950046736443691418
+      "Animacio\u0301nBoss_Ardiendo_13": -32393967192239623
+      "Animacio\u0301nBoss_Ardiendo_14": 7258467879474506712
+      "Animacio\u0301nBoss_Ardiendo_15": -2243955733945563544
+      "Animacio\u0301nBoss_Ardiendo_16": 8663349063744564836
+      "Animacio\u0301nBoss_Ardiendo_17": 8620749056081607868
+      "Animacio\u0301nBoss_Ardiendo_18": -6705916280658186214
+      "Animacio\u0301nBoss_Ardiendo_19": 3803031434003471601
+      "Animacio\u0301nBoss_Ardiendo_2": 15900005967037959
+      "Animacio\u0301nBoss_Ardiendo_20": 1738119526992006027
+      "Animacio\u0301nBoss_Ardiendo_21": 4145554479666238013
+      "Animacio\u0301nBoss_Ardiendo_22": -4035727692321079267
+      "Animacio\u0301nBoss_Ardiendo_23": -814637164928197937
+      "Animacio\u0301nBoss_Ardiendo_24": -7505685376301926623
+      "Animacio\u0301nBoss_Ardiendo_25": 5080894992985062078
+      "Animacio\u0301nBoss_Ardiendo_26": 6020599135513611089
+      "Animacio\u0301nBoss_Ardiendo_27": 5524214706516072047
+      "Animacio\u0301nBoss_Ardiendo_28": -7511708938926080493
+      "Animacio\u0301nBoss_Ardiendo_29": -2108151734
+      "Animacio\u0301nBoss_Ardiendo_3": -4069066666282984966
+      "Animacio\u0301nBoss_Ardiendo_30": -1145309230
+      "Animacio\u0301nBoss_Ardiendo_31": 461096903
+      "Animacio\u0301nBoss_Ardiendo_32": 245230493
+      "Animacio\u0301nBoss_Ardiendo_33": 492691621
+      "Animacio\u0301nBoss_Ardiendo_34": 718222006
+      "Animacio\u0301nBoss_Ardiendo_35": 546999104
+      "Animacio\u0301nBoss_Ardiendo_4": -8774561032614418779
+      "Animacio\u0301nBoss_Ardiendo_5": 1197002426706362467
+      "Animacio\u0301nBoss_Ardiendo_6": -2950183728543361844
+      "Animacio\u0301nBoss_Ardiendo_7": -3264768043174944508
+      "Animacio\u0301nBoss_Ardiendo_8": 6178528598097492750
+      "Animacio\u0301nBoss_Ardiendo_9": -1858302598351455473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
