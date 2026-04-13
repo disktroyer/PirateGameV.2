@@ -37,6 +37,13 @@ public class BossController : MonoBehaviour
 
     [Header("Hearts UI (optional)")]
     public List<Image> heartIcons;
+    public bool useHeartUI = true;
+    [Min(1)] public int totalHearts = 5;
+    public RectTransform heartsContainer;
+    public Sprite heartSprite;
+    public Vector2 heartSize = new Vector2(36f, 36f);
+    public float heartSpacing = 8f;
+    public bool hideLegacyHealthUI = true;
 
     [Header("Animator Triggers")]
     public string stunTrigger = "Stun";
@@ -53,6 +60,7 @@ public class BossController : MonoBehaviour
     private Vector2 lastPosition;
     private float stuckTimer = 0f;
     private bool facingRight = true;
+    private bool heartsBuilt = false;
 
     public Vector2 Direction { get; private set; }
 
@@ -75,6 +83,7 @@ public class BossController : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        EnsureHeartsBuilt();
         UpdateHealthUI();
 
         GameObject p = GameObject.FindGameObjectWithTag("Player");
@@ -322,15 +331,30 @@ public class BossController : MonoBehaviour
     void UpdateHealthUI()
     {
         if (healthBar != null)
+        {
             healthBar.value = currentHealth / maxHealth;
+            if (useHeartUI && hideLegacyHealthUI)
+                healthBar.gameObject.SetActive(false);
+        }
 
         if (healthText != null)
+        {
             healthText.text = $"Boss: {currentHealth:0}/{maxHealth}";
+            if (useHeartUI && hideLegacyHealthUI)
+                healthText.gameObject.SetActive(false);
+        }
 
-        if (heartIcons != null && heartIcons.Count > 0)
+        if (useHeartUI)
+            EnsureHeartsBuilt();
+
+        if (useHeartUI && heartIcons != null && heartIcons.Count > 0)
         {
             float healthRatio = currentHealth / maxHealth;
             int visibleHearts = Mathf.CeilToInt(healthRatio * heartIcons.Count);
+            visibleHearts = Mathf.Clamp(visibleHearts, 0, heartIcons.Count);
+
+            if (currentHealth <= 0f)
+                visibleHearts = 0;
 
             for (int i = 0; i < heartIcons.Count; i++)
             {
@@ -338,6 +362,45 @@ public class BossController : MonoBehaviour
                     heartIcons[i].enabled = i < visibleHearts;
             }
         }
+    }
+
+    void EnsureHeartsBuilt()
+    {
+        if (heartsBuilt)
+            return;
+
+        if (heartIcons == null)
+            heartIcons = new List<Image>();
+
+        if (heartIcons.Count > 0)
+        {
+            heartsBuilt = true;
+            totalHearts = heartIcons.Count;
+            return;
+        }
+
+        if (heartsContainer == null || heartSprite == null)
+            return;
+
+        for (int i = 0; i < totalHearts; i++)
+        {
+            GameObject heartObject = new GameObject($"Heart_{i + 1}", typeof(RectTransform), typeof(Image));
+            heartObject.transform.SetParent(heartsContainer, false);
+
+            RectTransform rect = heartObject.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(0f, 0.5f);
+            rect.anchorMax = new Vector2(0f, 0.5f);
+            rect.pivot = new Vector2(0f, 0.5f);
+            rect.sizeDelta = heartSize;
+            rect.anchoredPosition = new Vector2(i * (heartSize.x + heartSpacing), 0f);
+
+            Image image = heartObject.GetComponent<Image>();
+            image.sprite = heartSprite;
+            image.preserveAspect = true;
+            heartIcons.Add(image);
+        }
+
+        heartsBuilt = true;
     }
 
 #if UNITY_EDITOR
