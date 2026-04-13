@@ -21,6 +21,10 @@ public class PlayerInteraction : MonoBehaviour
             return;
         }
 
+        // ✋ Si está dentro del armario pero NO hay CurrentHideSpot, no permitir interactuar
+        if (hide != null && hide.IsHidden)
+            return;
+
         // Si no está escondido, busca objetos interactuables
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange);
         foreach (var hit in hits)
@@ -40,4 +44,3 @@ public class PlayerInteraction : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, interactRange);
     }
 }
-

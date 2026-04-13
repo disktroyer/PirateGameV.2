@@ -44,6 +44,12 @@ public class TrampaLampara : MonoBehaviour
     private bool secuenciaActiva;
     private Vector3 sombraEscalaNormal = Vector3.one;
     private Vector3 sombraPosicionObjetivo;
+    private BossController trappedBoss; // cachear jefe durante stun
+
+    [Header("Daño al Jefe")]
+    [SerializeField] private float tiempoStunLampara = 2f;
+    [SerializeField] private float corazonesAPerdidos = 3f;
+    [SerializeField] private string animacionArdiendo = "Burn"; // nombre del trigger en Animator
 
     void Start()
     {
@@ -128,7 +134,11 @@ public class TrampaLampara : MonoBehaviour
         }
 
         if (esJefe || tagValida)
+        {
+            // cachear jefe para luego aplicarle daño
+            trappedBoss = other.GetComponent<BossController>();
             ActivarTrampa();
+        }
     }
 
     public void ActivarTrampa()
@@ -250,6 +260,23 @@ public class TrampaLampara : MonoBehaviour
 
         if (particulasFuego != null)
             particulasFuego.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+
+        // 6. APLICAR DAÑO Y STUN AL JEFE ─────────────────────────────────
+        if (trappedBoss != null)
+        {
+            // Restar 3 corazones (cada corazón = 20 de vida si maxHealth=100)
+            float damageAmount = (trappedBoss.maxHealth / 5f) * corazonesAPerdidos;
+            trappedBoss.RecibirDaño(damageAmount);
+
+            // Reproducir animación de ardiendo
+            if (trappedBoss.animator != null && !string.IsNullOrEmpty(animacionArdiendo))
+                trappedBoss.animator.SetTrigger(animacionArdiendo);
+
+            // Stunear al jefe (queda quiero y sin poder hacer nada)
+            trappedBoss.Trap_Stun(tiempoStunLampara);
+
+            trappedBoss = null; // limpiar referencia
+        }
 
         secuenciaActiva = false;
     }
