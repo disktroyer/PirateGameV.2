@@ -47,7 +47,8 @@ public class TrampaLampara : MonoBehaviour
     private BossController trappedBoss; // cachear jefe durante stun
 
     [Header("Daño al Jefe")]
-    [SerializeField] private float tiempoStunLampara = 2f;
+    [Tooltip("Cuánto tiempo queda aturdido el jefe cuando la lámpara cae.")]
+    [SerializeField] private float tiempoStunLampara = 7f;
     [SerializeField] private float corazonesAPerdidos = 3f;
     [SerializeField] private string animacionArdiendo = "Burn"; // nombre del trigger en Animator
 

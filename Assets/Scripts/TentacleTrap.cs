@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TentacleTrap : MonoBehaviour
 {
     [Header("Trap Settings")]
     public float slowMultiplier = 0f; // 0 = paralizado completamente
-    public string enemyTag = "Enemy";
+    public string activationTag = "Boss";
 
     [Header("References")]
     public GameObject trapVisual;       // SpriteRenderer de la trampa en el suelo
@@ -20,8 +21,8 @@ public class TentacleTrap : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Enemigo activa la trampa
-        if (other.CompareTag(enemyTag))
+        // Jefe o enemigo activo activa la trampa
+        if (other.CompareTag(activationTag) || other.GetComponent<BossController>() != null)
         {
             ActivateTrap();
             return;
@@ -86,6 +87,15 @@ public class TentacleTrap : MonoBehaviour
             playerAnimator.SetTrigger("Idle");
 
         Destroy(gameObject);
+    }
+
+    public void FailPlayer(GameObject player)
+    {
+        // Si el jugador falla los 3 intentos en la trampa, ir a Game Over.
+        if (player != null)
+            player.SetActive(false);
+
+        SceneManager.LoadScene("GameOver");
     }
 
     private void LockPlayer(bool trapped)

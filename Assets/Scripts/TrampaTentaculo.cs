@@ -36,10 +36,10 @@ public class TrampaTentaculo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (isActive) return;
+        if (trapResolved) return;
 
         // Mostrar sprite cuando algo pasa por encima
-        if ((other.CompareTag("Enemy") || other.CompareTag("Player")) && !isVisible)
+        if ((other.CompareTag("Boss") || other.CompareTag("Player") || other.GetComponent<BossController>() != null) && !isVisible)
         {
             isVisible = true;
             if (spriteRenderer != null) spriteRenderer.enabled = true;
@@ -47,33 +47,21 @@ public class TrampaTentaculo : MonoBehaviour
             Debug.Log("TrampaTentaculo: Sprite visible, detectado " + other.tag);
         }
 
-        // Enemigo/Boss activando trampa
-        if (other.CompareTag("Enemy"))
+        // Jefe activando la trampa y dejándola armada para el jugador
+        if (other.CompareTag("Boss") || other.GetComponent<BossController>() != null)
         {
-            isActive = true;
-            isBossTrap = true;
-
-            trappedBoss = other.GetComponent<BossController>();
-
-            if (trappedBoss != null)
+            if (!isActive)
             {
-                Debug.Log("TrampaTentaculo: Boss capturado, iniciando QTE");
-                
-                // Configurar eventos dinámicamente
-                qteController.onSuccess.RemoveAllListeners();
-                qteController.onFail.RemoveAllListeners();
-
-                qteController.onSuccess.AddListener(ReleaseBoss);
-                qteController.onFail.AddListener(FailQTE);
-
-                qteController.StartQTE();
+                isActive = true;
+                Debug.Log("TrampaTentaculo: activada por Boss, esperando jugador");
             }
             return;
         }
 
         if (other.CompareTag("Player"))
         {
-            isActive = true;
+            if (!isActive) return;
+            isBossTrap = false;
 
             trappedPlayerController = other.GetComponent<PlayerController>();
             trappedPlayerMovement = other.GetComponent<PlayerMovement>();

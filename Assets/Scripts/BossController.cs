@@ -299,6 +299,15 @@ public class BossController : MonoBehaviour
         BossState prev = state;
         state = BossState.Stunned;
 
+        // Detener físicamente al jefe y evitar que siga moviéndose.
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
+        currentTargetPosition = transform.position;
+        Direction = Vector2.zero;
+
         if (animator != null && !string.IsNullOrEmpty(trigger))
             animator.SetTrigger(trigger);
 

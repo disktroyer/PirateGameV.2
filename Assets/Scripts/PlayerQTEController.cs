@@ -12,6 +12,7 @@ public class PlayerQTEController : MonoBehaviour
     public Animator playerAnimator;       // Animator del jugador (mismo GameObject)
     public GameObject qteUI;              // Panel de UI del QTE (opcional)
     public Slider progressBar;            // Barra de progreso (opcional)
+    public QTEController qteController;    // Controlador de barra vertical QTE
 
     private PlayerController playerController;
     private PlayerMovement playerMovement;
@@ -36,6 +37,9 @@ public class PlayerQTEController : MonoBehaviour
     private void Update()
     {
         if (!isInQTE) return;
+
+        if (qteController != null)
+            return; // El QTE visual se maneja en QTEController.
 
         timer -= Time.deltaTime;
 
@@ -85,6 +89,15 @@ public class PlayerQTEController : MonoBehaviour
         // Mostrar UI del QTE si existe
         if (qteUI != null)
             qteUI.SetActive(true);
+
+        if (qteController != null)
+        {
+            qteController.onSuccess.RemoveAllListeners();
+            qteController.onFail.RemoveAllListeners();
+            qteController.onSuccess.AddListener(OnSuccess);
+            qteController.onFail.AddListener(OnFail);
+            qteController.StartQTE();
+        }
     }
 
     private void Escape()
@@ -98,6 +111,13 @@ public class PlayerQTEController : MonoBehaviour
         // Ocultar UI
         if (qteUI != null)
             qteUI.SetActive(false);
+
+        if (qteController != null)
+        {
+            qteController.onSuccess.RemoveAllListeners();
+            qteController.onFail.RemoveAllListeners();
+            qteController.gameObject.SetActive(false);
+        }
 
         // Avisar a la trampa para que libere al jugador
         if (currentTrap != null)
@@ -117,22 +137,34 @@ public class PlayerQTEController : MonoBehaviour
     // Called by external QTE UI when the player fails the QTE input
     public void OnFail()
     {
-        // End the immediate QTE UI interaction but keep the player trapped.
+        // End the immediate QTE UI interaction.
         isInQTE = false;
 
         // Hide QTE UI if present
         if (qteUI != null)
             qteUI.SetActive(false);
 
+        if (qteController != null)
+        {
+            qteController.onSuccess.RemoveAllListeners();
+            qteController.onFail.RemoveAllListeners();
+            qteController.gameObject.SetActive(false);
+        }
+
         // Reset counters so a future QTE starts clean
         pressCount = 0;
         timer = timeLimit;
 
-        // Optionally play a failure animation or keep the "AtadoTentaculo" state
+        // Mantener al jugador atrapado hasta el Game Over
         if (playerAnimator != null)
             playerAnimator.SetTrigger("AtadoTentaculo");
 
         SetPlayerLocked(true);
+
+        if (currentTrap != null)
+            currentTrap.FailPlayer(gameObject);
+
+        currentTrap = null;
     }
 
     private void SetPlayerLocked(bool locked)
