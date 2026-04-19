@@ -4,7 +4,14 @@ public class PlayerInteraction : MonoBehaviour
 {
     public float interactRange = 2.5f;
     public KeyCode interactKey = KeyCode.E;
+    private Animator animator;
 
+
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     void Update()
     {
         if (Input.GetKeyDown(interactKey))
@@ -13,6 +20,10 @@ public class PlayerInteraction : MonoBehaviour
 
     void TryInteract()
     {
+
+        if (animator != null) animator.SetTrigger("agarrar");
+
+
         // Si está escondido, intenta salir del armario actual
         PlayerHideController hide = GetComponent<PlayerHideController>();
         if (hide != null && hide.IsHidden && hide.CurrentHideSpot != null)

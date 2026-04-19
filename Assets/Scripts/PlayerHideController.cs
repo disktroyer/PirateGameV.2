@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerHideController : MonoBehaviour
 {
-    public Animator Closetanimator;
+    private Animator currentClosetanimator;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
     private Collider2D playerCollider;
@@ -22,7 +22,7 @@ public class PlayerHideController : MonoBehaviour
 
     void Start()
     {
-        Closetanimator = GetComponent<Animator>();
+        //Closetanimator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<Collider2D>();
@@ -37,8 +37,13 @@ public class PlayerHideController : MonoBehaviour
         CurrentHideSpot = hideSpot;
         currentHidePoint = hidePoint;
 
+        if (hideSpot != null)
+        {
+            currentClosetanimator = hideSpot.GetComponent<Animator>();
+        }
+
         // Animación
-        if (Closetanimator != null) Closetanimator.SetTrigger("EnterCloset");
+        if (currentClosetanimator != null) currentClosetanimator.SetTrigger("EnterCloset");
 
         // Colocar al jugador dentro del armario
         if (hidePoint != null) transform.position = hidePoint.position;
@@ -63,8 +68,12 @@ public class PlayerHideController : MonoBehaviour
         isHidden = false;
         CurrentHideSpot = null;
 
-        // Animación salida
-        if (Closetanimator != null) Closetanimator.SetTrigger("ExitCloset");
+        //if (currentClosetanimator != null)
+        //{
+        //    currentClosetanimator.SetTrigger("ExitCloset");
+        //    // Limpiamos la variable ya que salimos del armario
+        //    currentClosetanimator = null;
+        //}
 
         // Volver visible
         if (spriteRenderer != null) spriteRenderer.enabled = true;
