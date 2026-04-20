@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private bool isTrapped = false;
     private float lastDirectionX = 1f; // Dirección por defecto a la derecha
     private bool facingLeft = false;
+    private bool isMovingGlobal = false;
 
     void Start()
     {
@@ -36,6 +37,7 @@ public class PlayerController : MonoBehaviour
         movement.Normalize();
 
         bool isMoving = movement.magnitude > 0.01f;
+        isMovingGlobal = isMoving;
 
         animator.SetBool("IsMoving", isMoving);
 
@@ -48,6 +50,8 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            animator.SetFloat("MoveX", lastDirectionX); // Mantener dirección en idle
+            animator.SetFloat("MoveY", 0f);
             facingLeft = lastDirectionX < 0;
         }
 
@@ -74,15 +78,7 @@ public class PlayerController : MonoBehaviour
 
     void LateUpdate()
     {
-        UpdateFlip();
-    }
-
-    void UpdateFlip()
-    {
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.flipX = facingLeft;
-        }
+        // El Animator maneja la dirección con MoveX, no necesitamos flip manual
     }
 
     void FixedUpdate()
