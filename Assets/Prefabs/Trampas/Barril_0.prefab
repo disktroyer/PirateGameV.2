@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3313105709609936557}
   - component: {fileID: 4815796028235889904}
-  - component: {fileID: 4442699231864039083}
-  - component: {fileID: -6194654653897340654}
+  - component: {fileID: 220086743532175425}
+  - component: {fileID: 5453486716895892961}
   m_Layer: 0
   m_Name: Barril_0
   m_TagString: Untagged
@@ -89,13 +89,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &4442699231864039083
-BoxCollider:
+--- !u!61 &220086743532175425
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338716421291425420}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -104,13 +107,35 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.2197666, y: 1.3091521, z: 0.2}
-  m_Center: {x: -0.033432007, y: 0.01215744, z: 0}
---- !u!114 &-6194654653897340654
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.26, y: 0.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &5453486716895892961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,7 +144,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 338716421291425420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53ea5d614af3c5340b21782f3675502e, type: 3}
+  m_Script: {fileID: 11500000, guid: 41001bb4f1e45e1469328ec8becced6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: 4b57b76cc46be1f4883536787783d170, type: 2}
+  requiredItem: {fileID: 11400000, guid: 42893a1c99780094695c064b6e336271, type: 2}
+  damage: 1
+  prepareSound: {fileID: 0}
+  triggerSound: {fileID: 0}
+  puddlePrefab: {fileID: 0}

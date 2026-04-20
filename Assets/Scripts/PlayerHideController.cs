@@ -68,12 +68,12 @@ public class PlayerHideController : MonoBehaviour
         isHidden = false;
         CurrentHideSpot = null;
 
-        //if (currentClosetanimator != null)
-        //{
-        //    currentClosetanimator.SetTrigger("ExitCloset");
-        //    // Limpiamos la variable ya que salimos del armario
-        //    currentClosetanimator = null;
-        //}
+        if (currentClosetanimator != null)
+        {
+            currentClosetanimator.SetTrigger("ExitCloset");
+            // Limpiamos la variable ya que salimos del armario
+            currentClosetanimator = null;
+        }
 
         // Volver visible
         if (spriteRenderer != null) spriteRenderer.enabled = true;
