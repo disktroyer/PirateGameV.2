@@ -9,6 +9,7 @@ public class TrampaTentaculo : MonoBehaviour
     [Header("Visuals")]
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+    public Transform trapPoint;
 
     private PlayerController trappedPlayerController;
     private PlayerMovement trappedPlayerMovement;
@@ -63,12 +64,18 @@ public class TrampaTentaculo : MonoBehaviour
             if (!isActive) return;
             isBossTrap = false;
 
+            animator.SetTrigger("Atrapar");
+
+            if (trapPoint != null) transform.position = trapPoint.position;
+
+
             trappedPlayerController = other.GetComponent<PlayerController>();
             trappedPlayerMovement = other.GetComponent<PlayerMovement>();
             trappedPlayerRb = other.attachedRigidbody != null ? other.attachedRigidbody : other.GetComponent<Rigidbody2D>();
 
             if (trappedPlayerController != null || trappedPlayerMovement != null)
             {
+
                 Debug.Log("TrampaTentaculo: Jugador capturado, iniciando QTE");
                 LockPlayer(true);
 
@@ -92,7 +99,7 @@ public class TrampaTentaculo : MonoBehaviour
         trapResolved = true;
         LockPlayer(false);
 
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 
     void ReleaseBoss()
