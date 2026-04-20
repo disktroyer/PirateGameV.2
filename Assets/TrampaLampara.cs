@@ -40,6 +40,7 @@ public class TrampaLampara : MonoBehaviour
     [SerializeField] private bool activarConEnemy = true;
     [SerializeField] private bool activarSoloConJefe = true;
     [SerializeField] private string enemyTag = "Enemy";
+    [SerializeField] private bool isActivated = false; // La trampa debe ser activada por el cuchillo
 
     private bool secuenciaActiva;
     private Vector3 sombraEscalaNormal = Vector3.one;
@@ -118,7 +119,7 @@ public class TrampaLampara : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!activarConEnemy)
+        if (!activarConEnemy || !isActivated)
             return;
 
         bool esJefe = other.GetComponent<BossController>() != null;
@@ -140,6 +141,11 @@ public class TrampaLampara : MonoBehaviour
             trappedBoss = other.GetComponent<BossController>();
             ActivarTrampa();
         }
+    }
+
+    public void ActivarTrampaManual()
+    {
+        isActivated = true;
     }
 
     public void ActivarTrampa()

@@ -16,6 +16,9 @@ public class MainMenu : MonoBehaviour
         // Desactiva botón Continuar si no hay partida
         UnityEngine.UI.Button continuarBtn = GameObject.Find("BotónContinuar").GetComponent<UnityEngine.UI.Button>();
         continuarBtn.interactable = File.Exists(path);
+
+        if (CustomCursorManager.Instance != null)
+            CustomCursorManager.Instance.ShowMenuCursor();
     }
 
     public void ContinuarPartida()

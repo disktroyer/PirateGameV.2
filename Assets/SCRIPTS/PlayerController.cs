@@ -6,15 +6,20 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private Vector2 movement;
 
     private bool canMove = true;
     private bool isTrapped = false;
+    private float lastDirectionX = 1f; // Dirección por defecto a la derecha
+    private bool facingLeft = false;
+    private bool isMovingGlobal = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     void Update()
@@ -32,6 +37,7 @@ public class PlayerController : MonoBehaviour
         movement.Normalize();
 
         bool isMoving = movement.magnitude > 0.01f;
+        isMovingGlobal = isMoving;
 
         animator.SetBool("IsMoving", isMoving);
 
@@ -39,6 +45,14 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("MoveX", movement.x);
             animator.SetFloat("MoveY", movement.y);
+            lastDirectionX = movement.x; // Guardar la dirección
+            facingLeft = movement.x < 0;
+        }
+        else
+        {
+            animator.SetFloat("MoveX", lastDirectionX); // Mantener dirección en idle
+            animator.SetFloat("MoveY", 0f);
+            facingLeft = lastDirectionX < 0;
         }
 
         //if (Input.GetKey(KeyCode.F))
@@ -60,6 +74,11 @@ public class PlayerController : MonoBehaviour
         {
             // Craft
         }
+    }
+
+    void LateUpdate()
+    {
+        // El Animator maneja la dirección con MoveX, no necesitamos flip manual
     }
 
     void FixedUpdate()

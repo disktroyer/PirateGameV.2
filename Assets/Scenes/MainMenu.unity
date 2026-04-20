@@ -1007,6 +1007,7 @@ GameObject:
   - component: {fileID: 922370031}
   - component: {fileID: 922370030}
   - component: {fileID: 922370029}
+  - component: {fileID: 922370032}
   m_Layer: 5
   m_Name: ButonNuevaPartida
   m_TagString: Untagged
@@ -1128,6 +1129,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922370027}
   m_CullTransparentMesh: 1
+--- !u!114 &922370032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922370027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326c318404b6640f8826633190ea6e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &992275943
 GameObject:
   m_ObjectHideFlags: 0
