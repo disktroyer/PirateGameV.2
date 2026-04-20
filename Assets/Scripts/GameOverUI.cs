@@ -6,6 +6,12 @@ public class GameOverUI : MonoBehaviour
     public string mainMenuScene = "MainMenu";
     public string gameScene = "Nivel1";  // tu escena del nivel
 
+    void Start()
+    {
+        if (CustomCursorManager.Instance != null)
+            CustomCursorManager.Instance.ShowMenuCursor();
+    }
+
     public void Retry()
     {
         SceneManager.LoadScene(gameScene);

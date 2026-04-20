@@ -5,9 +5,15 @@ public class PauseMenu : MonoBehaviour
 {
     [Header("Referencias")]
     public GameObject pauseMenuUI;
-    public KeyCode pauseKey = KeyCode.Tab;
+    public KeyCode pauseKey = KeyCode.Escape;
 
     private bool isPaused = false;
+
+    void Start()
+    {
+        if (CustomCursorManager.Instance != null)
+            CustomCursorManager.Instance.HideCursor();
+    }
 
     void Update()
     {
@@ -25,6 +31,9 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+
+        if (CustomCursorManager.Instance != null)
+            CustomCursorManager.Instance.HideCursor();
     }
 
     void Pause()
@@ -32,6 +41,9 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+
+        if (CustomCursorManager.Instance != null)
+            CustomCursorManager.Instance.ShowMenuCursor();
     }
 
     public void GuardarPartida()

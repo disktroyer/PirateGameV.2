@@ -6,15 +6,19 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private Vector2 movement;
 
     private bool canMove = true;
     private bool isTrapped = false;
+    private float lastDirectionX = 1f; // Dirección por defecto a la derecha
+    private bool facingLeft = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     void Update()
@@ -39,6 +43,12 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("MoveX", movement.x);
             animator.SetFloat("MoveY", movement.y);
+            lastDirectionX = movement.x; // Guardar la dirección
+            facingLeft = movement.x < 0;
+        }
+        else
+        {
+            facingLeft = lastDirectionX < 0;
         }
 
         //if (Input.GetKey(KeyCode.F))
@@ -59,6 +69,19 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             // Craft
+        }
+    }
+
+    void LateUpdate()
+    {
+        UpdateFlip();
+    }
+
+    void UpdateFlip()
+    {
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.flipX = facingLeft;
         }
     }
 

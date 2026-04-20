@@ -8,7 +8,7 @@
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Interactable, Water, UI, Layer1, walls
 - Active game object:
-  - Name: CraftingUI
-  - Tag: Untagged
-  - Layer: UI
+  - Name: PF Player 
+  - Tag: Player
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
