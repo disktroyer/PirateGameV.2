@@ -7,6 +7,7 @@ public class InventoryManager : MonoBehaviour
     [Header("UI Slots")]
     public Image slot1Image;
     public Image slot2Image;
+    [SerializeField] private Sprite emptySlotSprite;
     public TextMeshProUGUI mensajeTMP;
 
     [Header("Mensajes")]
@@ -185,11 +186,11 @@ public class InventoryManager : MonoBehaviour
 
     void ActualizarUI()
     {
-        slot1Image.sprite = items[0] != null ? items[0].icon : null;
-        slot1Image.color = items[0] != null ? Color.white : new Color(1, 1, 1, .3f);
+        slot1Image.sprite = items[0] != null ? items[0].icon : emptySlotSprite;
+        slot1Image.color = items[0] != null ? Color.white : Color.white;
 
-        slot2Image.sprite = items[1] != null ? items[1].icon : null;
-        slot2Image.color = items[1] != null ? Color.white : new Color(1, 1, 1, .3f);
+        slot2Image.sprite = items[1] != null ? items[1].icon : emptySlotSprite;
+        slot2Image.color = items[1] != null ? Color.white : Color.white;
     }
 
     // ================================================================

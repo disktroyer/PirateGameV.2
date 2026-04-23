@@ -49249,6 +49249,10 @@ PrefabInstance:
       propertyPath: slot2Image
       value: 
       objectReference: {fileID: 1707505098}
+    - target: {fileID: 1549774498992712082, guid: 5e8ec010c1f12b144ab6227314b94735, type: 3}
+      propertyPath: items.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4754733986996060151, guid: 5e8ec010c1f12b144ab6227314b94735, type: 3}
       propertyPath: m_Enabled
       value: 1
