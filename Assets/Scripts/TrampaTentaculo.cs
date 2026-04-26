@@ -66,7 +66,10 @@ public class TrampaTentaculo : MonoBehaviour
 
             animator.SetTrigger("Atrapar");
 
-            if (trapPoint != null) transform.position = trapPoint.position;
+            if (trapPoint != null)
+            {
+                other.transform.position = trapPoint.position;
+            }
 
 
             trappedPlayerController = other.GetComponent<PlayerController>();

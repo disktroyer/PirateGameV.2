@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SimpleStaticTrap : Interactable
@@ -36,6 +37,13 @@ public class SimpleStaticTrap : Interactable
                 AudioSource.PlayClipAtPoint(prepareSound, transform.position);
 
             Debug.Log($"{name} preparado con {requiredItem.itemName} y charco creado");
+        }
+        
+        else if (inventory.ContieneItem("bola de Cañon"))
+        {
+
+
+
         }
 
         else
