@@ -56,7 +56,7 @@ public class InventoryManager : MonoBehaviour
             CancelarCrafteo();
 
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (cercaDeBarriles)
             {
@@ -77,6 +77,17 @@ public class InventoryManager : MonoBehaviour
                 {
                     animator.SetTrigger("AnguilaTrigger");
                     MostrarMensaje("Colocando Anguila...");
+
+                    // Activar la trampa del cubo
+                    GameObject cubo = GameObject.FindGameObjectWithTag("CuboDucha");
+                    if (cubo != null)
+                    {
+                        ShowerCubeTrap trap = cubo.GetComponent<ShowerCubeTrap>();
+                        if (trap != null)
+                        {
+                            trap.Interact(gameObject); // Pasar el player
+                        }
+                    }
                 }
                 else
                 {
@@ -184,7 +195,7 @@ public class InventoryManager : MonoBehaviour
         return false;
     }
 
-    void ActualizarUI()
+    public void ActualizarUI()
     {
         slot1Image.sprite = items[0] != null ? items[0].icon : emptySlotSprite;
         slot1Image.color = items[0] != null ? Color.white : Color.white;

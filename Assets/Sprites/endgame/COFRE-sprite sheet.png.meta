@@ -121,10 +121,10 @@ TextureImporter:
       name: COFRE-sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 9
-        width: 38
-        height: 31
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +143,10 @@ TextureImporter:
       name: COFRE-sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 9
-        width: 38
-        height: 41
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: COFRE-sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 105
-        y: 9
-        width: 38
-        height: 41
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: COFRE-sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 155
-        y: 9
-        width: 38
-        height: 41
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: COFRE-sprite sheet_4
       rect:
         serializedVersion: 2
-        x: 205
-        y: 9
-        width: 38
-        height: 41
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: COFRE-sprite sheet_5
       rect:
         serializedVersion: 2
-        x: 255
-        y: 9
-        width: 38
-        height: 41
+        x: 250
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: COFRE-sprite sheet_6
       rect:
         serializedVersion: 2
-        x: 305
-        y: 9
-        width: 38
-        height: 41
+        x: 300
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b6ff07d0014ff4aafa0398142de6a783
     internalID: 0
     vertices: []
     indices: 

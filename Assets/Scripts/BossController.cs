@@ -50,9 +50,14 @@ public class BossController : MonoBehaviour
     public string drinkTrigger = "Drink";
     public string slipTrigger = "Slip";
 
+    [Header("Stun Camera & Player Control")]
+    public bool enableStunCamera = true; // Si cambiar cámara y congelar jugador durante stun
+
     private BossState state = BossState.Patrol;
     private int currentWaypoint = 0;
     private Transform player;
+    private PlayerController playerController;
+    private CameraFollow cameraFollow;
     private bool isPaused = false;
     private float currentHealth;
 
@@ -87,7 +92,13 @@ public class BossController : MonoBehaviour
         UpdateHealthUI();
 
         GameObject p = GameObject.FindGameObjectWithTag("Player");
-        if (p != null) player = p.transform;
+        if (p != null)
+        {
+            player = p.transform;
+            playerController = p.GetComponent<PlayerController>();
+        }
+
+        cameraFollow = FindObjectOfType<CameraFollow>();
     }
 
     // -------------------------------------------------
@@ -281,6 +292,11 @@ public class BossController : MonoBehaviour
         StartCoroutine(TrapPause(duration, stunTrigger));
     }
 
+    public void Trap_Stun(float duration, string customAnimationTrigger)
+    {
+        StartCoroutine(TrapPause(duration, customAnimationTrigger));
+    }
+
     public void Trap_Drink(float duration, float damage)
     {
         float finalTrapDamage = damage * trapDamageMultiplier;
@@ -311,10 +327,30 @@ public class BossController : MonoBehaviour
         if (animator != null && !string.IsNullOrEmpty(trigger))
             animator.SetTrigger(trigger);
 
+        // Cambiar cámara y congelar jugador durante stun
+        if (enableStunCamera)
+        {
+            if (cameraFollow != null)
+                cameraFollow.SetTarget(transform); // Cámara sigue al jefe
+
+            if (playerController != null)
+                playerController.SetCanMove(false); // Jugador congelado
+        }
+
         yield return new WaitForSeconds(duration);
 
         isPaused = false;
         state = prev == BossState.Chase ? BossState.Chase : BossState.Patrol;
+
+        // Volver a la normalidad después del stun
+        if (enableStunCamera)
+        {
+            if (cameraFollow != null && player != null)
+                cameraFollow.SetTarget(player); // Cámara vuelve al jugador
+
+            if (playerController != null)
+                playerController.SetCanMove(true); // Jugador se descongela
+        }
     }
 
     // -------------------------------------------------

@@ -1,0 +1,1007 @@
+fileFormatVersion: 2
+guid: 9ec25e26ce1a344a3ab0317e0f9d3ca6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5030535321312114530
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_0"
+  - first:
+      213: -7521790455848831484
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_1"
+  - first:
+      213: -936341602026208767
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_2"
+  - first:
+      213: -7195410752747000547
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_3"
+  - first:
+      213: 7502201357329421959
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_4"
+  - first:
+      213: 8133788175326150815
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_5"
+  - first:
+      213: -2758968422682725807
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_6"
+  - first:
+      213: -7209209479211494617
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_7"
+  - first:
+      213: 6685009209797649153
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_8"
+  - first:
+      213: -7801837372307311128
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_9"
+  - first:
+      213: 7923310369031173858
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_10"
+  - first:
+      213: 5918887220987942050
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_11"
+  - first:
+      213: -7542184564071410977
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_12"
+  - first:
+      213: 2095345480280332901
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_13"
+  - first:
+      213: -95523878556931645
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_14"
+  - first:
+      213: 7991856450530056016
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_15"
+  - first:
+      213: -7700921178995900354
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_16"
+  - first:
+      213: -768055905492431558
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_17"
+  - first:
+      213: -6609261811162234008
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_18"
+  - first:
+      213: 5503732547579657310
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_19"
+  - first:
+      213: 6036833568386315514
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_20"
+  - first:
+      213: -2975041885132054048
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_21"
+  - first:
+      213: -4811918299193412953
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_22"
+  - first:
+      213: -726438699235219196
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_23"
+  - first:
+      213: 5594223130753565817
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_24"
+  - first:
+      213: -8531449446035565204
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_25"
+  - first:
+      213: -3597196194182308064
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_26"
+  - first:
+      213: 4625539659507227327
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_27"
+  - first:
+      213: 3933459906731879532
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_28"
+  - first:
+      213: 8513398127670262294
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_29"
+  - first:
+      213: -3293467518488516568
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_30"
+  - first:
+      213: 1469282324073423606
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_31"
+  - first:
+      213: 4370296357969189341
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_32"
+  - first:
+      213: -8434270363122004515
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_33"
+  - first:
+      213: 5343881168883463118
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_34"
+  - first:
+      213: -7489684556091858022
+    second: "Animacio\u0301n_Electrocutarse_Proyecto_35"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98c22737c2ff2ab0800000000000000
+      internalID: -5030535321312114530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_1"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406f43cbe6b3d9790800000000000000
+      internalID: -7521790455848831484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_2"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102cece16427103f0800000000000000
+      internalID: -936341602026208767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_3"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d2d751b04c42c90800000000000000
+      internalID: -7195410752747000547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_4"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786d219d26c2d1860800000000000000
+      internalID: 7502201357329421959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_5"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f908694304501e070800000000000000
+      internalID: 8133788175326150815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_6"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152f97356dc26b9d0800000000000000
+      internalID: -2758968422682725807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_7"
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7235838bc2eb3fb90800000000000000
+      internalID: -7209209479211494617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_8"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1032436257ce5cc50800000000000000
+      internalID: 6685009209797649153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_9"
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5714cee3e4ab390800000000000000
+      internalID: -7801837372307311128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_10"
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6b5471dc045fd60800000000000000
+      internalID: 7923310369031173858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_11"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 152
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4d590619c142250800000000000000
+      internalID: 5918887220987942050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2d6146917c45790800000000000000
+      internalID: -7542184564071410977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_13"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a54d9dc99241d10800000000000000
+      internalID: 2095345480280332901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_14"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9eb0fd981acaef0800000000000000
+      internalID: -95523878556931645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_15"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05712cd5917c8ee60800000000000000
+      internalID: 7991856450530056016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_16"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30caaa2df4d02590800000000000000
+      internalID: -7700921178995900354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_17"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d8b7929315755f0800000000000000
+      internalID: -768055905492431558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_18"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863ce1e666f2744a0800000000000000
+      internalID: -6609261811162234008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_19"
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cbd3d879f216c40800000000000000
+      internalID: 5503732547579657310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_20"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4f1db552427c350800000000000000
+      internalID: 6036833568386315514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_21"
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1abccfa2786b6d0800000000000000
+      internalID: -2975041885132054048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_22"
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2ff503dc1a83db0800000000000000
+      internalID: -4811918299193412953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_23"
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 76
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409ecf41adb2be5f0800000000000000
+      internalID: -726438699235219196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_24"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97407d64c4ca2ad40800000000000000
+      internalID: 5594223130753565817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_25"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65d8dd2ee33a9980800000000000000
+      internalID: -8531449446035565204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_26"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f5062ce11341ec0800000000000000
+      internalID: -3597196194182308064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_27"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbad86b20d7313040800000000000000
+      internalID: 4625539659507227327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_28"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6caefed1f4769630800000000000000
+      internalID: 3933459906731879532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_29"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61af24fbd7aa52670800000000000000
+      internalID: 8513398127670262294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_30"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8286431ddb04b42d0800000000000000
+      internalID: -3293467518488516568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_31"
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f228293d70f36410800000000000000
+      internalID: 1469282324073423606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_32"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9dfebf16966ac30800000000000000
+      internalID: 4370296357969189341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animacio\u0301n_Electrocutarse_Proyecto_33"
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd028a9ac373fa80800000000000000
+      internalID: -8434270363122004515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5161668d8ce44e59865c8d5b93e3e3c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Animacio\u0301n_Electrocutarse_Proyecto_0": -5030535321312114530
+      "Animacio\u0301n_Electrocutarse_Proyecto_1": -7521790455848831484
+      "Animacio\u0301n_Electrocutarse_Proyecto_10": 7923310369031173858
+      "Animacio\u0301n_Electrocutarse_Proyecto_11": 5918887220987942050
+      "Animacio\u0301n_Electrocutarse_Proyecto_12": -7542184564071410977
+      "Animacio\u0301n_Electrocutarse_Proyecto_13": 2095345480280332901
+      "Animacio\u0301n_Electrocutarse_Proyecto_14": -95523878556931645
+      "Animacio\u0301n_Electrocutarse_Proyecto_15": 7991856450530056016
+      "Animacio\u0301n_Electrocutarse_Proyecto_16": -7700921178995900354
+      "Animacio\u0301n_Electrocutarse_Proyecto_17": -768055905492431558
+      "Animacio\u0301n_Electrocutarse_Proyecto_18": -6609261811162234008
+      "Animacio\u0301n_Electrocutarse_Proyecto_19": 5503732547579657310
+      "Animacio\u0301n_Electrocutarse_Proyecto_2": -936341602026208767
+      "Animacio\u0301n_Electrocutarse_Proyecto_20": 6036833568386315514
+      "Animacio\u0301n_Electrocutarse_Proyecto_21": -2975041885132054048
+      "Animacio\u0301n_Electrocutarse_Proyecto_22": -4811918299193412953
+      "Animacio\u0301n_Electrocutarse_Proyecto_23": -726438699235219196
+      "Animacio\u0301n_Electrocutarse_Proyecto_24": 5594223130753565817
+      "Animacio\u0301n_Electrocutarse_Proyecto_25": -8531449446035565204
+      "Animacio\u0301n_Electrocutarse_Proyecto_26": -3597196194182308064
+      "Animacio\u0301n_Electrocutarse_Proyecto_27": 4625539659507227327
+      "Animacio\u0301n_Electrocutarse_Proyecto_28": 3933459906731879532
+      "Animacio\u0301n_Electrocutarse_Proyecto_29": 8513398127670262294
+      "Animacio\u0301n_Electrocutarse_Proyecto_3": -7195410752747000547
+      "Animacio\u0301n_Electrocutarse_Proyecto_30": -3293467518488516568
+      "Animacio\u0301n_Electrocutarse_Proyecto_31": 1469282324073423606
+      "Animacio\u0301n_Electrocutarse_Proyecto_32": 4370296357969189341
+      "Animacio\u0301n_Electrocutarse_Proyecto_33": -8434270363122004515
+      "Animacio\u0301n_Electrocutarse_Proyecto_4": 7502201357329421959
+      "Animacio\u0301n_Electrocutarse_Proyecto_5": 8133788175326150815
+      "Animacio\u0301n_Electrocutarse_Proyecto_6": -2758968422682725807
+      "Animacio\u0301n_Electrocutarse_Proyecto_7": -7209209479211494617
+      "Animacio\u0301n_Electrocutarse_Proyecto_8": 6685009209797649153
+      "Animacio\u0301n_Electrocutarse_Proyecto_9": -7801837372307311128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

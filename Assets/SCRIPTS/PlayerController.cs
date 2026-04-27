@@ -103,6 +103,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Alias para SetMovement (usado por BossController durante stun)
+    public void SetCanMove(bool value)
+    {
+        SetMovement(value);
+    }
+
     public void SetTrapped(bool trapped)
     {
         isTrapped = trapped;
