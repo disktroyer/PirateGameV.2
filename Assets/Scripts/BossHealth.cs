@@ -19,6 +19,12 @@ public class BossHealth : MonoBehaviour
     public float heartSpacing = 8f;
     public bool hideLegacyHealthUI = true;
 
+    [Header("Muerte")]
+    public GameObject keyPrefab; // Prefab de la llave a spawnear
+    public Transform keySpawnPoint; // Punto donde spawnear la llave
+    public SpriteRenderer bossSprite; // Para colorear rojo
+    public bool isDead = false;
+
     [Header("Datos del Jefe")]
     public float maxHealth = 100f;
     private float currentHealth;
@@ -33,9 +39,16 @@ public class BossHealth : MonoBehaviour
 
     public void RecibirDaño(float daño)
     {
+        if (isDead) return;
+
         currentHealth -= daño;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         ActualizarUI();
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
     void ActualizarUI()
@@ -116,5 +129,35 @@ public class BossHealth : MonoBehaviour
     public bool EstaMuerto()
     {
         return currentHealth <= 0;
+    }
+
+    private void Die()
+    {
+        isDead = true;
+
+        // Rotar 90 grados (tumbarse horizontal)
+        transform.rotation = Quaternion.Euler(0, 0, 90);
+
+        // Colorear rojo
+        if (bossSprite != null)
+        {
+            bossSprite.color = Color.red;
+        }
+
+        // Spawnear llave
+        if (keyPrefab != null)
+        {
+            Vector3 spawnPos = keySpawnPoint != null ? keySpawnPoint.position : transform.position + Vector3.up;
+            Instantiate(keyPrefab, spawnPos, Quaternion.identity);
+        }
+
+        // Deshabilitar movimiento (si hay BossController)
+        var bossController = GetComponent<BossController>();
+        if (bossController != null)
+        {
+            bossController.enabled = false;
+        }
+
+        Debug.Log("Jefe derrotado - Llave spawneada");
     }
 }
