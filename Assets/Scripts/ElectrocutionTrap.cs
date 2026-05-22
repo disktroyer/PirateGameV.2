@@ -32,14 +32,6 @@ public class ElectrocutionTrap : MonoBehaviour
         if (animator != null) animator.enabled = false;
     }
 
-    void Update()
-    {
-        if (isActive && !hasElectrocuted)
-        {
-            DetectBoss();
-        }
-    }
-
     public void Activate()
     {
         if (isActive) return;
@@ -56,6 +48,25 @@ public class ElectrocutionTrap : MonoBehaviour
         }
 
         Debug.Log("ElectrocutionTrap activada");
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!isActive || hasElectrocuted)
+            return;
+
+        if (!other.CompareTag(bossTag))
+            return;
+
+        BossController boss = other.GetComponent<BossController>();
+        if (boss == null)
+            boss = other.GetComponentInParent<BossController>();
+
+        if (boss == null)
+            return;
+
+        Electrocute(boss);
+        hasElectrocuted = true;
     }
 
     private void DetectBoss()
@@ -94,9 +105,43 @@ public class ElectrocutionTrap : MonoBehaviour
         bossInTrap = boss;
 
         boss.RecibirDaño(damage);
-        boss.Trap_Stun(stunDuration, electrocuteAnimationTrigger);
 
-        Debug.Log($"ElectrocutionTrap: Jefe electrocutado (-{damage} HP, stunned {stunDuration}s)");
+        // Si el jefe tiene un Animator y existe un trigger, intentar usar la duración
+        // de la animación correspondiente como duración del stun. Si no se encuentra,
+        // usar el stunDuration definido en este componente.
+        float stunTime = stunDuration;
+        try
+        {
+            if (boss != null && boss.animator != null && !string.IsNullOrEmpty(electrocuteAnimationTrigger))
+            {
+                var rc = boss.animator.runtimeAnimatorController;
+                if (rc != null)
+                {
+                    var clips = rc.animationClips;
+                    if (clips != null && clips.Length > 0)
+                    {
+                        // Buscar un clip que coincida por nombre con el trigger o que lo contenga
+                        foreach (var clip in clips)
+                        {
+                            if (string.Equals(clip.name, electrocuteAnimationTrigger, System.StringComparison.OrdinalIgnoreCase) ||
+                                clip.name.IndexOf(electrocuteAnimationTrigger, System.StringComparison.OrdinalIgnoreCase) >= 0)
+                            {
+                                stunTime = clip.length;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogWarning("ElectrocutionTrap: error al obtener duración de animación del jefe: " + ex.Message);
+        }
+
+        boss.Trap_Stun(stunTime, electrocuteAnimationTrigger);
+
+        Debug.Log($"ElectrocutionTrap: Jefe electrocutado (-{damage} HP, stunned {stunTime}s)");
     }
 
     void OnDrawGizmosSelected()

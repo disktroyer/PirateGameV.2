@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6a1ca0901c54ec293c61f22e4a0d27, type: 3}
+  m_Name: Trap_Farolillo
+  m_EditorClassIdentifier: 
+  trapName: Farolillo / Cuerda
+  description: Trampa accionable. Requiere cuchillo. Cae fuego.
+  icon: {fileID: 0}
+  trapType: 1
+  damage: 1
+  stunDuration: 0
+  reusable: 0
+  needsPreparation: 0
+  autoActivate: 0
+  destroyAfterUse: 1
+  cooldown: 0
+  requiredItem: {fileID: 11400000, guid: 4c1b4d455edb94dce975314e2723120b, type: 2}
+  secondaryItem: {fileID: 0}
+  itemRequirements: []
+  consumeItems: 1
+  vfxPrefab: {fileID: 0}
+  audioClips: []
+  animatorTrigger: Activate
+  interactionText: Corta la cuerda
+  prepareText: Usa el item requerido para preparar la trampa
+  activeText: "\xA1Fuego!"
+  onPrepared:
+    m_PersistentCalls:
+      m_Calls: []
+  onActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  onCooldown:
+    m_PersistentCalls:
+      m_Calls: []

@@ -7,6 +7,9 @@ public class ChestScript : Interactable
     public Animator animator;
     public string openAnimationTrigger = "Open";
     public string closedStateName = "Closed"; // Estado inicial cerrado
+    public string requiredItemName = "llave";
+    public string noKeyMessage = "Necesitas la llave para abrir el cofre";
+    public float openAnimationDelay = 2f;
 
     [Header("End Game")]
     public string endGameSceneName = "EndGame";
@@ -23,20 +26,20 @@ public class ChestScript : Interactable
     public override void Interact(GameObject actor)
     {
         var inv = actor.GetComponent<InventoryManager>();
-        if (inv == null || !inv.ContieneItem("llave"))
+        if (inv == null || !inv.ContieneItem(requiredItemName))
         {
-            Debug.Log("Necesitas la llave para abrir el cofre");
+            Debug.Log(noKeyMessage);
             return;
         }
 
-        // Reproducir animación
+        // Reproducir animación solamente si el jugador tiene la llave
         if (animator != null && !string.IsNullOrEmpty(openAnimationTrigger))
         {
             animator.SetTrigger(openAnimationTrigger);
         }
 
         // Cambiar a escena end game después de un delay (para que termine la animación)
-        Invoke("LoadEndGameScene", 2f); // Ajusta el tiempo según la duración de la animación
+        Invoke("LoadEndGameScene", openAnimationDelay);
     }
 
     private void LoadEndGameScene()

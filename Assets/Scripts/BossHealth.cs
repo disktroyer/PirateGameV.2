@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
 
@@ -25,6 +26,10 @@ public class BossHealth : MonoBehaviour
     public SpriteRenderer bossSprite; // Para colorear rojo
     public bool isDead = false;
 
+    [Header("Eventos")]
+    public UnityEvent onDamaged;
+    public UnityEvent onDeath;
+
     [Header("Datos del Jefe")]
     public float maxHealth = 100f;
     private float currentHealth;
@@ -44,11 +49,17 @@ public class BossHealth : MonoBehaviour
         currentHealth -= daño;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         ActualizarUI();
+        onDamaged?.Invoke();
 
         if (currentHealth <= 0)
         {
             Die();
         }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        RecibirDaño(damage);
     }
 
     void ActualizarUI()
@@ -158,6 +169,7 @@ public class BossHealth : MonoBehaviour
             bossController.enabled = false;
         }
 
+        onDeath?.Invoke();
         Debug.Log("Jefe derrotado - Llave spawneada");
     }
 }

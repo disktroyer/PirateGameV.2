@@ -43,16 +43,30 @@ public class PlayerController : MonoBehaviour
 
         if (isMoving)
         {
-            animator.SetFloat("MoveX", movement.x);
+            float moveX = movement.x;
+            if (Mathf.Abs(moveX) < 0.01f)
+            {
+                moveX = lastDirectionX;
+            }
+
+            animator.SetFloat("MoveX", moveX);
             animator.SetFloat("MoveY", movement.y);
-            lastDirectionX = movement.x; // Guardar la dirección
-            facingLeft = movement.x < 0;
+            if (Mathf.Abs(movement.x) > 0.01f)
+            {
+                lastDirectionX = movement.x; // Guardar la dirección horizontal real
+                facingLeft = movement.x < 0;
+            }
         }
         else
         {
             animator.SetFloat("MoveX", lastDirectionX); // Mantener dirección en idle
             animator.SetFloat("MoveY", 0f);
             facingLeft = lastDirectionX < 0;
+        }
+
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.flipX = facingLeft;
         }
 
         //if (Input.GetKey(KeyCode.F))

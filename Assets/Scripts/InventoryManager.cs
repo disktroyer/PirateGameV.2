@@ -327,6 +327,59 @@ public class InventoryManager : MonoBehaviour
 
     }
 
+    public bool HasItem(ItemData item)
+    {
+        if (item == null)
+            return false;
+
+        return ContieneItem(item.itemName);
+    }
+
+    public bool HasItems(ItemData primary, ItemData secondary)
+    {
+        if (primary != null && !HasItem(primary))
+            return false;
+
+        if (secondary != null && !HasItem(secondary))
+            return false;
+
+        return true;
+    }
+
+    public bool ConsumeItem(ItemData item)
+    {
+        if (item == null)
+            return false;
+
+        if (items[0] != null && items[0].itemName == item.itemName)
+        {
+            items[0] = items[1];
+            items[1] = null;
+            ActualizarUI();
+            return true;
+        }
+
+        if (items[1] != null && items[1].itemName == item.itemName)
+        {
+            items[1] = null;
+            ActualizarUI();
+            return true;
+        }
+
+        return false;
+    }
+
+    public bool ConsumeItems(ItemData primary, ItemData secondary)
+    {
+        if (primary != null && !ConsumeItem(primary))
+            return false;
+
+        if (secondary != null && !ConsumeItem(secondary))
+            return false;
+
+        return true;
+    }
+
     public void EliminarItem(string itemName)
     {
         if (items[0] != null && items[0].itemName == itemName)

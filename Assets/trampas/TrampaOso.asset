@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6a1ca0901c54ec293c61f22e4a0d27, type: 3}
+  m_Name: TrampaOso
+  m_EditorClassIdentifier: 
+  trapName: TrampaOso
+  description: mandibula tiburon + chatarra= cepo osos
+  icon: {fileID: -7934671175697856001, guid: f2a0d1d4ba3244dbcb81a3b7599659e0, type: 3}
+  trapType: 2
+  damage: 1
+  stunDuration: 3
+  reusable: 1
+  needsPreparation: 1
+  autoActivate: 1
+  destroyAfterUse: 1
+  cooldown: 0
+  requiredItem: {fileID: 11400000, guid: 0626b13debc756544834eb0886c16c58, type: 2}
+  secondaryItem: {fileID: 11400000, guid: 93e669846fcf7c14a9175335959b5da7, type: 2}
+  itemRequirements: []
+  consumeItems: 1
+  vfxPrefab: {fileID: 0}
+  audioClips: []
+  animatorTrigger: Activate
+  interactionText: Pulsa E para interactuar
+  prepareText: Usa el item requerido para preparar la trampa
+  activeText: Trampa activada
+  onPrepared:
+    m_PersistentCalls:
+      m_Calls: []
+  onActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  onCooldown:
+    m_PersistentCalls:
+      m_Calls: []

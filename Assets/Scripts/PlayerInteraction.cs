@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    [Header("Interacción")]
+    [Range(0.1f, 5f)]
+    [Tooltip("Distancia máxima para detectar objetos interactuables.")]
     public float interactRange = 2.5f;
+    [Tooltip("Capa usada para filtrar los objetos interactuables.")]
+    public LayerMask interactableMask = Physics2D.AllLayers;
     public KeyCode interactKey = KeyCode.E;
     public GameObject interactionIndicator; // Sprite del botón de acción
     private Animator animator;
@@ -11,6 +16,9 @@ public class PlayerInteraction : MonoBehaviour
 
     void Start()
     {
+        if (interactRange < 0.5f)
+            interactRange = 2.5f;
+
         animator = GetComponent<Animator>();
         if (interactionIndicator != null)
             interactionIndicator.SetActive(false);
@@ -29,7 +37,7 @@ public class PlayerInteraction : MonoBehaviour
         if (interactionIndicator == null) return;
 
         // Verificar si hay objetos interactuables en rango
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange, interactableMask);
         Interactable closestInteractable = null;
         float closestDistance = float.MaxValue;
 
@@ -80,9 +88,12 @@ public class PlayerInteraction : MonoBehaviour
             return;
 
         // Si no está escondido, busca objetos interactuables
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactRange, interactableMask);
         foreach (var hit in hits)
         {
+            if (hit == null)
+                continue;
+
             Interactable interactable = hit.GetComponent<Interactable>();
             if (interactable != null)
             {

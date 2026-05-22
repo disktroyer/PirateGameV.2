@@ -13,20 +13,54 @@ public class CameraFollow : MonoBehaviour
     private float currentSpeed;
     private float baseSpeed;
 
+    void Start()
+    {
+        if (target == null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                target = player.transform;
+            }
+        }
+
+        if (target != null)
+        {
+            transform.position = new Vector3(
+                target.position.x + offset.x,
+                target.position.y + offset.y,
+                offset.z
+            );
+        }
+    }
+
     public void SetTarget(Transform newTarget)
     {
         target = newTarget;
     }
 
+    // Enfocar temporalmente un objetivo sin cambiar el `target` permanente.
+    private Transform focusTarget = null;
+    private float focusTimer = 0f;
+
+    public void FocusOn(Transform newFocus, float duration)
+    {
+        focusTarget = newFocus;
+        focusTimer = duration;
+    }
+
     void LateUpdate()
     {
-        if (target == null) return;
+        Transform activeTarget = target;
+        if (focusTimer > 0f && focusTarget != null)
+        {
+            activeTarget = focusTarget;
+            focusTimer -= Time.deltaTime;
+        }
 
-        Vector3 desiredPosition = new Vector3(
-    target.position.x,
-    target.position.y,
-    offset.z
-);
+        if (activeTarget == null) return;
+
+        Vector3 desiredPosition = activeTarget.position + new Vector3(offset.x, offset.y, offset.z);
 
         Vector3 smoothedPosition = Vector3.Lerp(
             transform.position,

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6a1ca0901c54ec293c61f22e4a0d27, type: 3}
+  m_Name: Trap_Canon
+  m_EditorClassIdentifier: 
+  trapName: "Ca\xF1\xF3n"
+  description: "Trampa accionable que dispara al boss cuando el jugador la usa con
+    bala y p\xF3lvora."
+  icon: {fileID: 0}
+  trapType: 1
+  damage: 1
+  stunDuration: 0
+  reusable: 0
+  needsPreparation: 0
+  autoActivate: 0
+  destroyAfterUse: 1
+  cooldown: 0
+  requiredItem: {fileID: 11400000, guid: b661859b67b2c4139b3763e156c786c3, type: 2}
+  secondaryItem: {fileID: 11400000, guid: 3caa39011fe174d65929bf1ad4e2a017, type: 2}
+  itemRequirements:
+  - label: "Bala + P\xF3lvora XXL"
+    primaryItem: {fileID: 11400000, guid: b661859b67b2c4139b3763e156c786c3, type: 2}
+    secondaryItem: {fileID: 11400000, guid: 10c29cace1f714afc91dbc7b5ebf0028, type: 2}
+    damage: 2
+    stunDuration: 0
+    consumePrimary: 1
+    consumeSecondary: 1
+  - label: "Bala + P\xF3lvora normal"
+    primaryItem: {fileID: 11400000, guid: b661859b67b2c4139b3763e156c786c3, type: 2}
+    secondaryItem: {fileID: 11400000, guid: 3caa39011fe174d65929bf1ad4e2a017, type: 2}
+    damage: 1
+    stunDuration: 0
+    consumePrimary: 1
+    consumeSecondary: 1
+  consumeItems: 1
+  vfxPrefab: {fileID: 0}
+  audioClips: []
+  animatorTrigger: Activate
+  interactionText: "Pulsa E para disparar el ca\xF1\xF3n"
+  prepareText: "Preparando ca\xF1\xF3n"
+  activeText: "Ca\xF1\xF3n disparado"
+  onPrepared:
+    m_PersistentCalls:
+      m_Calls: []
+  onActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  onCooldown:
+    m_PersistentCalls:
+      m_Calls: []

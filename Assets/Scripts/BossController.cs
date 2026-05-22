@@ -52,11 +52,14 @@ public class BossController : MonoBehaviour
 
     [Header("Stun Camera & Player Control")]
     public bool enableStunCamera = true; // Si cambiar cámara y congelar jugador durante stun
+    public bool freezePlayerDuringStun = false; // Si se debe bloquear al jugador durante el stun
+    public bool cameraOnlyDuringStun = true; // Si true, solo la cámara se moverá al jefe durante el stun
 
     private BossState state = BossState.Patrol;
     private int currentWaypoint = 0;
     private Transform player;
     private PlayerController playerController;
+    public CameraFocusController cameraFocus;
     private CameraFollow cameraFollow;
     private bool isPaused = false;
     private float currentHealth;
@@ -98,7 +101,13 @@ public class BossController : MonoBehaviour
             playerController = p.GetComponent<PlayerController>();
         }
 
+        cameraFocus = FindObjectOfType<CameraFocusController>();
         cameraFollow = FindObjectOfType<CameraFollow>();
+
+        if (cameraFocus != null && player != null)
+        {
+            cameraFocus.SetDefaultTarget(player);
+        }
     }
 
     // -------------------------------------------------
@@ -327,14 +336,29 @@ public class BossController : MonoBehaviour
         if (animator != null && !string.IsNullOrEmpty(trigger))
             animator.SetTrigger(trigger);
 
-        // Cambiar cámara y congelar jugador durante stun
+        // Enfocar temporalmente la cámara al jefe durante el stun sin cambiar el target permanente
         if (enableStunCamera)
         {
-            if (cameraFollow != null)
-                cameraFollow.SetTarget(transform); // Cámara sigue al jefe
+            if (cameraFocus != null)
+            {
+                cameraFocus.FocusOn(transform, duration);
+            }
+            else if (cameraFollow != null)
+            {
+                cameraFollow.FocusOn(transform, duration);
+            }
+        }
 
-            if (playerController != null)
-                playerController.SetCanMove(false); // Jugador congelado
+        // Opcional: congelar jugador durante el stun solo si no estamos en modo "cameraOnlyDuringStun"
+        if (!cameraOnlyDuringStun && freezePlayerDuringStun && playerController != null)
+        {
+            playerController.SetCanMove(false);
+        }
+
+        // Si estamos en modo solo cámara, asegurarnos de que el jugador pueda seguir moviéndose
+        if (cameraOnlyDuringStun && playerController != null)
+        {
+            playerController.SetCanMove(true);
         }
 
         yield return new WaitForSeconds(duration);
@@ -342,14 +366,13 @@ public class BossController : MonoBehaviour
         isPaused = false;
         state = prev == BossState.Chase ? BossState.Chase : BossState.Patrol;
 
-        // Volver a la normalidad después del stun
-        if (enableStunCamera)
-        {
-            if (cameraFollow != null && player != null)
-                cameraFollow.SetTarget(player); // Cámara vuelve al jugador
+        // Volver a la normalidad después del stun: el CameraFollow retomará el target original automáticamente
+        // (no es necesario llamar a SetTarget aquí cuando usamos FocusOn)
 
-            if (playerController != null)
-                playerController.SetCanMove(true); // Jugador se descongela
+        // Asegurar que el jugador quede habilitado al terminar el stun
+        if (playerController != null)
+        {
+            playerController.SetCanMove(true);
         }
     }
 
