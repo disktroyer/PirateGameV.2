@@ -55,6 +55,12 @@ public class BossController : MonoBehaviour
     public bool freezePlayerDuringStun = false; // Si se debe bloquear al jugador durante el stun
     public bool cameraOnlyDuringStun = true; // Si true, solo la cámara se moverá al jefe durante el stun
 
+    [Header("Muerte y Llave")]
+    public GameObject keyPrefab; // Prefab de la llave a spawnear
+    public Transform keySpawnPoint; // Punto donde spawnear la llave
+    public SpriteRenderer bossSprite; // Para colorear rojo
+    public bool isDead = false;
+
     private BossState state = BossState.Patrol;
     private int currentWaypoint = 0;
     private Transform player;
@@ -286,14 +292,66 @@ public class BossController : MonoBehaviour
     }
 
     // -------------------------------------------------
+    // MUERTE DEL JEFE
+    // -------------------------------------------------
+    private void Die()
+    {
+        isDead = true;
+
+        // Rotar 90 grados (tumbarse horizontal)
+        transform.rotation = Quaternion.Euler(0, 0, 90);
+
+        // Colorear rojo
+        if (bossSprite != null)
+        {
+            bossSprite.color = Color.red;
+        }
+
+        // Spawnear llave
+        if (keyPrefab != null)
+        {
+            Vector3 spawnPos = keySpawnPoint != null ? keySpawnPoint.position : transform.position + Vector3.up;
+            GameObject llave = Instantiate(keyPrefab, spawnPos, Quaternion.identity);
+            llave.tag = "Llave";
+        }
+
+        // Deshabilitar colliders para que no dañe al jugador
+        Collider2D[] colliders = GetComponents<Collider2D>();
+        foreach (Collider2D col in colliders)
+        {
+            col.enabled = false;
+        }
+
+        // Deshabilitar movimiento
+        this.enabled = false;
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+            rb.bodyType = RigidbodyType2D.Static;
+        }
+        if (animator != null)
+        {
+            animator.SetBool("IsMoving 0", false);
+            animator.SetTrigger("Die");
+        }
+        Debug.Log("Jefe derrotado - Llave spawneada");
+    }
+
+    // -------------------------------------------------
     // TRAPS / DAMAGE
     // -------------------------------------------------
 
     public void RecibirDaño(float amount)
     {
+        if (isDead) return;
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealthUI();
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
     public void Trap_Stun(float duration)
@@ -364,7 +422,14 @@ public class BossController : MonoBehaviour
         yield return new WaitForSeconds(duration);
 
         isPaused = false;
+        // Si estaba persiguiendo, vuelve a Chase, si no, vuelve a Patrol
         state = prev == BossState.Chase ? BossState.Chase : BossState.Patrol;
+
+        // Si estaba moviéndose antes del stun, fuerza la animación de caminar
+        if (animator != null)
+        {
+            animator.SetBool("IsMoving 0", true);
+        }
 
         // Volver a la normalidad después del stun: el CameraFollow retomará el target original automáticamente
         // (no es necesario llamar a SetTarget aquí cuando usamos FocusOn)

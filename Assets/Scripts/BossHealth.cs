@@ -159,7 +159,9 @@ public class BossHealth : MonoBehaviour
         if (keyPrefab != null)
         {
             Vector3 spawnPos = keySpawnPoint != null ? keySpawnPoint.position : transform.position + Vector3.up;
-            Instantiate(keyPrefab, spawnPos, Quaternion.identity);
+            GameObject llave = Instantiate(keyPrefab, spawnPos, Quaternion.identity);
+            // Asegura que tenga el tag correcto para ser recogida
+            llave.tag = "Llave";
         }
 
         // Deshabilitar movimiento (si hay BossController)

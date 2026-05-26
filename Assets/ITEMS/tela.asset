@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: tela
   m_EditorClassIdentifier: 
   itemName: tela
-  icon: {fileID: 78730522343984979, guid: ee9ed2eba43c03841bf99e384aaeab70, type: 3}
+  itemType: 9
+  icon: {fileID: -1979968732412173112, guid: 46769559da4744043b82a2c11bd21836, type: 3}
   prefab: {fileID: 6654816513397003564, guid: 08428667a8370aa4888a4f02dfd88769, type: 3}
   useAmount: 1

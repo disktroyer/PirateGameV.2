@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: fregona
   m_EditorClassIdentifier: 
   itemName: fregona
-  icon: {fileID: 5828873605591443611, guid: b9e180861af82164abd394c7ebc18ae0, type: 3}
+  itemType: 9
+  icon: {fileID: 4141170149225807020, guid: d9d161c5ba90f483b9c4dbc879f99dac, type: 3}
   prefab: {fileID: 8955716430178764879, guid: 285d1b3a4ad55654db946f8340521ac4, type: 3}
   useAmount: 1

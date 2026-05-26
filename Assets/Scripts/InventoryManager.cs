@@ -116,8 +116,26 @@ public class InventoryManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Esto imprimirá el nombre de CUALQUIER objeto que toques
-        Debug.Log("¡He tocado el objeto: " + collision.gameObject.name + "!");
+
+        // Recoger llave automáticamente si la toca
+        if (collision.CompareTag("Llave"))
+        {
+            // Busca el ItemData asociado a la llave
+            CollectableItem collectable = collision.GetComponent<CollectableItem>();
+            if (collectable != null && collectable.itemData != null)
+            {
+                bool added = AddItem(collectable.itemData);
+                if (added)
+                {
+                    Destroy(collision.gameObject);
+                    MostrarMensaje("¡Has recogido la llave!");
+                }
+                else
+                {
+                    MostrarMensaje("Inventario lleno");
+                }
+            }
+        }
 
         if (collision.CompareTag("Barriles"))
         {

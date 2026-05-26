@@ -7,12 +7,12 @@ public class ChestScript : Interactable
     public Animator animator;
     public string openAnimationTrigger = "Open";
     public string closedStateName = "Closed"; // Estado inicial cerrado
-    public string requiredItemName = "llave";
+    public string requiredItemName = "llave_0";
     public string noKeyMessage = "Necesitas la llave para abrir el cofre";
     public float openAnimationDelay = 2f;
 
     [Header("End Game")]
-    public string endGameSceneName = "EndGame";
+    public string endGameSceneName = "VICTORY";
 
     void Start()
     {

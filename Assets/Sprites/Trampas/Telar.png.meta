@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f9f308b22649f1742ba5af62040c0bb0
+guid: 46769559da4744043b82a2c11bd21836
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7985128638516553638
-    second: Traps_Rope_0
+      213: -1979968732412173112
+    second: Telar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Traps_Rope_0
+      name: Telar_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 64
+        width: 24
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a581c6f6fcf1f2190800000000000000
-      internalID: -7985128638516553638
+      spriteID: 8c4213e9decb584e0800000000000000
+      internalID: -1979968732412173112
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6326b2897b195fc4ca1694c90bd2a6ac
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Traps_Rope_0: -7985128638516553638
+      Telar_0: -1979968732412173112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

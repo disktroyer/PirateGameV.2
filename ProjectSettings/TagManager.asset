@@ -11,6 +11,7 @@ TagManager:
   - Barriles
   - CuboDucha
   - BotellaRon
+  - Llave
   layers:
   - Default
   - TransparentFX

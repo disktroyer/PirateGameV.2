@@ -23,4 +23,5 @@ public class KeyScript : MonoBehaviour
             transform.position = new Vector3(startPosition.x, newY, startPosition.z);
         }
     }
+// Este script solo hace flotar la llave. El comportamiento de recogida está en CollectableItem.
 }

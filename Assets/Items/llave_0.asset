@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96c1c5d627fb7af43bf53d2d95597555, type: 3}
-  m_Name: llave
+  m_Name: llave_0
   m_EditorClassIdentifier: 
   itemName: llave
   icon: {fileID: 4898770598671448810, guid: 427446815fbe14331ae49dabaf8e1877, type: 3}

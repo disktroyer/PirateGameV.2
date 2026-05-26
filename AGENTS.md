@@ -4,11 +4,11 @@
 - Active scene:
   - Name: Nivel1
   - Tags:
-    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Interactable, WALLS, Boss, Enemy, Barriles, CuboDucha, BotellaRon
+    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Interactable, WALLS, Boss, Enemy, Barriles, CuboDucha, BotellaRon, Llave
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Interactable, Water, UI, Layer1, walls
 - Active game object:
-  - Name: SombrasEscaleras_03
-  - Tag: Untagged
+  - Name: PF Player 
+  - Tag: Player
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
