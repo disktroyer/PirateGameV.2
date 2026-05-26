@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5789828142149340528}
   - component: {fileID: -7732666447034491091}
   - component: {fileID: 6281270684392787428}
+  - component: {fileID: -5054041175252336032}
   m_Layer: 0
   m_Name: fregona_0
   m_TagString: Untagged
@@ -27,9 +28,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8955716430178764879}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -227.6789, y: -47.343964, z: 0.14007005}
-  m_LocalScale: {x: 0.071923, y: 0.071923, z: 0.071923}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,8 +78,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 5828873605591443611, guid: b9e180861af82164abd394c7ebc18ae0, type: 3}
+  m_SortingOrder: 8
+  m_Sprite: {fileID: 4141170149225807020, guid: d9d161c5ba90f483b9c4dbc879f99dac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -136,15 +137,28 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0042881966, y: 0.033366203}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.375, y: 16.59375}
+    oldSize: {x: 0.71875, y: 1}
     newSize: {x: 5.375, y: 16.59375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.375, y: 16.59375}
+  m_Size: {x: 0.7839556, y: 1.0760231}
   m_EdgeRadius: 0
+--- !u!114 &-5054041175252336032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955716430178764879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ea5d614af3c5340b21782f3675502e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: 42893a1c99780094695c064b6e336271, type: 2}

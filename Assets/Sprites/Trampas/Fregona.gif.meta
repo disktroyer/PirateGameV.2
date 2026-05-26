@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 41c51a3b3879b7d4b9ad05fcdf334c2d
+guid: d9d161c5ba90f483b9c4dbc879f99dac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -135790744380812670
-    second: Chatarra_0
+      213: 4141170149225807020
+    second: Fregona_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chatarra_0
+      name: Fregona_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 23
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 282556599039d1ef0800000000000000
-      internalID: -135790744380812670
+      spriteID: cac3e035f44687930800000000000000
+      internalID: 4141170149225807020
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ef781753302140b41a768cf369213ba4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Chatarra_0: -135790744380812670
+      Fregona_0: 4141170149225807020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

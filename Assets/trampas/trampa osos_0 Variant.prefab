@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2563049537016025579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3119386325463385190, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.98240876
+      objectReference: {fileID: 0}
+    - target: {fileID: -3119386325463385190, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6564384
+      objectReference: {fileID: 0}
+    - target: {fileID: -3119386325463385190, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0340451
+      objectReference: {fileID: 0}
+    - target: {fileID: -3119386325463385190, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.34045056
+      objectReference: {fileID: 0}
+    - target: {fileID: -3119386325463385190, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.28125
+      objectReference: {fileID: 0}
+    - target: {fileID: -3119386325463385190, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.28125
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313813764672404900, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_Name
+      value: trampa osos_0 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6469491462959931061, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7934671175697856001, guid: f2a0d1d4ba3244dbcb81a3b7599659e0, type: 3}
+    - target: {fileID: 6469491462959931061, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6469491462959931061, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: de78afbe4fc0d5d4396077435580ae67, type: 2}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14007005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610263724108051643, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2313813764672404900, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2029481231190558344}
+  m_SourcePrefab: {fileID: 100100000, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+--- !u!1 &256026391192333391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2313813764672404900, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+  m_PrefabInstance: {fileID: 2563049537016025579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2029481231190558344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256026391192333391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f98dd256d6b73b4e81866b62e930a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trapData: {fileID: 0}
+  requiredItem: {fileID: 0}
+  trapPrefab: {fileID: 2313813764672404900, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
+  previewPrefab: {fileID: 0}
+  placementMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
+  maxPlaceDistance: 1
+  snapToGrid: 1
+  gridSize: 4
+  onPlacementStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlaced:
+    m_PersistentCalls:
+      m_Calls: []

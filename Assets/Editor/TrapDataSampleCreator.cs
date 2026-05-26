@@ -16,10 +16,11 @@ public static class TrapDataSampleCreator
         CreateFolders();
         CreateAllItemData();
         CreateAllTrapData();
-        CreateTrapPrefabs();
 
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+
+        CreateTrapPrefabs();
 
         EditorUtility.DisplayDialog("Sistema de Trampas", 
             "✅ Sistema completamente generado en:\n" +
@@ -280,6 +281,7 @@ public static class TrapDataSampleCreator
 
     private static void CreateTrapPrefabVariant(string name, string sourcePrefabName, TrapData trapData)
     {
+
         if (trapData == null)
         {
             Debug.LogError($"[TrapSystem] ERROR: TrapData es null para {name}. Verifica que el asset TrapData se creó correctamente en Traps.\nIntentando forzar creación...");
@@ -294,11 +296,13 @@ public static class TrapDataSampleCreator
                 case "CepoOsos": CreateTrapData_CepoOsos(); break;
             }
             trapData = LoadTrap($"Trap_{name}");
-            if (trapData == null)
-            {
-                Debug.LogError($"[TrapSystem] ERROR: No se pudo crear TrapData para {name}. Abortando prefab.");
-                return;
-            }
+        }
+
+        // Defensive: If still null, abort and log error
+        if (trapData == null)
+        {
+            Debug.LogError($"[TrapSystem] ERROR: TrapData sigue siendo null para {name}. Abortando prefab para evitar NullReferenceException.");
+            return;
         }
 
         string prefabPath = Path.Combine(prefabsFolder, sourcePrefabName + ".prefab");

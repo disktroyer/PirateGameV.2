@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Fregona
   itemType: 3
-  icon: {fileID: 0}
+  icon: {fileID: 4141170149225807020, guid: d9d161c5ba90f483b9c4dbc879f99dac, type: 3}
   prefab: {fileID: 8955716430178764879, guid: 285d1b3a4ad55654db946f8340521ac4, type: 3}
   useAmount: 1

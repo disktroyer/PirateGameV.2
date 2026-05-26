@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: trampa osos
   m_EditorClassIdentifier: 
   itemName: trampa osos
-  icon: {fileID: -1486522811323694416, guid: 043274daefd5a6845bec12d7a06fefb7, type: 3}
+  itemType: 9
+  icon: {fileID: -7779888297197410286, guid: f2a0d1d4ba3244dbcb81a3b7599659e0, type: 3}
   prefab: {fileID: 2313813764672404900, guid: 1bb4e39362686934fbc67521ce116b1e, type: 3}
   useAmount: 1

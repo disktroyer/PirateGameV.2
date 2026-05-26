@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 41c51a3b3879b7d4b9ad05fcdf334c2d
+guid: 90f6c7dbb56b8429a9cd601b5b1e2c4b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -135790744380812670
-    second: Chatarra_0
+      213: -1936779388959581184
+    second: Pantalla de victoria_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chatarra_0
+      name: Pantalla de victoria_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 3543
+        height: 2480
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 282556599039d1ef0800000000000000
-      internalID: -135790744380812670
+      spriteID: 00c14c0486d2f15e0800000000000000
+      internalID: -1936779388959581184
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ef781753302140b41a768cf369213ba4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Chatarra_0: -135790744380812670
+      Pantalla de victoria_0: -1936779388959581184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
