@@ -58563,7 +58563,7 @@ Transform:
   m_GameObject: {fileID: 590721287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.188919, y: -9.972403, z: 0}
+  m_LocalPosition: {x: 11.188919, y: -25.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -83108,7 +83108,7 @@ Transform:
   m_GameObject: {fileID: 1169048467}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.16, y: 47.33, z: -0.061479513}
+  m_LocalPosition: {x: 10.16, y: 50.24, z: -0.061479513}
   m_LocalScale: {x: 1, y: 4.8625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85640,8 +85640,6 @@ MonoBehaviour:
   spawnBool: HasSpawnFinished
   spawnStateName: Spawn
   spawnPoint: {fileID: 0}
-  spawnVisual: {fileID: 0}
-  spriteRenderer: {fileID: 1236956908}
   movementScript: {fileID: 1632054608}
   interactionScript: {fileID: 1632054608}
   inventoryScript: {fileID: 1812697384}
@@ -105617,8 +105615,6 @@ MonoBehaviour:
   spawnBool: HasSpawnFinished
   spawnStateName: Spawn
   spawnPoint: {fileID: 0}
-  spawnVisual: {fileID: 0}
-  spriteRenderer: {fileID: 0}
   movementScript: {fileID: 0}
   interactionScript: {fileID: 0}
   inventoryScript: {fileID: 0}
@@ -127419,7 +127415,7 @@ MonoBehaviour:
   electrocutionTrap: {fileID: 1698482055}
   requiredItem: anguila electrica
   consumeItem: 1
-  spriteRenderer: {fileID: 1781292000}
+  spriteRenderer: {fileID: 1644928044}
   activatedSprite: {fileID: -3836660205003152696, guid: b5c01b58753304e899fc22243a493db2, type: 3}
 --- !u!114 &2068033427
 MonoBehaviour:
@@ -130283,6 +130279,10 @@ PrefabInstance:
       propertyPath: electrocutionTrap
       value: 
       objectReference: {fileID: 1698482055}
+    - target: {fileID: 8225112563252206379, guid: 17bd67305ea704a5fadd72ecc2d99a2b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -131122,7 +131122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7698604435505176158, guid: 0ea47e288fa814346b54a3c8ac021d51, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7698604435505176158, guid: 0ea47e288fa814346b54a3c8ac021d51, type: 3}
       propertyPath: puddlePrefab

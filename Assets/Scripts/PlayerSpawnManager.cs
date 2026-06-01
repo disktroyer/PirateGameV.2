@@ -10,10 +10,6 @@ public class PlayerSpawnManager : MonoBehaviour
 
     [Header("Spawn Point")]
     public Transform spawnPoint; // Asignar SpawnSpriteSheet_0 aquí
-    public GameObject spawnVisual; // Animación de spawn visible
-
-    [Header("Visual")]
-    public SpriteRenderer spriteRenderer;
 
     [Header("Control Scripts")]
     public MonoBehaviour movementScript;
@@ -24,26 +20,7 @@ public class PlayerSpawnManager : MonoBehaviour
 
     void Start()
     {
-        if (spriteRenderer == null)
-        {
-            spriteRenderer = GetComponent<SpriteRenderer>();
-            if (spriteRenderer == null)
-                spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        }
-
         DisableAll();
-
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.enabled = false;
-        }
-
-        if (spawnVisual != null)
-        {
-            spawnVisual.SetActive(true);
-            if (animator == null)
-                animator = spawnVisual.GetComponent<Animator>();
-        }
 
         if (spawnPoint != null)
         {
@@ -53,7 +30,6 @@ public class PlayerSpawnManager : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool(spawnBool, false);
-            // Si el spawnVisual contiene el Animator con el estado por defecto, arrancamos la comprobación
             StartCoroutine(WaitForSpawnEnd());
         }
     }
@@ -85,22 +61,14 @@ public class PlayerSpawnManager : MonoBehaviour
 
     public void OnSpawnComplete()
     {
-        // Mostrar sprite del jugador
-        if (spriteRenderer != null)
-            spriteRenderer.enabled = true;
-
-        // Ocultar visual del spawn
-        if (spawnVisual != null)
-            spawnVisual.SetActive(false);
-
-        // Activar controles
+        // Activar controles cuando la animación de spawn haya terminado
         EnableAll();
 
         // Marcar flag en el animator por compatibilidad con otros sistemas
         if (animator != null)
             animator.SetBool(spawnBool, true);
 
-        Debug.Log("✓ Spawn completado. Jugador visible y controles activados.");
+        Debug.Log("✓ Spawn completado. Controles del jugador activados.");
     }
 
     IEnumerator WaitForSpawnEnd()
@@ -124,9 +92,26 @@ public class PlayerSpawnManager : MonoBehaviour
             yield break;
         }
 
-        // Ahora esperar a que el estado deje de estar activo (la animación termine)
-        while (animator.GetCurrentAnimatorStateInfo(0).IsName(spawnStateName))
+        bool enteredSpawn = false;
+        while (true)
         {
+            AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+            if (state.IsName(spawnStateName))
+            {
+                enteredSpawn = true;
+            }
+
+            if (enteredSpawn && !state.IsName(spawnStateName))
+            {
+                break;
+            }
+
+            // Si el clip ya alcanzó el final una vez, damos por terminado el spawn
+            if (state.IsName(spawnStateName) && state.normalizedTime >= 1f)
+            {
+                break;
+            }
+
             yield return null;
         }
 

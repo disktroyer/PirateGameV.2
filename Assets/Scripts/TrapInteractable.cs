@@ -199,14 +199,26 @@ public class TrapInteractable : MonoBehaviour
         bossHealthTarget.TakeDamage(damage);
         DebugLog($"Boss recibió {damage} de {trapData.trapName}");
 
-        // Activar animación de "resbalarse" si es una trampa tipo Barriles, Cubo Ducha o similar
+        // Activar animaciones especiales según el tipo de trampa
         BossController bossController = boss.GetComponent<BossController>();
-        if (bossController != null && (trapData.trapName.Contains("Barril") || trapData.trapName.Contains("barril") || 
-                                        trapData.trapName.Contains("Cubo Ducha") || trapData.trapName.Contains("cubo ducha")))
+        if (bossController != null)
         {
-            float slipDuration = trapData.stunDuration > 0 ? trapData.stunDuration : 2f;
-            bossController.Trap_Slip(slipDuration);
-            DebugLog($"Boss se resbala por {slipDuration}s en {trapData.trapName}");
+            float effectDuration = trapData.stunDuration > 0 ? trapData.stunDuration : 2f;
+            
+            // Botellas de ron y veneno → Poisoned
+            if (trapData.trapName.Contains("Botella") || trapData.trapName.Contains("botella") ||
+                trapData.trapName.Contains("Veneno") || trapData.trapName.Contains("veneno"))
+            {
+                bossController.Trap_Stun(effectDuration, "Poisoned");
+                DebugLog($"Boss envenenado por {effectDuration}s en {trapData.trapName}");
+            }
+            // Barriles → Slip
+            else if (trapData.trapName.Contains("Barril") || trapData.trapName.Contains("barril") || 
+                     trapData.trapName.Contains("Cubo Ducha") || trapData.trapName.Contains("cubo ducha"))
+            {
+                bossController.Trap_Slip(effectDuration);
+                DebugLog($"Boss se resbala por {effectDuration}s en {trapData.trapName}");
+            }
         }
 
         PlayFeedback(trapData.activeText);
