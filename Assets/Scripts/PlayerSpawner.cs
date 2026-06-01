@@ -7,6 +7,9 @@ public class PlayerSpawnController : MonoBehaviour
     public Animator animator;
     public string spawnStateName = "Spawn";
 
+    [Header("Visual")]
+    public SpriteRenderer spriteRenderer;
+
     [Header("Control Scripts")]
     public MonoBehaviour movementScript;
     public MonoBehaviour interactionScript; 
@@ -18,8 +21,22 @@ public class PlayerSpawnController : MonoBehaviour
 
     void Start()
     {
+        // Obtener SpriteRenderer si no está asignado
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            if (spriteRenderer == null)
+                spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
+
         // Bloquear todo desde el inicio
         DisableAll();
+
+        // Ocultar el jugador al inicio
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.enabled = false;
+        }
 
         // Iniciar animación de spawn
         if (animator != null)
@@ -29,7 +46,8 @@ public class PlayerSpawnController : MonoBehaviour
         }
         else
         {
-            // Si no hay animator, activar todo de inmediato
+            // Si no hay animator, mostrar jugador y activar controles de inmediato
+            ShowPlayer();
             EnableAll();
         }
     }
@@ -45,8 +63,19 @@ public class PlayerSpawnController : MonoBehaviour
             yield return null;
         }
 
-        // Terminado el estado de spawn → reactivar controles
+        // Terminado el estado de spawn → mostrar jugador y reactivar controles
+        ShowPlayer();
         EnableAll();
+        
+        Debug.Log("✓ Spawn completado. Jugador visible y controles activados.");
+    }
+
+    void ShowPlayer()
+    {
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.enabled = true;
+        }
     }
 
     void DisableAll()

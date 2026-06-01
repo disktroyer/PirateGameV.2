@@ -199,6 +199,16 @@ public class TrapInteractable : MonoBehaviour
         bossHealthTarget.TakeDamage(damage);
         DebugLog($"Boss recibió {damage} de {trapData.trapName}");
 
+        // Activar animación de "resbalarse" si es una trampa tipo Barriles, Cubo Ducha o similar
+        BossController bossController = boss.GetComponent<BossController>();
+        if (bossController != null && (trapData.trapName.Contains("Barril") || trapData.trapName.Contains("barril") || 
+                                        trapData.trapName.Contains("Cubo Ducha") || trapData.trapName.Contains("cubo ducha")))
+        {
+            float slipDuration = trapData.stunDuration > 0 ? trapData.stunDuration : 2f;
+            bossController.Trap_Slip(slipDuration);
+            DebugLog($"Boss se resbala por {slipDuration}s en {trapData.trapName}");
+        }
+
         PlayFeedback(trapData.activeText);
         onTrapActivated?.Invoke();
         trapData.onActivated?.Invoke();

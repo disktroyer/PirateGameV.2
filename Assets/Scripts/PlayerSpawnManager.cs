@@ -5,7 +5,15 @@ public class PlayerSpawnManager : MonoBehaviour
 {
     [Header("Animator")]
     public Animator animator;
-    public string spawnBool = "HasSpawnFinished"; 
+    public string spawnBool = "HasSpawnFinished";
+    public string spawnStateName = "Spawn"; // nombre del estado de spawn en el Animator
+
+    [Header("Spawn Point")]
+    public Transform spawnPoint; // Asignar SpawnSpriteSheet_0 aquí
+    public GameObject spawnVisual; // Animación de spawn visible
+
+    [Header("Visual")]
+    public SpriteRenderer spriteRenderer;
 
     [Header("Control Scripts")]
     public MonoBehaviour movementScript;
@@ -16,16 +24,37 @@ public class PlayerSpawnManager : MonoBehaviour
 
     void Start()
     {
-        // ❌ Desactivamos todo
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            if (spriteRenderer == null)
+                spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
+
         DisableAll();
 
-        // ✔ Dejamos la animación de spawn
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.enabled = false;
+        }
+
+        if (spawnVisual != null)
+        {
+            spawnVisual.SetActive(true);
+            if (animator == null)
+                animator = spawnVisual.GetComponent<Animator>();
+        }
+
+        if (spawnPoint != null)
+        {
+            transform.position = spawnPoint.position;
+        }
+
         if (animator != null)
         {
             animator.SetBool(spawnBool, false);
-
-            // Opcional: iniciar el estado de Spawn
-            animator.Play("Spawn");
+            // Si el spawnVisual contiene el Animator con el estado por defecto, arrancamos la comprobación
+            StartCoroutine(WaitForSpawnEnd());
         }
     }
 
@@ -33,15 +62,7 @@ public class PlayerSpawnManager : MonoBehaviour
     {
         if (animator == null) return;
 
-        // Si el animator ya ha puesto HasSpawnFinished = true
-        if (animator.GetBool(spawnBool))
-        {
-            // Entonces activamos todo
-            EnableAll();
-
-            // Una vez activado, desactivamos este script para no volver a entrar
-            this.enabled = false;
-        }
+        // El flujo de finalización del spawn se hace en OnSpawnComplete() llamado por la corrutina
     }
 
     void DisableAll()
@@ -63,8 +84,55 @@ public class PlayerSpawnManager : MonoBehaviour
     }
 
     public void OnSpawnComplete()
-{
-    animator.SetBool("HasSpawnFinished", true);
-}
+    {
+        // Mostrar sprite del jugador
+        if (spriteRenderer != null)
+            spriteRenderer.enabled = true;
 
+        // Ocultar visual del spawn
+        if (spawnVisual != null)
+            spawnVisual.SetActive(false);
+
+        // Activar controles
+        EnableAll();
+
+        // Marcar flag en el animator por compatibilidad con otros sistemas
+        if (animator != null)
+            animator.SetBool(spawnBool, true);
+
+        Debug.Log("✓ Spawn completado. Jugador visible y controles activados.");
+    }
+
+    IEnumerator WaitForSpawnEnd()
+    {
+        if (animator == null)
+            yield break;
+
+        // Esperar a que el Animator entre en el estado de spawn (por si no está todavía)
+        int attempts = 0;
+        while (!animator.GetCurrentAnimatorStateInfo(0).IsName(spawnStateName) && attempts < 300)
+        {
+            attempts++;
+            yield return null;
+        }
+
+        // Si no encontramos el estado, esperar un breve periodo y finalizar
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName(spawnStateName))
+        {
+            // timeout: activar directamente
+            OnSpawnComplete();
+            yield break;
+        }
+
+        // Ahora esperar a que el estado deje de estar activo (la animación termine)
+        while (animator.GetCurrentAnimatorStateInfo(0).IsName(spawnStateName))
+        {
+            yield return null;
+        }
+
+        // Pequeña espera adicional para asegurarse de que la transición terminó
+        yield return null;
+
+        OnSpawnComplete();
+    }
 }

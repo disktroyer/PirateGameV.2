@@ -19,7 +19,11 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        
+        // Buscar SpriteRenderer en el objeto actual o en hijos
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     void Update()
@@ -54,29 +58,16 @@ public class PlayerController : MonoBehaviour
             if (Mathf.Abs(movement.x) > 0.01f)
             {
                 lastDirectionX = movement.x; // Guardar la dirección horizontal real
-                facingLeft = movement.x < 0;
             }
         }
         else
         {
             animator.SetFloat("MoveX", lastDirectionX); // Mantener dirección en idle
             animator.SetFloat("MoveY", 0f);
-            facingLeft = lastDirectionX < 0;
         }
 
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.flipX = facingLeft;
-        }
-
-        //if (Input.GetKey(KeyCode.F))
-        //{
-        //    animator.SetBool("IsCrafting", true);
-        //}
-        //else
-        //{
-        //    animator.SetBool("IsCrafting", false);
-        //}
+        // Actualizar la dirección del sprite (izquierda o derecha)
+        UpdateSpriteDirection();
 
         // Inputs secundarios
         if (Input.GetKeyDown(KeyCode.Q))
@@ -87,6 +78,18 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             // Craft
+        }
+    }
+
+    void UpdateSpriteDirection()
+    {
+        // Determinar si debe estar mirando a la izquierda
+        facingLeft = lastDirectionX < 0;
+        
+        // Aplicar el flip al sprite
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.flipX = facingLeft;
         }
     }
 

@@ -14,8 +14,23 @@ public class MainMenu : MonoBehaviour
         path = Application.persistentDataPath + "/save.json";
 
         // Desactiva botón Continuar si no hay partida
-        UnityEngine.UI.Button continuarBtn = GameObject.Find("BotónContinuar").GetComponent<UnityEngine.UI.Button>();
-        continuarBtn.interactable = File.Exists(path);
+        GameObject bottonObj = GameObject.Find("BotónContinuar");
+        if (bottonObj != null)
+        {
+            UnityEngine.UI.Button continuarBtn = bottonObj.GetComponent<UnityEngine.UI.Button>();
+            if (continuarBtn != null)
+            {
+                continuarBtn.interactable = File.Exists(path);
+            }
+            else
+            {
+                Debug.LogWarning("BotónContinuar no tiene componente Button");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró GameObject: BotónContinuar");
+        }
 
         if (CustomCursorManager.Instance != null)
             CustomCursorManager.Instance.ShowMenuCursor();

@@ -294,49 +294,96 @@ public class BossController : MonoBehaviour
     // -------------------------------------------------
     // MUERTE DEL JEFE
     // -------------------------------------------------
-    private void Die()
+    // private void Die()
+    // {
+    //     isDead = true;
+
+    //     // Rotar 90 grados (tumbarse horizontal)
+    //     transform.rotation = Quaternion.Euler(0, 0, 90);
+    //     bossSprite.color = Color.red;
+       
+
+    //     // Colorear rojo
+    //     if (bossSprite != null)
+    //     {
+    //         bossSprite.color = Color.red;
+
+    //     }
+
+    //     // Spawnear llave
+    //     if (keyPrefab != null)
+    //     {
+    //         Vector3 spawnPos = keySpawnPoint != null ? keySpawnPoint.position : transform.position + Vector3.up;
+    //         GameObject llave = Instantiate(keyPrefab, spawnPos, Quaternion.identity);
+    //         llave.tag = "Llave";
+    //     }
+
+    //     // Deshabilitar movimiento
+    //     this.enabled = false;
+    //     if (rb != null)
+    //     {
+    //         rb.linearVelocity = Vector2.zero;
+    //         rb.angularVelocity = 0f;
+    //         rb.bodyType = RigidbodyType2D.Static;
+    //     }
+    //     if (animator != null)
+    //     {
+    //         animator.SetBool("IsMoving 0", false);
+    //         animator.SetTrigger("Die");
+    //     }
+    //     Debug.Log("Jefe derrotado - Llave spawneada");
+    // }
+
+  private void Die()
+{
+    isDead = true;
+
+    // Desactivar colisiones del enemigo
+    Collider2D[] colliders = GetComponentsInChildren<Collider2D>();
+
+    foreach (Collider2D col in colliders)
     {
-        isDead = true;
-
-        // Rotar 90 grados (tumbarse horizontal)
-        transform.rotation = Quaternion.Euler(0, 0, 90);
-
-        // Colorear rojo
-        if (bossSprite != null)
-        {
-            bossSprite.color = Color.red;
-        }
-
-        // Spawnear llave
-        if (keyPrefab != null)
-        {
-            Vector3 spawnPos = keySpawnPoint != null ? keySpawnPoint.position : transform.position + Vector3.up;
-            GameObject llave = Instantiate(keyPrefab, spawnPos, Quaternion.identity);
-            llave.tag = "Llave";
-        }
-
-        // Deshabilitar colliders para que no dañe al jugador
-        Collider2D[] colliders = GetComponents<Collider2D>();
-        foreach (Collider2D col in colliders)
-        {
-            col.enabled = false;
-        }
-
-        // Deshabilitar movimiento
-        this.enabled = false;
-        if (rb != null)
-        {
-            rb.linearVelocity = Vector2.zero;
-            rb.angularVelocity = 0f;
-            rb.bodyType = RigidbodyType2D.Static;
-        }
-        if (animator != null)
-        {
-            animator.SetBool("IsMoving 0", false);
-            animator.SetTrigger("Die");
-        }
-        Debug.Log("Jefe derrotado - Llave spawneada");
+        col.enabled = false;
     }
+
+    // Rotar 90 grados (tumbarse horizontal)
+    transform.rotation = Quaternion.Euler(0, 0, 90);
+
+    // Colorear rojo
+    if (bossSprite != null)
+    {
+        bossSprite.color = Color.red;
+    }
+
+    // Spawnear llave
+    if (keyPrefab != null)
+    {
+        Vector3 spawnPos = keySpawnPoint != null 
+            ? keySpawnPoint.position 
+            : transform.position + Vector3.up;
+
+        GameObject llave = Instantiate(keyPrefab, spawnPos, Quaternion.identity);
+        llave.tag = "Llave";
+    }
+
+    // Deshabilitar movimiento
+    this.enabled = false;
+
+    if (rb != null)
+    {
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.bodyType = RigidbodyType2D.Static;
+    }
+
+    if (animator != null)
+    {
+        animator.SetBool("IsMoving 0", false);
+        animator.SetTrigger("Die");
+    }
+
+    Debug.Log("Jefe derrotado - Llave spawneada");
+}
 
     // -------------------------------------------------
     // TRAPS / DAMAGE

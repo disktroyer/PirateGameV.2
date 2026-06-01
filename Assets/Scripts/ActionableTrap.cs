@@ -58,6 +58,9 @@ public class ActionableTrap : Interactable
     public bool showHitboxGizmo = true;
     public Color gizmoColor = new Color(1f, 0.4f, 0f, 0.35f);
 
+    [Header("Efectos al activar")]
+    public bool activateLampTrap = false; // Si true, activa la trampa de lámpara (Sombra lampara_0)
+
     public override void Interact(GameObject actor)
     {
         var inv = actor.GetComponent<InventoryManager>();
@@ -76,6 +79,21 @@ public class ActionableTrap : Interactable
         {
             boss.RecibirDaño(damage);
             Debug.Log($"Trampa accionada por jugador (-{damage} HP)");
+        }
+
+        // Activar trampa de lámpara si está configurado
+        if (activateLampTrap)
+        {
+            TrampaLampara trampa = FindObjectOfType<TrampaLampara>();
+            if (trampa != null)
+            {
+                trampa.ActivarTrampaManual();
+                Debug.Log("Trampa de lámpara activada por la cuerda");
+            }
+            else
+            {
+                Debug.LogWarning("No se encontró TrampaLampara en la escena");
+            }
         }
     }
 

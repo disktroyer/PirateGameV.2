@@ -140,6 +140,7 @@ public static class TrapDataSampleCreator
         data.destroyAfterUse = true;
         data.requiredItem = LoadItem("AnguilaElectrica");
         data.consumeItems = true;
+        data.stunDuration = 2f;
         data.animatorTrigger = "Activate";
         data.interactionText = "Coloca la anguila en el cubo";
         data.prepareText = "Cubo cargado";
@@ -164,6 +165,7 @@ public static class TrapDataSampleCreator
         data.destroyAfterUse = true;
         data.requiredItem = LoadItem("Fregona");
         data.consumeItems = true;
+        data.stunDuration = 2.5f;
         data.animatorTrigger = "Activate";
         data.interactionText = "Friega los barriles";
         data.prepareText = "Barriles mojados y resbaladizos";
