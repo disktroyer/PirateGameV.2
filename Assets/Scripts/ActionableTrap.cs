@@ -48,6 +48,9 @@ public class ActionableTrap : Interactable
     public string requiredItem;   // "Polvora", "Cuchillo"
     public int damage = 1;
     public bool directDamageOnActivate = true;
+    [Header("Visuals")]
+    public Animator localAnimator;
+    public string activationTrigger = "Activate";
 
     [Header("Cañón")]
     public bool spawnFrontHitboxOnUse = false;
@@ -60,6 +63,7 @@ public class ActionableTrap : Interactable
 
     [Header("Efectos al activar")]
     public bool activateLampTrap = false; // Si true, activa la trampa de lámpara (Sombra lampara_0)
+    public string playerAnimatorTrigger = "cañon01";
 
     public override void Interact(GameObject actor)
     {
@@ -94,6 +98,35 @@ public class ActionableTrap : Interactable
             {
                 Debug.LogWarning("No se encontró TrampaLampara en la escena");
             }
+        }
+
+        if (spawnFrontHitboxOnUse && !string.IsNullOrEmpty(playerAnimatorTrigger))
+        {
+            Animator playerAnim = actor != null ? actor.GetComponent<Animator>() : null;
+            if (playerAnim == null)
+            {
+                var playerObj = GameObject.FindWithTag("Player");
+                if (playerObj != null)
+                    playerAnim = playerObj.GetComponent<Animator>();
+            }
+
+            if (playerAnim != null)
+            {
+                playerAnim.SetTrigger(playerAnimatorTrigger);
+                Debug.Log($"Disparado trigger '{playerAnimatorTrigger}' en Animator del jugador");
+            }
+            else
+            {
+                Debug.LogWarning("No se encontró Animator del jugador para trigger 'cañon01'");
+            }
+        }
+
+        // Reproducir animación local (ej. cuerda cayendo, cortada, etc.)
+        Animator anim = localAnimator != null ? localAnimator : GetComponent<Animator>();
+        if (anim != null && !string.IsNullOrEmpty(activationTrigger))
+        {
+            anim.SetTrigger(activationTrigger);
+            Debug.Log("Animación de trampa (cuerda) reproducida");
         }
     }
 

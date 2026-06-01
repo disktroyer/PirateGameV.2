@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
                 moveX = lastDirectionX;
             }
 
-            animator.SetFloat("MoveX", moveX);
+            animator.SetFloat("MoveX", Mathf.Abs(moveX));
             animator.SetFloat("MoveY", movement.y);
             if (Mathf.Abs(movement.x) > 0.01f)
             {

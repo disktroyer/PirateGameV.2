@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: e2699750cd0fe42a7bbbc18844be08d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8317236655038221133
+    second: "ProtaCan\u0303onAccion1_0"
+  - first:
+      213: -8526590634395742523
+    second: "ProtaCan\u0303onAccion1_1"
+  - first:
+      213: 9161197193409784796
+    second: "ProtaCan\u0303onAccion1_2"
+  - first:
+      213: -6499889385018979819
+    second: "ProtaCan\u0303onAccion1_3"
+  - first:
+      213: 8632228529508572971
+    second: "ProtaCan\u0303onAccion1_4"
+  - first:
+      213: 8263935321029712153
+    second: "ProtaCan\u0303onAccion1_5"
+  - first:
+      213: 1499212735937482908
+    second: "ProtaCan\u0303onAccion1_6"
+  - first:
+      213: -3795136474180453155
+    second: "ProtaCan\u0303onAccion1_7"
+  - first:
+      213: 7098760387347784408
+    second: "ProtaCan\u0303onAccion1_8"
+  - first:
+      213: -1399520070543587772
+    second: "ProtaCan\u0303onAccion1_9"
+  - first:
+      213: -1866670814494184999
+    second: "ProtaCan\u0303onAccion1_10"
+  - first:
+      213: 7398538999495221031
+    second: "ProtaCan\u0303onAccion1_11"
+  - first:
+      213: 1792082746299047656
+    second: "ProtaCan\u0303onAccion1_12"
+  - first:
+      213: 1596674454004078805
+    second: "ProtaCan\u0303onAccion1_13"
+  - first:
+      213: 4956848607918958987
+    second: "ProtaCan\u0303onAccion1_14"
+  - first:
+      213: 8789822242778292736
+    second: "ProtaCan\u0303onAccion1_15"
+  - first:
+      213: 5673852973133945057
+    second: "ProtaCan\u0303onAccion1_16"
+  - first:
+      213: 5425700482017376751
+    second: "ProtaCan\u0303onAccion1_17"
+  - first:
+      213: -2845451717394686978
+    second: "ProtaCan\u0303onAccion1_18"
+  - first:
+      213: 6208494604109997579
+    second: "ProtaCan\u0303onAccion1_19"
+  - first:
+      213: 7686677295413232276
+    second: "ProtaCan\u0303onAccion1_20"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b4960dba2cc6370800000000000000
+      internalID: 8317236655038221133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_1"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce4bab6ef67ba980800000000000000
+      internalID: -8526590634395742523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_2"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbee7e2f4c132f70800000000000000
+      internalID: 9161197193409784796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_3"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a8c9eca01cbc5a0800000000000000
+      internalID: -6499889385018979819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fd951bc16dbc770800000000000000
+      internalID: 8632228529508572971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_5"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91997c8e3656fa270800000000000000
+      internalID: 8263935321029712153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_6"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c909b484a064ec410800000000000000
+      internalID: 1499212735937482908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_7"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc7856fb77f45bc0800000000000000
+      internalID: -3795136474180453155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2aa7126fcd38260800000000000000
+      internalID: 7098760387347784408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_9"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446483b29e7e39ce0800000000000000
+      internalID: -1399520070543587772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ProtaCan\u0303onAccion1_10"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d92c75c8c04816e0800000000000000
+      internalID: -1866670814494184999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cf1cb01b5301f4d4fa1c376a789506d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "ProtaCan\u0303onAccion1_0": 8317236655038221133
+      "ProtaCan\u0303onAccion1_1": -8526590634395742523
+      "ProtaCan\u0303onAccion1_10": -1866670814494184999
+      "ProtaCan\u0303onAccion1_2": 9161197193409784796
+      "ProtaCan\u0303onAccion1_3": -6499889385018979819
+      "ProtaCan\u0303onAccion1_4": 8632228529508572971
+      "ProtaCan\u0303onAccion1_5": 8263935321029712153
+      "ProtaCan\u0303onAccion1_6": 1499212735937482908
+      "ProtaCan\u0303onAccion1_7": -3795136474180453155
+      "ProtaCan\u0303onAccion1_8": 7098760387347784408
+      "ProtaCan\u0303onAccion1_9": -1399520070543587772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

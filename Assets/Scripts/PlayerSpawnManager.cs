@@ -20,6 +20,24 @@ public class PlayerSpawnManager : MonoBehaviour
 
     void Start()
     {
+        // Si no se asignó manualmente, intentar detectar el script de movimiento (PlayerController)
+        if (movementScript == null)
+        {
+            var pc = GetComponent<PlayerController>();
+            if (pc == null)
+                pc = GetComponentInChildren<PlayerController>();
+
+            if (pc == null)
+            {
+                var playerObj = GameObject.FindWithTag("Player");
+                if (playerObj != null)
+                    pc = playerObj.GetComponent<PlayerController>();
+            }
+
+            if (pc != null)
+                movementScript = pc as MonoBehaviour;
+        }
+
         DisableAll();
 
         if (spawnPoint != null)

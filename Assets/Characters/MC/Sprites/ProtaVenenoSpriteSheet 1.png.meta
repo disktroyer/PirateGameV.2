@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 4aca6a721dc6445508954d38c65da01c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1706447742473841350
+    second: ProtaVenenoSpriteSheet 1_0
+  - first:
+      213: -6917391358414410414
+    second: ProtaVenenoSpriteSheet 1_1
+  - first:
+      213: -8471055776737109616
+    second: ProtaVenenoSpriteSheet 1_2
+  - first:
+      213: 9073267817586860097
+    second: ProtaVenenoSpriteSheet 1_3
+  - first:
+      213: -8504317743473113450
+    second: ProtaVenenoSpriteSheet 1_4
+  - first:
+      213: 9077169840087088597
+    second: ProtaVenenoSpriteSheet 1_5
+  - first:
+      213: -1576739613115849904
+    second: ProtaVenenoSpriteSheet 1_6
+  - first:
+      213: 4500986887439865009
+    second: ProtaVenenoSpriteSheet 1_7
+  - first:
+      213: -6298887636638375365
+    second: ProtaVenenoSpriteSheet 1_8
+  - first:
+      213: -3771249341046314573
+    second: ProtaVenenoSpriteSheet 1_9
+  - first:
+      213: 3295441253613066344
+    second: ProtaVenenoSpriteSheet 1_10
+  - first:
+      213: 2533148027217184629
+    second: ProtaVenenoSpriteSheet 1_11
+  - first:
+      213: -1127896054759531344
+    second: ProtaVenenoSpriteSheet 1_12
+  - first:
+      213: 8266536754361818527
+    second: ProtaVenenoSpriteSheet 1_13
+  - first:
+      213: -7682339130019064872
+    second: ProtaVenenoSpriteSheet 1_14
+  - first:
+      213: 6107497840308757046
+    second: ProtaVenenoSpriteSheet 1_15
+  - first:
+      213: 95866924532423633
+    second: ProtaVenenoSpriteSheet 1_16
+  - first:
+      213: 4122776642756236812
+    second: ProtaVenenoSpriteSheet 1_17
+  - first:
+      213: -5768014968545338706
+    second: ProtaVenenoSpriteSheet 1_18
+  - first:
+      213: 2055832253033766767
+    second: ProtaVenenoSpriteSheet 1_19
+  - first:
+      213: -1176779959106442019
+    second: ProtaVenenoSpriteSheet 1_20
+  - first:
+      213: -7431650531482317498
+    second: ProtaVenenoSpriteSheet 1_21
+  - first:
+      213: -1290980613355829325
+    second: ProtaVenenoSpriteSheet 1_22
+  - first:
+      213: 719217864419315323
+    second: ProtaVenenoSpriteSheet 1_23
+  - first:
+      213: 5783901670170360125
+    second: ProtaVenenoSpriteSheet 1_24
+  - first:
+      213: 3012785052441044362
+    second: ProtaVenenoSpriteSheet 1_25
+  - first:
+      213: 8479803411563233722
+    second: ProtaVenenoSpriteSheet 1_26
+  - first:
+      213: -5092216302170012259
+    second: ProtaVenenoSpriteSheet 1_27
+  - first:
+      213: -7978332484302728364
+    second: ProtaVenenoSpriteSheet 1_28
+  - first:
+      213: 1899819317405589989
+    second: ProtaVenenoSpriteSheet 1_29
+  - first:
+      213: -6531401702318494316
+    second: ProtaVenenoSpriteSheet 1_30
+  - first:
+      213: 8934985019096671835
+    second: ProtaVenenoSpriteSheet 1_31
+  - first:
+      213: 994445518203101930
+    second: ProtaVenenoSpriteSheet 1_32
+  - first:
+      213: -5387483736780267850
+    second: ProtaVenenoSpriteSheet 1_33
+  - first:
+      213: -5500691634353326091
+    second: ProtaVenenoSpriteSheet 1_34
+  - first:
+      213: -4902845286907171145
+    second: ProtaVenenoSpriteSheet 1_35
+  - first:
+      213: 4507465262179675125
+    second: ProtaVenenoSpriteSheet 1_36
+  - first:
+      213: 8492405390223450897
+    second: ProtaVenenoSpriteSheet 1_37
+  - first:
+      213: 1326260889893805521
+    second: ProtaVenenoSpriteSheet 1_38
+  - first:
+      213: 1943671375189909973
+    second: ProtaVenenoSpriteSheet 1_39
+  - first:
+      213: 7469112455494116945
+    second: ProtaVenenoSpriteSheet 1_40
+  - first:
+      213: -3260014718544316981
+    second: ProtaVenenoSpriteSheet 1_41
+  - first:
+      213: 9089820988133995773
+    second: ProtaVenenoSpriteSheet 1_42
+  - first:
+      213: 637687199495499335
+    second: ProtaVenenoSpriteSheet 1_43
+  - first:
+      213: -225006151840168549
+    second: ProtaVenenoSpriteSheet 1_44
+  - first:
+      213: 5313562115557477128
+    second: ProtaVenenoSpriteSheet 1_45
+  - first:
+      213: 1267323455680749013
+    second: ProtaVenenoSpriteSheet 1_46
+  - first:
+      213: 4706044072005006561
+    second: ProtaVenenoSpriteSheet 1_47
+  - first:
+      213: -5313448998502590057
+    second: ProtaVenenoSpriteSheet 1_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caabed3e258ea710800000000000000
+      internalID: 1706447742473841350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 150
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d2a5d953d7000a0800000000000000
+      internalID: -6917391358414410414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 160
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099501317a3c07a80800000000000000
+      internalID: -8471055776737109616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 147
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140af330209baed70800000000000000
+      internalID: 9073267817586860097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 150
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696cb33f1189af980800000000000000
+      internalID: -8504317743473113450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 150
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddb74c60e598fd70800000000000000
+      internalID: 9077169840087088597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 147
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05361f00dab4e1ae0800000000000000
+      internalID: -1576739613115849904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 150
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b45b841ab7b67e30800000000000000
+      internalID: 4500986887439865009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 146
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32e112411bd598a0800000000000000
+      internalID: -6298887636638375365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 150
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9228b84b4d9abc0800000000000000
+      internalID: -3771249341046314573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 146
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86856c33c52cbbd20800000000000000
+      internalID: 3295441253613066344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57703c5a5bc872320800000000000000
+      internalID: 2533148027217184629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 111
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc5e789388e850f0800000000000000
+      internalID: -1127896054759531344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 114
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d527e4163a8b270800000000000000
+      internalID: 8266536754361818527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 111
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d351279349d26590800000000000000
+      internalID: -7682339130019064872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 114
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632a1164de032c450800000000000000
+      internalID: 6107497840308757046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 110
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbd67eb576945100800000000000000
+      internalID: 95866924532423633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 114
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0653cf538b073930800000000000000
+      internalID: 4122776642756236812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 110
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa18b442f4e3ffa0800000000000000
+      internalID: -5768014968545338706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 124
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f5ed7ba88c78c10800000000000000
+      internalID: 2055832253033766767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 110
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc69aeacdc3bafe0800000000000000
+      internalID: -1176779959106442019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 114
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d472857397dd890800000000000000
+      internalID: -7431650531482317498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b78209d8f3851ee0800000000000000
+      internalID: -1290980613355829325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 75
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e04dc46dc2bf900800000000000000
+      internalID: 719217864419315323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 78
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39fa42bceb844050800000000000000
+      internalID: 5783901670170360125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 75
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85ea53fa009fc920800000000000000
+      internalID: 3012785052441044362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 75
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab14f5f56405ea570800000000000000
+      internalID: 8479803411563233722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 91
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9504bdb040d459b0800000000000000
+      internalID: -5092216302170012259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 75
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4531d2560e4474190800000000000000
+      internalID: -7978332484302728364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 78
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1a26f7a938d5a10800000000000000
+      internalID: 1899819317405589989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 75
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dacefa1cccb55a0800000000000000
+      internalID: -6531401702318494316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 78
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56a1b809817ffb70800000000000000
+      internalID: 8934985019096671835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2a9f41eeafccd00800000000000000
+      internalID: 994445518203101930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 39
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be9404e510db35b0800000000000000
+      internalID: -5387483736780267850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 55
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7386b3a1e99a3b0800000000000000
+      internalID: -5500691634353326091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 39
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be233d103895fbb0800000000000000
+      internalID: -4902845286907171145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 55
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbe1ad36cbbd8e30800000000000000
+      internalID: 4507465262179675125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 39
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113a1ec25b51bd570800000000000000
+      internalID: 8492405390223450897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 55
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd1d95a043d76210800000000000000
+      internalID: 1326260889893805521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 39
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d12a4651de49fa10800000000000000
+      internalID: 1943671375189909973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 55
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1562c29843e97a760800000000000000
+      internalID: 7469112455494116945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 39
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5fe92c2e912c2d0800000000000000
+      internalID: -3260014718544316981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 46
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4fd9d5708852e70800000000000000
+      internalID: 9089820988133995773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e2ebb112589d800800000000000000
+      internalID: 637687199495499335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 42
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b950a47d81e90ecf0800000000000000
+      internalID: -225006151840168549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 41
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bc6c577909db940800000000000000
+      internalID: 5313562115557477128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd1f57e7ff669110800000000000000
+      internalID: 1267323455680749013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4f039562a3f4140800000000000000
+      internalID: 4706044072005006561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtaVenenoSpriteSheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 17
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7991918a946d246b0800000000000000
+      internalID: -5313448998502590057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ProtaVenenoSpriteSheet 1_0: 1706447742473841350
+      ProtaVenenoSpriteSheet 1_1: -6917391358414410414
+      ProtaVenenoSpriteSheet 1_10: 3295441253613066344
+      ProtaVenenoSpriteSheet 1_11: 2533148027217184629
+      ProtaVenenoSpriteSheet 1_12: -1127896054759531344
+      ProtaVenenoSpriteSheet 1_13: 8266536754361818527
+      ProtaVenenoSpriteSheet 1_14: -7682339130019064872
+      ProtaVenenoSpriteSheet 1_15: 6107497840308757046
+      ProtaVenenoSpriteSheet 1_16: 95866924532423633
+      ProtaVenenoSpriteSheet 1_17: 4122776642756236812
+      ProtaVenenoSpriteSheet 1_18: -5768014968545338706
+      ProtaVenenoSpriteSheet 1_19: 2055832253033766767
+      ProtaVenenoSpriteSheet 1_2: -8471055776737109616
+      ProtaVenenoSpriteSheet 1_20: -1176779959106442019
+      ProtaVenenoSpriteSheet 1_21: -7431650531482317498
+      ProtaVenenoSpriteSheet 1_22: -1290980613355829325
+      ProtaVenenoSpriteSheet 1_23: 719217864419315323
+      ProtaVenenoSpriteSheet 1_24: 5783901670170360125
+      ProtaVenenoSpriteSheet 1_25: 3012785052441044362
+      ProtaVenenoSpriteSheet 1_26: 8479803411563233722
+      ProtaVenenoSpriteSheet 1_27: -5092216302170012259
+      ProtaVenenoSpriteSheet 1_28: -7978332484302728364
+      ProtaVenenoSpriteSheet 1_29: 1899819317405589989
+      ProtaVenenoSpriteSheet 1_3: 9073267817586860097
+      ProtaVenenoSpriteSheet 1_30: -6531401702318494316
+      ProtaVenenoSpriteSheet 1_31: 8934985019096671835
+      ProtaVenenoSpriteSheet 1_32: 994445518203101930
+      ProtaVenenoSpriteSheet 1_33: -5387483736780267850
+      ProtaVenenoSpriteSheet 1_34: -5500691634353326091
+      ProtaVenenoSpriteSheet 1_35: -4902845286907171145
+      ProtaVenenoSpriteSheet 1_36: 4507465262179675125
+      ProtaVenenoSpriteSheet 1_37: 8492405390223450897
+      ProtaVenenoSpriteSheet 1_38: 1326260889893805521
+      ProtaVenenoSpriteSheet 1_39: 1943671375189909973
+      ProtaVenenoSpriteSheet 1_4: -8504317743473113450
+      ProtaVenenoSpriteSheet 1_40: 7469112455494116945
+      ProtaVenenoSpriteSheet 1_41: -3260014718544316981
+      ProtaVenenoSpriteSheet 1_42: 9089820988133995773
+      ProtaVenenoSpriteSheet 1_43: 637687199495499335
+      ProtaVenenoSpriteSheet 1_44: -225006151840168549
+      ProtaVenenoSpriteSheet 1_45: 5313562115557477128
+      ProtaVenenoSpriteSheet 1_46: 1267323455680749013
+      ProtaVenenoSpriteSheet 1_47: 4706044072005006561
+      ProtaVenenoSpriteSheet 1_48: -5313448998502590057
+      ProtaVenenoSpriteSheet 1_5: 9077169840087088597
+      ProtaVenenoSpriteSheet 1_6: -1576739613115849904
+      ProtaVenenoSpriteSheet 1_7: 4500986887439865009
+      ProtaVenenoSpriteSheet 1_8: -6298887636638375365
+      ProtaVenenoSpriteSheet 1_9: -3771249341046314573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
